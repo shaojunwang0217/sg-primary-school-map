@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sg-primary-school-map
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    healthCheckPath: /api/stats
