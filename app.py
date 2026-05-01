@@ -9,6 +9,7 @@ import json, os, re, time, threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import urllib.request
+import urllib.parse
 
 # === DATA ===
 # Combined school data: name, address, type, gender, tags
@@ -18,13 +19,20 @@ SCHOOLS = json.loads(open(os.path.join(os.path.dirname(__file__), "schools.json"
 # === CACHED ONEMAP COORDS ===
 COORDS_CACHE = {}
 
+def extract_sg_postal(address):
+    """Extract Singapore 6-digit postal code from address."""
+    m = re.search(r'Singapore (\d{6})$', address)
+    return m.group(1) if m else None
+
+
 def onemap_search(query):
     """Search OneMap for coordinates. Caches results."""
     if query in COORDS_CACHE:
         return COORDS_CACHE[query]
     
     try:
-        url = f"https://www.onemap.gov.sg/api/common/elastic/search?searchVal={urllib.request.quote(query)}&returnGeom=Y&getAddrDetails=Y&pageNum=1"
+        quoted = urllib.parse.quote(query)
+        url = f"https://www.onemap.gov.sg/api/common/elastic/search?searchVal={quoted}&returnGeom=Y&getAddrDetails=Y&pageNum=1"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         resp = urllib.request.urlopen(req, timeout=5)
         data = json.loads(resp.read())
@@ -39,6 +47,15 @@ def onemap_search(query):
     
     return None
 
+
+def onemap_search_by_postal(address):
+    """Search OneMap for coordinates using the postal code from the address.
+    More accurate than name-based search."""
+    postal = extract_sg_postal(address)
+    if not postal:
+        return None
+    return onemap_search(postal)
+
 def geocode_all_schools():
     """Geocode all schools that don't have coordinates yet."""
     count = sum(1 for s in SCHOOLS if s.get("lat") is None)
@@ -51,9 +68,11 @@ def geocode_all_schools():
         if s.get("lat") is not None:
             continue
         
-        # Try full address first, then just building name
+        # Try postal code first (most accurate), then full address, then name
         addr = s.get("address", "")
         if addr:
+            result = onemap_search_by_postal(addr)
+        if not result and addr:
             result = onemap_search(addr)
         if not result and s["name"]:
             result = onemap_search(s["name"])
