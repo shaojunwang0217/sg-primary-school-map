@@ -13,18 +13,20 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 /* ===== MAP ===== */
 #map { width: 100%; height: 100dvh; z-index: 1; }
 
-/* ===== TOP SEARCH BAR (floating) ===== */
+/* ===== SIDEBAR (hidden on mobile) ===== */
+#sidebar { display: none; }
+
+/* ===== TOP SEARCH BAR (mobile floating) ===== */
 #top-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1001; padding: 8px 12px; background: linear-gradient(to bottom, rgba(255,255,255,0.98) 85%, rgba(255,255,255,0)); pointer-events: none; }
 #top-bar > * { pointer-events: auto; }
 #search-row { display: flex; gap: 8px; align-items: center; background: #fff; border-radius: 12px; padding: 4px 4px 4px 14px; box-shadow: 0 2px 12px rgba(0,0,0,0.15); }
 #search-box { flex: 1; border: none; padding: 10px 0; font-size: 16px; outline: none; background: transparent; color: #1a1a2e; }
 #search-box::placeholder { color: #999; }
-#search-box:focus + #search-icon { display: none; }
 #locate-btn { background: #4361ee; color: #fff; border: none; width: 40px; height: 40px; border-radius: 10px; font-size: 18px; cursor: pointer; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
 #locate-btn:active { background: #3451d1; }
 #stats-bar { display: flex; justify-content: space-between; padding: 6px 14px 0; font-size: 12px; color: rgba(255,255,255,0.9); text-shadow: 0 1px 3px rgba(0,0,0,0.5); pointer-events: none; }
 
-/* ===== FILTER STRIP ===== */
+/* ===== FILTER STRIP (mobile floating) ===== */
 #filter-strip { position: fixed; top: 64px; left: 0; right: 0; z-index: 1000; padding: 0 12px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
 #filter-strip::-webkit-scrollbar { display: none; }
 #filter-strip-inner { display: inline-flex; gap: 6px; padding: 6px 0; }
@@ -32,11 +34,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .filter-btn:active { transform: scale(0.96); }
 .filter-btn.active { background: #4361ee; color: #fff; box-shadow: 0 2px 8px rgba(67,97,238,0.3); }
 
-/* ===== BOTTOM SHEET ===== */
+/* ===== BOTTOM SHEET (mobile) ===== */
 #bottom-sheet { position: fixed; bottom: 0; left: 0; right: 0; z-index: 1002; background: #fff; border-radius: 16px 16px 0 0; box-shadow: 0 -4px 20px rgba(0,0,0,0.12); max-height: 50dvh; display: flex; flex-direction: column; transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1); touch-action: pan-y; }
 #bottom-sheet.collapsed { transform: translateY(calc(100% - 48px)); }
 #sheet-handle { display: flex; justify-content: center; padding: 10px 0 6px; cursor: grab; flex-shrink: 0; touch-action: none; }
-#sheet-handle:active { cursor: grabbing; }
 #sheet-handle-bar { width: 40px; height: 4px; background: #ddd; border-radius: 2px; }
 #sheet-results-header { display: flex; justify-content: space-between; align-items: center; padding: 0 16px 8px; flex-shrink: 0; }
 #sheet-results-header h2 { font-size: 15px; color: #1a1a2e; font-weight: 600; }
@@ -105,23 +106,27 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .action-btn:active { background: #3451d1; }
 .action-btn.outline { background: #f0f2f5; color: #4361ee; }
 
-/* ===== MOBILE OPTIMIZATION ===== */
+/* ===== DESKTOP LAYOUT (min-width: 768px) ===== */
 @media (min-width: 768px) {
   body { display: flex; flex-direction: row; }
-  #top-bar { position: relative; width: 420px; background: #fff; padding: 16px; box-shadow: none; border-right: 1px solid #e0e0e0; }
-  #top-bar > * { pointer-events: auto; }
+  
+  #sidebar { display: flex; flex-direction: column; width: 420px; background: #fff; border-right: 1px solid #e0e0e0; }
+  
+  #top-bar { position: static; background: #fff; padding: 16px; }
   #search-row { box-shadow: none; background: #f0f2f5; padding: 0 4px 0 14px; border-radius: 10px; }
   #stats-bar { display: none; }
-  #filter-strip { position: relative; top: auto; padding: 0 16px; border-bottom: 1px solid #eee; background: #fff; }
+  
+  #filter-strip { position: static; padding: 0 16px; border-bottom: 1px solid #eee; background: #fff; }
   #filter-strip-inner { padding: 8px 0; }
   .filter-btn { background: #fff; border: 1px solid #ddd; box-shadow: none; }
-  #bottom-sheet { position: relative; width: 420px; border-radius: 0; box-shadow: none; max-height: none; flex: 1; display: flex; flex-direction: column; border-right: 1px solid #e0e0e0; background: #fff; }
+  
+  #bottom-sheet { position: static; border-radius: 0; box-shadow: none; max-height: none; flex: 1; display: flex; flex-direction: column; background: #fff; }
   #bottom-sheet.collapsed { transform: none; }
   #sheet-handle { display: none; }
   #sheet-results-header { padding: 10px 16px; }
-  #sheet-results-header h2 { font-size: 15px; }
-  #postal-bar { padding: 0 16px 10px; display: none; }
+  
   #map { flex: 1; height: 100dvh; }
+  
   #detail-overlay { position: fixed; top: 0; right: 0; width: 480px; height: 100dvh; border-left: 1px solid #e0e0e0; box-shadow: -4px 0 20px rgba(0,0,0,0.1); }
 }
 </style>
@@ -131,47 +136,52 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <!-- MAP -->
 <div id="map"></div>
 
-<!-- TOP SEARCH BAR (mobile floating) -->
-<div id="top-bar">
-  <div id="search-row">
-    <input type="text" id="search-box" placeholder="🔍 Search school or address..." />
-    <button id="locate-btn" title="Find schools near me">📍</button>
-  </div>
-  <div id="stats-bar">
-    <span id="stat-count">186 schools</span>
-    <span id="stat-note"></span>
-  </div>
-</div>
+<!-- SIDEBAR (desktop column) -->
+<div id="sidebar">
 
-<!-- FILTER STRIP -->
-<div id="filter-strip">
-  <div id="filter-strip-inner">
-    <button class="filter-btn active" data-f="all">All</button>
-    <button class="filter-btn" data-f="tier1">⭐ Elite</button>
-    <button class="filter-btn" data-f="tier2">📈 Popular</button>
-    <button class="filter-btn" data-f="sap">📖 SAP</button>
-    <button class="filter-btn" data-f="affiliated">🔗 Affiliated</button>
-    <button class="filter-btn" data-f="girls">👧 Girls</button>
-    <button class="filter-btn" data-f="boys">👦 Boys</button>
-    <button class="filter-btn" data-f="postal">📍 Postal</button>
+  <!-- TOP SEARCH BAR -->
+  <div id="top-bar">
+    <div id="search-row">
+      <input type="text" id="search-box" placeholder="🔍 Search school or address..." />
+      <button id="locate-btn" title="Find schools near me">📍</button>
+    </div>
+    <div id="stats-bar">
+      <span id="stat-count">186 schools</span>
+      <span id="stat-note"></span>
+    </div>
   </div>
-</div>
 
-<!-- BOTTOM SHEET -->
-<div id="bottom-sheet" class="collapsed">
-  <div id="sheet-handle"><div id="sheet-handle-bar"></div></div>
-  <div id="sheet-results-header">
-    <h2>Schools</h2>
-    <span id="result-count"></span>
+  <!-- FILTER STRIP -->
+  <div id="filter-strip">
+    <div id="filter-strip-inner">
+      <button class="filter-btn active" data-f="all">All</button>
+      <button class="filter-btn" data-f="tier1">⭐ Elite</button>
+      <button class="filter-btn" data-f="tier2">📈 Popular</button>
+      <button class="filter-btn" data-f="sap">📖 SAP</button>
+      <button class="filter-btn" data-f="affiliated">🔗 Affiliated</button>
+      <button class="filter-btn" data-f="girls">👧 Girls</button>
+      <button class="filter-btn" data-f="boys">👦 Boys</button>
+      <button class="filter-btn" data-f="postal">📍 Postal</button>
+    </div>
   </div>
-  <div id="postal-bar">
-    <input type="text" id="postal-input" placeholder="Enter 6-digit postal code" maxlength="6" inputmode="numeric" />
-    <button id="postal-btn">Go</button>
+
+  <!-- BOTTOM SHEET -->
+  <div id="bottom-sheet" class="collapsed">
+    <div id="sheet-handle"><div id="sheet-handle-bar"></div></div>
+    <div id="sheet-results-header">
+      <h2>Schools</h2>
+      <span id="result-count"></span>
+    </div>
+    <div id="postal-bar">
+      <input type="text" id="postal-input" placeholder="Enter 6-digit postal code" maxlength="6" inputmode="numeric" />
+      <button id="postal-btn">Go</button>
+    </div>
+    <div id="sheet-results">
+      <div class="loading"><div class="spinner"></div><br/>Loading schools...</div>
+    </div>
   </div>
-  <div id="sheet-results">
-    <div class="loading"><div class="spinner"></div><br/>Loading schools...</div>
-  </div>
-</div>
+
+</div><!-- /sidebar -->
 
 <!-- DETAIL OVERLAY -->
 <div id="detail-overlay">
@@ -194,7 +204,6 @@ let activeSchoolId = null;
 let map = null;
 let isInitialLoad = true;
 
-// Init map
 function initMap() {
   map = L.map('map', {
     zoomControl: window.innerWidth > 768,
@@ -207,14 +216,11 @@ function initMap() {
   }).addTo(map);
   
   map.on('click', function(e) {
-    const lat = e.latlng.lat.toFixed(6);
-    const lng = e.latlng.lng.toFixed(6);
-    searchNearby(lat, lng);
+    searchNearby(e.latlng.lat.toFixed(6), e.latlng.lng.toFixed(6));
   });
   map.whenReady(() => { setTimeout(() => map.invalidateSize(), 200); });
 }
 
-// Fetch data
 async function fetchSchools() {
   try {
     const resp = await fetch(`${API}/api/schools`);
@@ -228,7 +234,6 @@ async function fetchSchools() {
   }
 }
 
-// Add markers
 function addMarkers(filtered) {
   markers.forEach(m => map.removeLayer(m));
   userMarkers.forEach(m => map.removeLayer(m));
@@ -258,7 +263,6 @@ function addMarkers(filtered) {
   }
 }
 
-// Apply filters & render
 function applyFilters() {
   let filtered = [...allSchools];
   
@@ -293,14 +297,9 @@ function applyFilters() {
   }
   
   document.getElementById('result-count').textContent = `${filtered.length} of ${allSchools.length}`;
-  
-  // Auto-expand sheet if we have results and it's collapsed
-  if (filtered.length > 0 && searchTerm) {
-    expandSheet();
-  }
+  if (filtered.length > 0 && searchTerm) expandSheet();
 }
 
-// Render school list
 function renderList(schools) {
   const container = document.getElementById('sheet-results');
   if (schools.length === 0) {
@@ -317,12 +316,10 @@ function renderList(schools) {
       const m = {'sap':'tag-sap','affiliated':'tag-affiliated'};
       return `<span class="tag ${m[t]||''}">${t}</span>`;
     }).join('');
-    
     const typeTag = s.type === 'Govt-Aided' ? '<span class="tag tag-aided">Aided</span>' : '<span class="tag tag-govt">Govt</span>';
     const genderTag = s.gender === 'Girls' ? '<span class="tag tag-girls">👧</span>' : s.gender === 'Boys' ? '<span class="tag tag-boys">👦</span>' : '';
     const tierTag = tier <= 1 ? '<span class="tag tag-t1">⭐ Elite</span>' : tier <= 2 ? '<span class="tag tag-t2">📈 Popular</span>' : '';
     
-    // Ballot chips for latest year
     let chips = '';
     if (s.ballots && s.ballots.length > 0) {
       const latest = s.ballots[s.ballots.length - 1];
@@ -357,7 +354,6 @@ function renderList(schools) {
   container.innerHTML = html;
 }
 
-// Show detail
 async function showDetail(id) {
   activeSchoolId = id;
   expandSheet();
@@ -433,7 +429,6 @@ function flyToSchool(lat, lng) {
   expandSheet();
 }
 
-// Search nearby
 async function searchNearby(lat, lng) {
   userLat = parseFloat(lat);
   userLng = parseFloat(lng);
@@ -451,14 +446,12 @@ async function searchNearby(lat, lng) {
         map.fitBounds(group.getBounds().pad(0.1));
       }
       document.getElementById('result-count').textContent = `${data.count} within 2km`;
-      document.getElementById('stat-note').textContent = '📍 Nearby';
     } else {
       document.getElementById('sheet-results').innerHTML = '<div class="empty-state"><div class="icon">🗺️</div><p>No schools within 2km.<br/>Click a different area.</p></div>';
     }
   } catch(e) { console.error(e); }
 }
 
-// User location
 function getUserLocation() {
   if (!navigator.geolocation) {
     document.getElementById('sheet-results').innerHTML = '<div class="empty-state"><div class="icon">📍</div><p>Location not available.<br/>Click the map to search nearby.</p></div>';
@@ -484,7 +477,6 @@ function getUserLocation() {
   );
 }
 
-// Postal code search
 async function searchByPostal(code) {
   if (!code || code.length !== 6) return;
   document.getElementById('sheet-results').innerHTML = '<div class="loading"><div class="spinner"></div><br/>Searching postal code...</div>';
@@ -507,7 +499,6 @@ async function searchByPostal(code) {
         map.fitBounds(group.getBounds().pad(0.1));
       }
       document.getElementById('result-count').textContent = `${data.count} near ${code}`;
-      document.getElementById('stat-note').textContent = `📍 ${code}`;
     } else {
       document.getElementById('sheet-results').innerHTML = '<div class="empty-state"><div class="icon">🗺️</div><p>No schools within 2km of this postal code.</p></div>';
     }
@@ -559,7 +550,6 @@ sheetHandle.addEventListener('click', function() {
 function expandSheet() { sheetEl.classList.remove('collapsed'); }
 function collapseSheet() { sheetEl.classList.add('collapsed'); }
 
-// Event listeners
 document.getElementById('locate-btn').addEventListener('click', getUserLocation);
 document.getElementById('detail-back').addEventListener('click', () => {
   document.getElementById('detail-overlay').classList.remove('open');
