@@ -228,6 +228,7 @@ async function fetchSchools() {
     allSchools = data.schools || [];
     document.getElementById('result-count').textContent = `${allSchools.length} schools`;
     applyFilters();
+    expandSheet();
   } catch(e) {
     document.getElementById('sheet-results').innerHTML =
       '<div class="empty-state"><div class="icon">😔</div><p>Could not load schools.<br/>Make sure the server is running.</p></div>';
