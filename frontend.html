@@ -110,7 +110,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 @media (min-width: 768px) {
   body { display: flex; flex-direction: row; }
   
-  #sidebar { display: flex; flex-direction: column; width: 420px; height: 100dvh; background: #fff; border-right: 1px solid #e0e0e0; }
+  #sidebar { display: flex; flex-direction: column; width: 420px; height: 100dvh; overflow-y: auto; background: #fff; border-right: 1px solid #e0e0e0; }
   
   
   #top-bar { position: sticky; top: 0; z-index: 2; padding: 16px; background: #fff; }
@@ -121,7 +121,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
   #filter-strip-inner { padding: 8px 0; }
   .filter-btn { background: #fff; border: 1px solid #ddd; box-shadow: none; }
   
-  #bottom-sheet { position: static; border-radius: 0; box-shadow: none; max-height: none; flex: 1; display: flex; flex-direction: column; background: #fff; }
+  #bottom-sheet { position: static; border-radius: 0; box-shadow: none; max-height: none; flex: 1; display: flex; flex-direction: column; min-height: 0; background: #fff; }
   #bottom-sheet.collapsed { transform: none; }
   #sheet-handle { display: none; }
   #sheet-results-header { padding: 10px 16px; }
