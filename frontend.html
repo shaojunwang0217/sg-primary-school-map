@@ -789,13 +789,20 @@ function renderSchoolCard(s, opts = {}) {
     }
   });
   
-  let ballotChip = '';
+  let ballotChips = [];
   if (s.ballots && s.ballots.length) {
     const latest = s.ballots[s.ballots.length - 1];
+    // Phase 2A
+    const p2a = latest.phases?.['2A'] || latest.phases?.['2A(1)'] || latest.phases?.['2A(2)'];
+    if (p2a && p2a.app !== null && p2a.vac !== null) {
+      const isBallot = p2a.app > p2a.vac;
+      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2A ${p2a.app}/${p2a.vac}</span>`);
+    }
+    // Phase 2C
     const p2c = latest.phases?.['2C'];
-    if (p2c) {
+    if (p2c && p2c.app !== null && p2c.vac !== null) {
       const isBallot = p2c.app > p2c.vac;
-      ballotChip = `<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2C ${p2c.app}/${p2c.vac}</span>`;
+      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2C ${p2c.app}/${p2c.vac}</span>`);
     }
   }
   
@@ -814,7 +821,7 @@ function renderSchoolCard(s, opts = {}) {
           </div>
         </div>
         <div class="school-meta">${tags.join('')}</div>
-        ${ballotChip ? `<div class="ballot-chips">${ballotChip}</div>` : ''}
+        ${ballotChips.length ? `<div class="ballot-chips">${ballotChips.join('')}</div>` : ''}
         <div class="school-bottom">
           <div class="school-addr">${(s.address || '').substring(0, 45)}</div>
           ${distance}
@@ -924,12 +931,14 @@ function renderDetail(s) {
   
   // COP estimator
   const copHtml = renderCOPEstimator(s);
+  const p2aSummary = getPhase2ASummary(s);
   
   document.getElementById('detail-body').innerHTML = `
     <div class="dt-hero">${tags.join('')}</div>
     <div class="dt-grid">
       <div class="dt-card"><div class="lbl">Demand</div><div class="val">${tierLabels[tier]}</div></div>
       <div class="dt-card"><div class="lbl">Phase 2C</div><div class="val">${s.prestige?.last_2c || 'No data'}</div></div>
+      <div class="dt-card"><div class="lbl">Phase 2A</div><div class="val">${p2aSummary}</div></div>
       <div class="dt-card"><div class="lbl">Type</div><div class="val">${s.type}</div></div>
       <div class="dt-card"><div class="lbl">Session</div><div class="val">${s.session}</div></div>
     </div>
@@ -953,6 +962,15 @@ function renderDetail(s) {
   document.querySelectorAll('.nearby-item').forEach(el => {
     el.addEventListener('click', () => showDetail(el.dataset.id));
   });
+}
+
+function getPhase2ASummary(s) {
+  if (!s.ballots || !s.ballots.length) return 'No data';
+  const latest = s.ballots[s.ballots.length - 1];
+  const p2a = latest.phases?.['2A'] || latest.phases?.['2A(1)'] || latest.phases?.['2A(2)'];
+  if (!p2a || p2a.app === null || p2a.vac === null) return 'Open / No ballot';
+  const isBallot = p2a.app > p2a.vac;
+  return `${isBallot ? 'Ballot' : 'Open'} (${p2a.app}/${p2a.vac})`;
 }
 
 function renderCOPEstimator(s) {
