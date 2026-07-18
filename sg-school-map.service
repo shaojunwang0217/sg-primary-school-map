@@ -1,0 +1,15 @@
+[Unit]
+Description=SG Primary School Map
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/sg-school-map
+Environment=PORT=3008
+ExecStart=/usr/bin/python3 /opt/sg-school-map/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

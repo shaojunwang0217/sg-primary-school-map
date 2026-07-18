@@ -414,15 +414,6 @@
       "ballot_6yr": 0,
       "recent_years": 3
     },
-    "eunos": {
-      "tier": 5,
-      "label": "Low Demand",
-      "last_2c": "Open (25 app for 99 vac)",
-      "avg_ratio_2c": 0.25,
-      "ballot_3yr": 0,
-      "ballot_6yr": 0,
-      "recent_years": 0
-    },
     "evergreen": {
       "tier": 5,
       "label": "Low Demand",
@@ -567,15 +558,6 @@
       "ballot_6yr": 0,
       "recent_years": 3
     },
-    "guangyang": {
-      "tier": 5,
-      "label": "Low Demand",
-      "last_2c": "Open (15 app for 127 vac)",
-      "avg_ratio_2c": 0.12,
-      "ballot_3yr": 0,
-      "ballot_6yr": 0,
-      "recent_years": 0
-    },
     "haig-girls": {
       "tier": 4,
       "label": "Moderate",
@@ -692,15 +674,6 @@
       "ballot_3yr": 2,
       "ballot_6yr": 5,
       "recent_years": 3
-    },
-    "juying": {
-      "tier": 5,
-      "label": "Low Demand",
-      "last_2c": "Open (10 app for 96 vac)",
-      "avg_ratio_2c": 0.1,
-      "ballot_3yr": 0,
-      "ballot_6yr": 0,
-      "recent_years": 0
     },
     "keming": {
       "tier": 2,
@@ -1269,15 +1242,6 @@
       "ballot_6yr": 2,
       "recent_years": 3
     },
-    "st-andrew-junior": {
-      "tier": 3,
-      "label": "Popular",
-      "last_2c": "Ballot (104 app for 84 vac)",
-      "avg_ratio_2c": 1.25,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
-      "recent_years": 3
-    },
     "st-anthony-canossian": {
       "tier": 4,
       "label": "Moderate",
@@ -1340,15 +1304,6 @@
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
-    },
-    "stamford": {
-      "tier": 5,
-      "label": "Low Demand",
-      "last_2c": "Open (24 app for 115 vac)",
-      "avg_ratio_2c": 0.21,
-      "ballot_3yr": 0,
-      "ballot_6yr": 0,
-      "recent_years": 0
     },
     "tampines-north": {
       "tier": 4,
@@ -1673,6 +1628,15 @@
       "ballot_3yr": 2,
       "ballot_6yr": 2,
       "recent_years": 3
+    },
+    "st-andrew-s-school-junior": {
+      "tier": 5,
+      "label": "No data",
+      "last_2c": "No data",
+      "avg_ratio_2c": 0,
+      "ballot_3yr": 0,
+      "ballot_6yr": 0,
+      "recent_years": 0
     }
   },
   "ballots": {
@@ -6902,28 +6866,6 @@
         }
       }
     ],
-    "eunos": [
-      {
-        "year": 2020,
-        "phases": {
-          "2B": {
-            "vac": 50,
-            "app": 0,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 99,
-            "app": 25,
-            "ballot": false
-          },
-          "2C(S)": {
-            "vac": 74,
-            "app": 19,
-            "ballot": false
-          }
-        }
-      }
-    ],
     "evergreen": [
       {
         "year": 2020,
@@ -8876,28 +8818,6 @@
         }
       }
     ],
-    "guangyang": [
-      {
-        "year": 2020,
-        "phases": {
-          "2B": {
-            "vac": 64,
-            "app": 0,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 127,
-            "app": 15,
-            "ballot": false
-          },
-          "2C(S)": {
-            "vac": 112,
-            "app": 35,
-            "ballot": false
-          }
-        }
-      }
-    ],
     "haig-girls": [
       {
         "year": 2020,
@@ -10479,28 +10399,6 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
-            "ballot": false
-          }
-        }
-      }
-    ],
-    "juying": [
-      {
-        "year": 2020,
-        "phases": {
-          "2B": {
-            "vac": 48,
-            "app": 0,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 96,
-            "app": 10,
-            "ballot": false
-          },
-          "2C(S)": {
-            "vac": 86,
-            "app": 30,
             "ballot": false
           }
         }
@@ -17706,128 +17604,6 @@
         }
       }
     ],
-    "st-andrew-junior": [
-      {
-        "year": 2020,
-        "phases": {
-          "2B": {
-            "vac": 66,
-            "app": 44,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 89,
-            "app": 122,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
-            "app": 0,
-            "ballot": false
-          }
-        }
-      },
-      {
-        "year": 2021,
-        "phases": {
-          "2B": {
-            "vac": 45,
-            "app": 25,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 64,
-            "app": 105,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
-            "app": 0,
-            "ballot": false
-          }
-        }
-      },
-      {
-        "year": 2022,
-        "phases": {
-          "2B": {
-            "vac": 37,
-            "app": 31,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 82,
-            "app": 124,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
-            "app": 0,
-            "ballot": false
-          }
-        }
-      },
-      {
-        "year": 2023,
-        "phases": {
-          "2B": {
-            "vac": 45,
-            "app": 36,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 103,
-            "app": 113,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
-            "app": null,
-            "ballot": false
-          }
-        }
-      },
-      {
-        "year": 2024,
-        "phases": {
-          "2B": {
-            "vac": 42,
-            "app": 35,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 92,
-            "app": 130,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
-            "app": 0,
-            "ballot": false
-          }
-        }
-      },
-      {
-        "year": 2025,
-        "phases": {
-          "2B": {
-            "vac": 39,
-            "app": 33,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 84,
-            "app": 104,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
-            "app": 0,
-            "ballot": false
-          }
-        }
-      }
-    ],
     "st-anthony": [
       {
         "year": 2020,
@@ -18433,28 +18209,6 @@
           "2C(S)": {
             "vac": 109,
             "app": 108,
-            "ballot": false
-          }
-        }
-      }
-    ],
-    "stamford": [
-      {
-        "year": 2020,
-        "phases": {
-          "2B": {
-            "vac": 58,
-            "app": 0,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 115,
-            "app": 24,
-            "ballot": false
-          },
-          "2C(S)": {
-            "vac": 92,
-            "app": 9,
             "ballot": false
           }
         }
