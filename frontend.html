@@ -716,6 +716,10 @@ function applyFilters() {
       if (tag === 'elite') { if ((s.prestige_tier || 99) > 1) return false; }
       else if (tag === 'popular') { if ((s.prestige_tier || 99) > 2) return false; }
       else if (tag === 'gep') { if (!s.tags?.includes('gep')) return false; }
+      else if (tag === 'sap') { if (!s.tags?.includes('sap')) return false; }
+      else if (tag === 'affiliated') { if (!s.tags?.includes('affiliated')) return false; }
+      else if (tag === 'girls') { if (s.gender !== 'Girls') return false; }
+      else if (tag === 'boys') { if (s.gender !== 'Boys') return false; }
       else if (!s.tags?.includes(tag)) return false;
     }
     if (activeFilters.type && s.type !== activeFilters.type) return false;

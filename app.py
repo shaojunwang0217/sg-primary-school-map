@@ -184,8 +184,26 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
                 if tag == "top":
                     if s.get("id") not in PRESTIGE:
                         continue
+                elif tag == "elite":
+                    if PRESTIGE.get(s.get("id", ""), {}).get("tier", 99) > 1:
+                        continue
+                elif tag == "popular":
+                    if PRESTIGE.get(s.get("id", ""), {}).get("tier", 99) > 2:
+                        continue
                 elif tag == "gep":
                     if "gep" not in s.get("tags", []):
+                        continue
+                elif tag == "sap":
+                    if "sap" not in s.get("tags", []):
+                        continue
+                elif tag == "affiliated":
+                    if "affiliated" not in s.get("tags", []):
+                        continue
+                elif tag == "girls":
+                    if s.get("gender") != "Girls":
+                        continue
+                elif tag == "boys":
+                    if s.get("gender") != "Boys":
                         continue
                 elif tag not in s.get("tags", []):
                     continue
