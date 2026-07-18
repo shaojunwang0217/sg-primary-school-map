@@ -1760,6 +1760,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 106,
+            "taken": 106,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 44,
+            "app": 44,
+            "taken": 44,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "ahmad-ibrahim": [
@@ -1879,6 +1902,29 @@
           "2C(S)": {
             "vac": 154,
             "app": 29,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 43,
+            "taken": 43,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 137,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 61,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -2004,6 +2050,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 121,
+            "taken": 121,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 119,
+            "app": 160,
+            "taken": 119,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "alexandra": [
@@ -2123,6 +2192,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 80,
+            "taken": 80,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 60,
+            "app": 63,
+            "taken": 60,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -2248,6 +2340,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 56,
+            "taken": 56,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 94,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 47,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "anderson": [
@@ -2367,6 +2482,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 83,
+            "taken": 83,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 67,
+            "app": 30,
+            "taken": 30,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -2492,6 +2630,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 30,
+            "taken": 30,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 90,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 46,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "anglo-chinese-junior": [
@@ -2611,6 +2772,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 143,
+            "app": 124,
+            "taken": 124,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 26,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -2736,6 +2920,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 56,
+            "taken": 56,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 124,
+            "app": 76,
+            "taken": 76,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 36,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "angsana": [
@@ -2855,6 +3062,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 119,
+            "taken": 119,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 101,
+            "app": 131,
+            "taken": 101,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -2980,6 +3210,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 47,
+            "taken": 47,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 43,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "bedok-green": [
@@ -3099,6 +3352,29 @@
           "2C(S)": {
             "vac": 166,
             "app": 50,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 40,
+            "taken": 40,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 110,
+            "app": 10,
+            "taken": 10,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 53,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -3224,6 +3500,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 130,
+            "app": 34,
+            "taken": 34,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 96,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 44,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "blangah-rise": [
@@ -3343,6 +3642,29 @@
           "2C(S)": {
             "vac": 71,
             "app": 22,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 60,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 36,
+            "app": 6,
+            "taken": 6,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 30,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -3468,6 +3790,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 46,
+            "taken": 46,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 44,
+            "app": 12,
+            "taken": 12,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "bukit-panjang": [
@@ -3587,6 +3932,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 96,
+            "taken": 96,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 54,
+            "app": 54,
+            "taken": 54,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -3712,6 +4080,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 60,
+            "taken": 60,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 60,
+            "app": 6,
+            "taken": 6,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 38,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "bukit-view": [
@@ -3834,6 +4225,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 260,
+            "app": 87,
+            "taken": 87,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 173,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 70,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "canberra": [
@@ -3953,6 +4367,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 88,
+            "taken": 88,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 62,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -4078,6 +4515,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 60,
+            "app": 60,
+            "taken": 60,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 0,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 19,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "cantonment": [
@@ -4197,6 +4657,29 @@
           "2C(S)": {
             "vac": 87,
             "app": 22,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 60,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 37,
+            "app": 4,
+            "taken": 4,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -4322,6 +4805,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 63,
+            "taken": 63,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 27,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 22,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "catholic-high": [
@@ -4441,6 +4947,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 58,
+            "taken": 58,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 122,
+            "app": 129,
+            "taken": 122,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -4566,6 +5095,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 60,
+            "taken": 60,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 120,
+            "app": 39,
+            "taken": 39,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 47,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "changkat": [
@@ -4685,6 +5237,29 @@
           "2C(S)": {
             "vac": 178,
             "app": 10,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 43,
+            "taken": 43,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 177,
+            "app": 8,
+            "taken": 8,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 76,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -4810,6 +5385,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 34,
+            "taken": 34,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 106,
+            "app": 45,
+            "taken": 45,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 40,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "chij-kellock": [
@@ -4929,6 +5527,29 @@
           "2C(S)": {
             "vac": 66,
             "app": 39,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 34,
+            "taken": 34,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 56,
+            "app": 6,
+            "taken": 6,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 37,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -5054,6 +5675,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 49,
+            "taken": 49,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 101,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "chij-st-nicholas-girls": [
@@ -5173,6 +5817,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 45,
+            "taken": 45,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 105,
+            "app": 93,
+            "taken": 93,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 24,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -5298,6 +5965,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 121,
+            "taken": 121,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 119,
+            "app": 110,
+            "taken": 110,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 23,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "chongzheng": [
@@ -5417,6 +6107,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 95,
+            "taken": 95,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 125,
+            "app": 50,
+            "taken": 50,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 45,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -5542,6 +6255,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 96,
+            "taken": 96,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 84,
+            "app": 39,
+            "taken": 39,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 35,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "clementi": [
@@ -5661,6 +6397,29 @@
           "2C(S)": {
             "vac": 145,
             "app": 136,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 62,
+            "taken": 62,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 118,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 55,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -5786,6 +6545,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 104,
+            "taken": 104,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 46,
+            "app": 16,
+            "taken": 16,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 30,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "concord": [
@@ -5908,6 +6690,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 77,
+            "taken": 77,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 73,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 37,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "corporation": [
@@ -6027,6 +6832,29 @@
           "2C(S)": {
             "vac": 86,
             "app": 18,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 46,
+            "taken": 46,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 44,
+            "app": 9,
+            "taken": 9,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -6254,6 +7082,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 82,
+            "taken": 82,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 58,
+            "app": 29,
+            "taken": 29,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 30,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "de-la-salle": [
@@ -6376,6 +7227,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 84,
+            "taken": 84,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 66,
+            "app": 26,
+            "taken": 26,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "east-spring": [
@@ -6495,6 +7369,29 @@
           "2C(S)": {
             "vac": 111,
             "app": 18,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 75,
+            "taken": 75,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 105,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 53,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -6620,6 +7517,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 61,
+            "taken": 61,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 89,
+            "app": 8,
+            "taken": 8,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 47,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "elias-park": [
@@ -6739,6 +7659,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 100,
+            "app": 62,
+            "taken": 62,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 38,
+            "app": 54,
+            "taken": 38,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -6864,6 +7807,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 65,
+            "taken": 65,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 85,
+            "app": 4,
+            "taken": 4,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 47,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "evergreen": [
@@ -6983,6 +7949,29 @@
           "2C(S)": {
             "vac": 32,
             "app": 26,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 66,
+            "taken": 66,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 54,
+            "app": 12,
+            "taken": 12,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -7108,6 +8097,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 113,
+            "taken": 113,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 97,
+            "app": 91,
+            "taken": 91,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 22,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "farrer-park": [
@@ -7227,6 +8239,29 @@
           "2C(S)": {
             "vac": 105,
             "app": 65,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 130,
+            "app": 38,
+            "taken": 38,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 92,
+            "app": 17,
+            "taken": 17,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 45,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -7352,6 +8387,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 58,
+            "taken": 58,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 62,
+            "app": 34,
+            "taken": 34,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 29,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "fern-green": [
@@ -7471,6 +8529,29 @@
           "2C(S)": {
             "vac": 68,
             "app": 40,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 79,
+            "taken": 79,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 141,
+            "app": 31,
+            "taken": 31,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 57,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -7596,6 +8677,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 83,
+            "taken": 83,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 97,
+            "app": 31,
+            "taken": 31,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "first-toa-payoh": [
@@ -7715,6 +8819,29 @@
           "2C(S)": {
             "vac": 141,
             "app": 32,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 20,
+            "taken": 20,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 70,
+            "app": 5,
+            "taken": 5,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -7840,6 +8967,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 79,
+            "taken": 79,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 41,
+            "app": 58,
+            "taken": 41,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "fuchun": [
@@ -7959,6 +9109,29 @@
           "2C(S)": {
             "vac": 48,
             "app": 3,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 58,
+            "taken": 58,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 62,
+            "app": 27,
+            "taken": 27,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -8084,6 +9257,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 56,
+            "taken": 56,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 94,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 47,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "gan-eng-seng": [
@@ -8203,6 +9399,29 @@
           "2C(S)": {
             "vac": 100,
             "app": 8,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 60,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 38,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 28,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -8328,6 +9547,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 79,
+            "taken": 79,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 131,
+            "app": 35,
+            "taken": 35,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 52,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "gongshang": [
@@ -8447,6 +9689,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 96,
+            "taken": 96,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 124,
+            "app": 175,
+            "taken": 124,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -8572,6 +9837,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 39,
+            "taken": 39,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 81,
+            "app": 16,
+            "taken": 16,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "greenridge": [
@@ -8691,6 +9979,29 @@
           "2C(S)": {
             "vac": 60,
             "app": 5,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 33,
+            "taken": 33,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 57,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -8816,6 +10127,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 73,
+            "taken": 73,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 77,
+            "app": 17,
+            "taken": 17,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 40,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "haig-girls": [
@@ -8938,6 +10272,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 130,
+            "app": 40,
+            "taken": 40,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 90,
+            "app": 15,
+            "taken": 15,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 45,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "henry-park": [
@@ -9057,6 +10414,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 126,
+            "taken": 126,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 114,
+            "app": 100,
+            "taken": 100,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 25,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -9182,6 +10562,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 103,
+            "taken": 103,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 107,
+            "app": 104,
+            "taken": 104,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 21,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "hong-wen": [
@@ -9301,6 +10704,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 82,
+            "taken": 82,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 68,
+            "app": 39,
+            "taken": 39,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 30,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -9426,6 +10852,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 84,
+            "taken": 84,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 66,
+            "app": 86,
+            "taken": 66,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "hougang": [
@@ -9545,6 +10994,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 60,
+            "taken": 60,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 60,
+            "app": 46,
+            "taken": 46,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 25,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -9670,6 +11142,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 97,
+            "taken": 97,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 83,
+            "app": 85,
+            "taken": 83,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "innova": [
@@ -9789,6 +11284,29 @@
           "2C(S)": {
             "vac": 28,
             "app": 8,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 52,
+            "taken": 52,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 68,
+            "app": 5,
+            "taken": 5,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 41,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -9914,6 +11432,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 160,
+            "app": 55,
+            "taken": 55,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 105,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 50,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "jing-shan": [
@@ -10033,6 +11574,29 @@
           "2C(S)": {
             "vac": 10,
             "app": 9,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 50,
+            "taken": 50,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 40,
+            "app": 47,
+            "taken": 40,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -10158,6 +11722,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 106,
+            "taken": 106,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 114,
+            "app": 92,
+            "taken": 92,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 27,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "jurong": [
@@ -10277,6 +11864,29 @@
           "2C(S)": {
             "vac": 73,
             "app": 39,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 63,
+            "taken": 63,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 57,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -10402,6 +12012,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 64,
+            "taken": 64,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 26,
+            "app": 39,
+            "taken": 26,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "keming": [
@@ -10521,6 +12154,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 80,
+            "taken": 80,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 100,
+            "app": 50,
+            "taken": 50,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 37,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -10646,6 +12302,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 97,
+            "taken": 97,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 83,
+            "app": 18,
+            "taken": 18,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "kong-hwa": [
@@ -10765,6 +12444,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 109,
+            "taken": 109,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 111,
+            "app": 91,
+            "taken": 91,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 27,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -10972,6 +12674,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 97,
+            "taken": 97,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 83,
+            "app": 75,
+            "taken": 75,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 23,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "lakeside": [
@@ -11094,6 +12819,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 95,
+            "taken": 95,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 85,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 40,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "lianhua": [
@@ -11213,6 +12961,29 @@
           "2C(S)": {
             "vac": 216,
             "app": 42,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 62,
+            "taken": 62,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 158,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 68,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -11338,6 +13109,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 123,
+            "taken": 123,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 117,
+            "app": 117,
+            "taken": 117,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "maris-stella-high": [
@@ -11457,6 +13251,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 270,
+            "app": 102,
+            "taken": 102,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 168,
+            "app": 127,
+            "taken": 127,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -11582,6 +13399,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 74,
+            "taken": 74,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 46,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "marymount-convent": [
@@ -11701,6 +13541,29 @@
           "2C(S)": {
             "vac": 151,
             "app": 138,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 159,
+            "app": 4,
+            "taken": 4,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 72,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -11826,6 +13689,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 35,
+            "taken": 35,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 55,
+            "app": 15,
+            "taken": 15,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "mee-toh": [
@@ -11945,6 +13831,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 107,
+            "taken": 107,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 133,
+            "app": 16,
+            "taken": 16,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 59,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -12070,6 +13979,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 160,
+            "app": 45,
+            "taken": 45,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 115,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 51,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "methodist-girls": [
@@ -12189,6 +14121,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 55,
+            "taken": 55,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 95,
+            "app": 93,
+            "taken": 93,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 21,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -12314,6 +14269,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 15,
+            "taken": 15,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 75,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 43,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "nan-chiau": [
@@ -12433,6 +14411,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 130,
+            "taken": 130,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 110,
+            "app": 40,
+            "taken": 40,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 43,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -12558,6 +14559,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 122,
+            "taken": 122,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 58,
+            "app": 104,
+            "taken": 58,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "nanyang": [
@@ -12677,6 +14701,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 300,
+            "app": 175,
+            "taken": 175,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 125,
+            "app": 176,
+            "taken": 125,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -12802,6 +14849,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 109,
+            "taken": 109,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 71,
+            "app": 50,
+            "taken": 50,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 27,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "new-town": [
@@ -12921,6 +14991,29 @@
           "2C(S)": {
             "vac": 157,
             "app": 41,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 99,
+            "app": 3,
+            "taken": 3,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 52,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -13046,6 +15139,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 97,
+            "taken": 97,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 83,
+            "app": 40,
+            "taken": 40,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "north-spring": [
@@ -13165,6 +15281,29 @@
           "2C(S)": {
             "vac": 79,
             "app": 25,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 43,
+            "taken": 43,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 47,
+            "app": 9,
+            "taken": 9,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -13290,6 +15429,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 122,
+            "taken": 122,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 58,
+            "app": 72,
+            "taken": 58,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "north-vista": [
@@ -13409,6 +15571,29 @@
           "2C(S)": {
             "vac": 101,
             "app": 34,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 59,
+            "taken": 59,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 91,
+            "app": 25,
+            "taken": 25,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -13534,6 +15719,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 106,
+            "taken": 106,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 74,
+            "app": 79,
+            "taken": 74,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "northoaks": [
@@ -13653,6 +15861,29 @@
           "2C(S)": {
             "vac": 191,
             "app": 7,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 19,
+            "taken": 19,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 131,
+            "app": 3,
+            "taken": 3,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 63,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -13778,6 +16009,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 83,
+            "taken": 83,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 67,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 35,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "opera-estate": [
@@ -13900,6 +16154,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 56,
+            "taken": 56,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 64,
+            "app": 6,
+            "taken": 6,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 39,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "palm-view": [
@@ -14019,6 +16296,29 @@
           "2C(S)": {
             "vac": 82,
             "app": 59,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 103,
+            "taken": 103,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 47,
+            "app": 8,
+            "taken": 8,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -14144,6 +16444,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 53,
+            "taken": 53,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 67,
+            "app": 8,
+            "taken": 8,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 40,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "pasir-ris": [
@@ -14263,6 +16586,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 73,
+            "taken": 73,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 17,
+            "app": 38,
+            "taken": 17,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -14388,6 +16734,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 50,
+            "taken": 50,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 130,
+            "app": 54,
+            "taken": 54,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 45,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "pei-tong": [
@@ -14507,6 +16876,29 @@
           "2C(S)": {
             "vac": 190,
             "app": 37,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 50,
+            "taken": 50,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 170,
+            "app": 16,
+            "taken": 16,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 71,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -14632,6 +17024,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 160,
+            "app": 76,
+            "taken": 76,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 84,
+            "app": 25,
+            "taken": 25,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 40,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "pioneer": [
@@ -14671,6 +17086,29 @@
           "2C(S)": {
             "vac": 140,
             "app": 73,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 320,
+            "app": 41,
+            "taken": 41,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 279,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 105,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -14796,6 +17234,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 99,
+            "taken": 99,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 121,
+            "app": 38,
+            "taken": 38,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 48,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "princess-elizabeth": [
@@ -14915,6 +17376,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 93,
+            "taken": 93,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 47,
+            "app": 137,
+            "taken": 47,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -15040,6 +17524,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 87,
+            "taken": 87,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 133,
+            "app": 19,
+            "taken": 19,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 58,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "punggol-green": [
@@ -15159,6 +17666,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 99,
+            "taken": 99,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 51,
+            "app": 60,
+            "taken": 51,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -15284,6 +17814,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 86,
+            "taken": 86,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 64,
+            "app": 27,
+            "taken": 27,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "qifa": [
@@ -15403,6 +17956,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 89,
+            "taken": 89,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 131,
+            "app": 43,
+            "taken": 43,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 49,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -15528,6 +18104,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 58,
+            "taken": 58,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 62,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "queenstown": [
@@ -15647,6 +18246,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 49,
+            "taken": 49,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 101,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 49,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -15772,6 +18394,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 72,
+            "taken": 72,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 68,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "raffles-girls": [
@@ -15891,6 +18536,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 57,
+            "taken": 57,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 153,
+            "app": 55,
+            "taken": 55,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 53,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -16016,6 +18684,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 126,
+            "taken": 126,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 24,
+            "app": 88,
+            "taken": 24,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "river-valley": [
@@ -16135,6 +18826,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 86,
+            "taken": 86,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 64,
+            "app": 29,
+            "taken": 29,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -16260,6 +18974,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 85,
+            "taken": 85,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 65,
+            "app": 59,
+            "taken": 59,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 22,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "rivervale": [
@@ -16379,6 +19116,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 85,
+            "taken": 85,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 35,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 24,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -16504,6 +19264,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 119,
+            "taken": 119,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 91,
+            "app": 105,
+            "taken": 91,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "rulang": [
@@ -16623,6 +19406,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 103,
+            "taken": 103,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 77,
+            "app": 81,
+            "taken": 77,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -16748,6 +19554,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 88,
+            "taken": 88,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 52,
+            "app": 52,
+            "taken": 52,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "seng-kang": [
@@ -16867,6 +19696,29 @@
           "2C(S)": {
             "vac": 117,
             "app": 23,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 29,
+            "taken": 29,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 61,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 38,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -16992,6 +19844,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 95,
+            "taken": 95,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 85,
+            "app": 93,
+            "taken": 85,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "shuqun": [
@@ -17111,6 +19986,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 88,
+            "taken": 88,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 32,
+            "app": 93,
+            "taken": 32,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -17236,6 +20134,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 60,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 37,
+            "app": 11,
+            "taken": 11,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 29,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "singapore-chinese-girls": [
@@ -17355,6 +20276,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 132,
+            "app": 56,
+            "taken": 56,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 76,
+            "app": 78,
+            "taken": 76,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -17480,6 +20424,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 210,
+            "app": 113,
+            "taken": 113,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 97,
+            "app": 157,
+            "taken": 97,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "springdale": [
@@ -17602,6 +20569,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 98,
+            "taken": 98,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 52,
+            "app": 34,
+            "taken": 34,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 26,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "st-anthony": [
@@ -17721,6 +20711,29 @@
           "2C(S)": {
             "vac": 131,
             "app": 50,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 96,
+            "taken": 96,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 84,
+            "app": 52,
+            "taken": 52,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -17846,6 +20859,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 29,
+            "taken": 29,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 61,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "st-joseph-institution-junior": [
@@ -17965,6 +21001,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 58,
+            "taken": 58,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 122,
+            "app": 61,
+            "taken": 61,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 40,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -18090,6 +21149,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 132,
+            "app": 39,
+            "taken": 39,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 93,
+            "app": 27,
+            "taken": 27,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "st-stephen": [
@@ -18209,6 +21291,29 @@
           "2C(S)": {
             "vac": 109,
             "app": 108,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 41,
+            "taken": 41,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 109,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 49,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -18334,6 +21439,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 260,
+            "app": 95,
+            "taken": 95,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 165,
+            "app": 77,
+            "taken": 77,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 49,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "tanjong-katong": [
@@ -18453,6 +21581,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 73,
+            "app": 78,
+            "taken": 73,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -18578,6 +21729,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 270,
+            "app": 162,
+            "taken": 162,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 108,
+            "app": 129,
+            "taken": 108,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "teck-ghee": [
@@ -18697,6 +21871,29 @@
           "2C(S)": {
             "vac": 63,
             "app": 62,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 66,
+            "taken": 66,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 84,
+            "app": 15,
+            "taken": 15,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 43,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -18822,6 +22019,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 45,
+            "taken": 45,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 75,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 41,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "telok-kurau": [
@@ -18944,6 +22164,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 78,
+            "taken": 78,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 102,
+            "app": 27,
+            "taken": 27,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 45,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "temasek": [
@@ -19063,6 +22306,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 140,
+            "app": 76,
+            "taken": 76,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 64,
+            "app": 131,
+            "taken": 64,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -19290,6 +22556,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 60,
+            "taken": 60,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 60,
+            "app": 20,
+            "taken": 20,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "waterway": [
@@ -19409,6 +22698,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 100,
+            "taken": 100,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 50,
+            "app": 46,
+            "taken": 46,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 21,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -19534,6 +22846,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 107,
+            "taken": 107,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 73,
+            "app": 85,
+            "taken": 73,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "west-grove": [
@@ -19653,6 +22988,29 @@
           "2C(S)": {
             "vac": 96,
             "app": 47,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 69,
+            "taken": 69,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 51,
+            "app": 11,
+            "taken": 11,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -19778,6 +23136,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 81,
+            "taken": 81,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 69,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 21,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "west-view": [
@@ -19897,6 +23278,29 @@
           "2C(S)": {
             "vac": 29,
             "app": 13,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 61,
+            "taken": 61,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 29,
+            "app": 29,
+            "taken": 29,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -20022,6 +23426,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 87,
+            "taken": 87,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 63,
+            "app": 55,
+            "taken": 55,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 23,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "white-sands": [
@@ -20141,6 +23568,29 @@
           "2C(S)": {
             "vac": 23,
             "app": 20,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 23,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 23,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -20266,6 +23716,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 69,
+            "taken": 69,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 51,
+            "app": 17,
+            "taken": 17,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "woodlands": [
@@ -20388,6 +23861,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 104,
+            "taken": 104,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 46,
+            "app": 33,
+            "taken": 33,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 24,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "woodlands-ring": [
@@ -20507,6 +24003,29 @@
           "2C(S)": {
             "vac": 53,
             "app": 4,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 60,
+            "taken": 60,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 60,
+            "app": 17,
+            "taken": 17,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -20632,6 +24151,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 31,
+            "taken": 31,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 89,
+            "app": 5,
+            "taken": 5,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 48,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "xingnan": [
@@ -20751,6 +24293,29 @@
           "2C(S)": {
             "vac": 51,
             "app": 16,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 70,
+            "taken": 70,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 50,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 29,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -20876,6 +24441,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 84,
+            "taken": 84,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 66,
+            "app": 55,
+            "taken": 55,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 24,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "xishan": [
@@ -20998,6 +24586,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 160,
+            "app": 91,
+            "taken": 91,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 69,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 35,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "yangzheng": [
@@ -21117,6 +24728,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 100,
+            "app": 52,
+            "taken": 52,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 48,
+            "app": 85,
+            "taken": 48,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -21242,6 +24876,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 74,
+            "taken": 74,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 46,
+            "app": 8,
+            "taken": 8,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 33,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "yio-chu-kang": [
@@ -21361,6 +25018,29 @@
           "2C(S)": {
             "vac": 88,
             "app": 66,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 51,
+            "taken": 51,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 69,
+            "app": 4,
+            "taken": 4,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -21486,6 +25166,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 130,
+            "app": 65,
+            "taken": 65,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 65,
+            "app": 33,
+            "taken": 33,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "yu-neng": [
@@ -21605,6 +25308,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 68,
+            "taken": 68,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 52,
+            "app": 47,
+            "taken": 47,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 22,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -21730,6 +25456,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 32,
+            "taken": 32,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 118,
+            "app": 16,
+            "taken": 16,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 54,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "yumin": [
@@ -21849,6 +25598,29 @@
           "2C(S)": {
             "vac": 191,
             "app": 74,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 58,
+            "taken": 58,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 122,
+            "app": 8,
+            "taken": 8,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 58,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -21974,6 +25746,29 @@
             "ballot": true
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 44,
+            "taken": 44,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 46,
+            "app": 13,
+            "taken": 13,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "zhenghua": [
@@ -22093,6 +25888,29 @@
           "2C(S)": {
             "vac": 12,
             "app": 8,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 103,
+            "taken": 103,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 47,
+            "app": 58,
+            "taken": 47,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -22218,6 +26036,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 90,
+            "app": 20,
+            "taken": 20,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 70,
+            "app": 3,
+            "taken": 3,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 42,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "valour": [
@@ -22337,6 +26178,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 150,
+            "app": 107,
+            "taken": 107,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 43,
+            "app": 54,
+            "taken": 43,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -22462,6 +26326,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 124,
+            "taken": 124,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 96,
+            "app": 63,
+            "taken": 63,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 31,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "pei-hwa-presbyterian": [
@@ -22581,6 +26468,29 @@
           "2C(S)": {
             "vac": 0,
             "app": 0,
+            "ballot": false
+          }
+        }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 164,
+            "app": 105,
+            "taken": 105,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 59,
+            "app": 83,
+            "taken": 59,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
@@ -22706,6 +26616,29 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 240,
+            "app": 128,
+            "taken": 128,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 112,
+            "app": 111,
+            "taken": 111,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "st-hilda": [
@@ -22828,9 +26761,57 @@
             "ballot": false
           }
         }
+      },
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 121,
+            "taken": 121,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 99,
+            "app": 121,
+            "taken": 99,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
       }
     ],
     "chij-our-lady-of-good-counsel": [
+      {
+        "year": 2024,
+        "phases": {
+          "2A": {
+            "vac": 61,
+            "app": 12,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 36,
+            "app": 11,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 99,
+            "app": 35,
+            "ballot": false
+          },
+          "2C(S)": {
+            "vac": 64,
+            "app": 65,
+            "ballot": true
+          }
+        }
+      },
       {
         "year": 2025,
         "phases": {
@@ -22857,32 +26838,55 @@
         }
       },
       {
-        "year": 2024,
+        "year": 2026,
         "phases": {
+          "1": {
+            "vac": 90,
+            "app": 32,
+            "taken": 32,
+            "ballot": false
+          },
           "2A": {
-            "vac": 61,
-            "app": 12,
+            "vac": 58,
+            "app": 16,
+            "taken": 16,
             "ballot": false
           },
           "2B": {
-            "vac": 36,
-            "app": 11,
+            "vac": 34,
+            "app": 0,
+            "taken": 0,
             "ballot": false
-          },
-          "2C": {
-            "vac": 99,
-            "app": 35,
-            "ballot": false
-          },
-          "2C(S)": {
-            "vac": 64,
-            "app": 65,
-            "ballot": true
           }
         }
       }
     ],
     "chij-our-lady-of-the-nativity": [
+      {
+        "year": 2024,
+        "phases": {
+          "2A": {
+            "vac": 110,
+            "app": 23,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 49,
+            "app": 43,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 104,
+            "app": 110,
+            "ballot": true
+          },
+          "2C(S)": {
+            "vac": 0,
+            "app": 0,
+            "ballot": false
+          }
+        }
+      },
       {
         "year": 2025,
         "phases": {
@@ -22909,32 +26913,55 @@
         }
       },
       {
-        "year": 2024,
+        "year": 2026,
         "phases": {
+          "1": {
+            "vac": 180,
+            "app": 57,
+            "taken": 57,
+            "ballot": false
+          },
           "2A": {
-            "vac": 110,
-            "app": 23,
+            "vac": 123,
+            "app": 22,
+            "taken": 22,
             "ballot": false
           },
           "2B": {
-            "vac": 49,
-            "app": 43,
-            "ballot": false
-          },
-          "2C": {
-            "vac": 104,
-            "app": 110,
-            "ballot": true
-          },
-          "2C(S)": {
-            "vac": 0,
+            "vac": 54,
             "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }
       }
     ],
     "chij-our-lady-queen-of-peace": [
+      {
+        "year": 2024,
+        "phases": {
+          "2A": {
+            "vac": 79,
+            "app": 9,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 43,
+            "app": 13,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 117,
+            "app": 59,
+            "ballot": false
+          },
+          "2C(S)": {
+            "vac": 58,
+            "app": 48,
+            "ballot": false
+          }
+        }
+      },
       {
         "year": 2025,
         "phases": {
@@ -22961,26 +26988,124 @@
         }
       },
       {
-        "year": 2024,
+        "year": 2026,
         "phases": {
+          "1": {
+            "vac": 120,
+            "app": 25,
+            "taken": 25,
+            "ballot": false
+          },
           "2A": {
-            "vac": 79,
-            "app": 9,
+            "vac": 95,
+            "app": 10,
+            "taken": 10,
             "ballot": false
           },
           "2B": {
-            "vac": 43,
-            "app": 13,
+            "vac": 48,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
+      }
+    ],
+    "punggol": [
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 70,
+            "taken": 70,
             "ballot": false
           },
-          "2C": {
-            "vac": 117,
+          "2A": {
+            "vac": 50,
+            "app": 61,
+            "taken": 50,
+            "ballot": true
+          },
+          "2B": {
+            "vac": 20,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
+      }
+    ],
+    "st-andrew-junior": [
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 180,
+            "app": 85,
+            "taken": 85,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 95,
             "app": 59,
+            "taken": 59,
             "ballot": false
           },
-          "2C(S)": {
-            "vac": 58,
-            "app": 48,
+          "2B": {
+            "vac": 32,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
+      }
+    ],
+    "st-anthony-canossian": [
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 120,
+            "app": 27,
+            "taken": 27,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 93,
+            "app": 9,
+            "taken": 9,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 48,
+            "app": 0,
+            "taken": 0,
+            "ballot": false
+          }
+        }
+      }
+    ],
+    "tampines-north": [
+      {
+        "year": 2026,
+        "phases": {
+          "1": {
+            "vac": 220,
+            "app": 92,
+            "taken": 92,
+            "ballot": false
+          },
+          "2A": {
+            "vac": 128,
+            "app": 17,
+            "taken": 17,
+            "ballot": false
+          },
+          "2B": {
+            "vac": 57,
+            "app": 0,
+            "taken": 0,
             "ballot": false
           }
         }

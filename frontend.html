@@ -897,7 +897,7 @@ function renderDetail(s) {
   // Ballot table
   let ballotTable = '';
   if (s.ballots && s.ballots.length) {
-    const phaseOrder = ['2A', '2A(1)', '2A(2)', '2B', '2C', '2C(S)'];
+    const phaseOrder = ['1', '2A', '2A(1)', '2A(2)', '2B', '2C', '2C(S)'];
     const rows = s.ballots.slice().reverse().map(b => {
       let row = `<tr><td><strong>${b.year}</strong></td>`;
       phaseOrder.forEach(ph => {
