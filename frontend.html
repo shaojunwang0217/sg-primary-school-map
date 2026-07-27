@@ -59,6 +59,19 @@ body {
 .leaflet-popup-content-wrapper { border-radius: 12px; }
 .leaflet-popup-content { margin: 12px 16px; font-size: 13px; line-height: 1.5; }
 
+#map-fab {
+  position: fixed; top: 16px; right: 16px; z-index: 1000;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.map-fab {
+  width: 48px; height: 48px; border-radius: 50%; border: none;
+  background: var(--surface); color: var(--text-secondary); cursor: pointer;
+  box-shadow: var(--shadow); font-size: 20px; display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.map-fab:hover { background: var(--primary-light); color: var(--primary); }
+.map-fab:active { transform: scale(0.95); }
+
 /* ===== SIDEBAR ===== */
 #sidebar {
   width: 420px;
@@ -364,24 +377,83 @@ body {
 
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 768px) {
+  html, body { -webkit-tap-highlight-color: transparent; }
   #app { flex-direction: column; }
+  #map { height: 60dvh; flex: none; }
   #sidebar {
     position: fixed; bottom: 0; left: 0; right: 0; width: 100%;
-    height: 55dvh; border-right: none; border-top: 1px solid var(--border);
-    border-radius: 16px 16px 0 0; transform: translateY(0); box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
+    height: 40dvh; border-right: none; border-top: 1px solid var(--border);
+    border-radius: 20px 20px 0 0; transform: translateY(0); box-shadow: 0 -8px 30px rgba(0,0,0,0.15);
+    padding-bottom: env(safe-area-inset-bottom);
   }
-  #sidebar.collapsed { transform: translateY(calc(55dvh - 48px)); }
-  #map { height: 45dvh; }
+  #sidebar.collapsed { transform: translateY(calc(40dvh - 36px)); }
+  #sidebar.expanded { transform: translateY(0); height: 85dvh; top: auto; bottom: 0; }
   #mobile-handle {
-    display: flex; justify-content: center; padding: 8px 0; cursor: pointer;
+    display: flex; justify-content: center; padding: 10px 0 6px; cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
-  #mobile-handle-bar { width: 40px; height: 4px; background: var(--border); border-radius: 2px; }
+  #mobile-handle-bar { width: 44px; height: 5px; background: var(--border); border-radius: 3px; }
   #results-container { padding: 8px 12px; }
+  #sidebar-header { padding: 12px 14px; }
+  #brand h1 { font-size: 17px; }
+  #brand-icon { font-size: 20px; }
+  #search-row { padding: 3px 3px 3px 10px; }
+  #search-box { font-size: 16px; padding: 11px 0; }
+  .icon-btn { width: 44px; height: 44px; font-size: 18px; }
+  #filters { padding: 10px 12px; gap: 8px; }
+  #filter-chips {
+    display: flex; flex-wrap: nowrap; gap: 8px; overflow-x: auto; padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  #filter-chips::-webkit-scrollbar { display: none; }
+  .filter-chip { padding: 8px 14px; font-size: 13px; flex-shrink: 0; }
+  #filter-row { gap: 8px; }
+  .filter-select { padding: 10px 8px; font-size: 13px; }
+  #distance-bar { padding: 8px 0; }
+  #distance-bar label { font-size: 13px; }
+  #distance-slider { flex: 1; height: 24px; }
+  #distance-value { min-width: 50px; text-align: right; font-size: 13px; }
+  #mode-bar { padding: 8px 12px; gap: 8px; }
+  .mode-btn { padding: 10px 12px; font-size: 13px; }
+  .school-card { padding: 14px 12px; }
+  .school-name { font-size: 15px; }
+  .school-marker-dot { width: 12px; height: 12px; }
   #detail-overlay { width: 100%; border-left: none; right: 0; }
+  #detail-header { padding: 12px 14px; }
+  #detail-back { width: 40px; height: 40px; font-size: 18px; }
+  #detail-name { font-size: 15px; }
+  #detail-body { padding: 14px; }
+  .dt-card { padding: 14px; }
+  .dt-card .lbl { font-size: 12px; }
+  .dt-card .val { font-size: 15px; }
+  .dt-row { font-size: 15px; padding: 12px 0; }
+  .dt-sec h3 { font-size: 15px; }
+  .dt-table { font-size: 12px; }
+  .dt-table th, .dt-table td { padding: 8px 6px; }
   #compare-overlay { width: 100%; }
-  #compare-table th, #compare-table td { padding: 8px; font-size: 12px; }
-  #compare-panel { left: 12px; right: 12px; transform: translateY(120%); width: auto; }
-  #compare-panel.open { transform: translateY(0); left: 12px; right: 12px; }
+  #compare-header { padding: 12px 14px; }
+  #compare-table th, #compare-table td { padding: 10px 8px; font-size: 13px; }
+  #compare-table td.school-col { min-width: 130px; }
+  #compare-panel { left: 12px; right: 12px; transform: translateY(120%); width: auto; padding: 12px; }
+  #compare-panel.open { transform: translateY(0); left: 12px; right: 12px; bottom: calc(40dvh + 12px); }
+  #toast { bottom: calc(40dvh + 12px); padding: 14px 22px; font-size: 14px; }
+  .action-btn { padding: 12px 16px; font-size: 15px; }
+  .empty-state { padding: 40px 20px; }
+  .empty-state .icon { font-size: 42px; }
+  .empty-state p { font-size: 14px; }
+  .loading { font-size: 14px; }
+}
+
+@media (max-width: 480px) {
+  #map { height: 55dvh; }
+  #sidebar { height: 45dvh; }
+  #sidebar.collapsed { transform: translateY(calc(45dvh - 36px)); }
+  #compare-panel.open { bottom: calc(45dvh + 12px); }
+  #toast { bottom: calc(45dvh + 12px); }
+  .dt-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .dt-card { padding: 12px; }
+  .dt-table { font-size: 11px; }
+  .dt-table th, .dt-table td { padding: 6px 4px; }
 }
 
 @media (min-width: 769px) {
@@ -470,6 +542,10 @@ body {
 
   <!-- Map -->
   <div id="map"></div>
+  <div id="map-fab">
+    <button id="map-locate-btn" class="map-fab" title="Find schools near me">📍</button>
+    <button id="map-layer-btn" class="map-fab" title="Toggle list view">☰</button>
+  </div>
 </div>
 
 <!-- Detail Overlay -->
@@ -571,6 +647,12 @@ function setupEventListeners() {
   
   // Locate
   document.getElementById('locate-btn').addEventListener('click', getUserLocation);
+  document.getElementById('map-locate-btn').addEventListener('click', getUserLocation);
+  document.getElementById('map-layer-btn').addEventListener('click', () => {
+    if (window.innerWidth <= 768) {
+      document.getElementById('sidebar').classList.toggle('collapsed');
+    }
+  });
   
   // Theme
   document.getElementById('theme-btn').addEventListener('click', toggleTheme);
@@ -632,7 +714,15 @@ function setupEventListeners() {
   // Mobile sheet
   const sidebar = document.getElementById('sidebar');
   document.getElementById('mobile-handle').addEventListener('click', () => {
-    sidebar.classList.toggle('collapsed');
+    if (sidebar.classList.contains('collapsed')) {
+      sidebar.classList.remove('collapsed');
+      sidebar.classList.remove('expanded');
+    } else if (sidebar.classList.contains('expanded')) {
+      sidebar.classList.remove('expanded');
+      sidebar.classList.add('collapsed');
+    } else {
+      sidebar.classList.add('expanded');
+    }
   });
   
   // Escape key
@@ -716,6 +806,10 @@ function applyFilters() {
       if (tag === 'elite') { if ((s.prestige_tier || 99) > 1) return false; }
       else if (tag === 'popular') { if ((s.prestige_tier || 99) > 2) return false; }
       else if (tag === 'gep') { if (!s.tags?.includes('gep')) return false; }
+      else if (tag === 'sap') { if (!s.tags?.includes('sap')) return false; }
+      else if (tag === 'affiliated') { if (!s.tags?.includes('affiliated')) return false; }
+      else if (tag === 'girls') { if (s.gender !== 'Girls') return false; }
+      else if (tag === 'boys') { if (s.gender !== 'Boys') return false; }
       else if (!s.tags?.includes(tag)) return false;
     }
     if (activeFilters.type && s.type !== activeFilters.type) return false;
@@ -785,13 +879,20 @@ function renderSchoolCard(s, opts = {}) {
     }
   });
   
-  let ballotChip = '';
+  let ballotChips = [];
   if (s.ballots && s.ballots.length) {
     const latest = s.ballots[s.ballots.length - 1];
+    // Phase 2A
+    const p2a = latest.phases?.['2A'] || latest.phases?.['2A(1)'] || latest.phases?.['2A(2)'];
+    if (p2a && p2a.app !== null && p2a.vac !== null) {
+      const isBallot = p2a.app > p2a.vac;
+      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2A ${p2a.app}/${p2a.vac}</span>`);
+    }
+    // Phase 2C
     const p2c = latest.phases?.['2C'];
-    if (p2c) {
+    if (p2c && p2c.app !== null && p2c.vac !== null) {
       const isBallot = p2c.app > p2c.vac;
-      ballotChip = `<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2C ${p2c.app}/${p2c.vac}</span>`;
+      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2C ${p2c.app}/${p2c.vac}</span>`);
     }
   }
   
@@ -810,7 +911,7 @@ function renderSchoolCard(s, opts = {}) {
           </div>
         </div>
         <div class="school-meta">${tags.join('')}</div>
-        ${ballotChip ? `<div class="ballot-chips">${ballotChip}</div>` : ''}
+        ${ballotChips.length ? `<div class="ballot-chips">${ballotChips.join('')}</div>` : ''}
         <div class="school-bottom">
           <div class="school-addr">${(s.address || '').substring(0, 45)}</div>
           ${distance}
@@ -886,7 +987,7 @@ function renderDetail(s) {
   // Ballot table
   let ballotTable = '';
   if (s.ballots && s.ballots.length) {
-    const phaseOrder = ['2A', '2A(1)', '2A(2)', '2B', '2C', '2C(S)'];
+    const phaseOrder = ['1', '2A', '2A(1)', '2A(2)', '2B', '2C', '2C(S)'];
     const rows = s.ballots.slice().reverse().map(b => {
       let row = `<tr><td><strong>${b.year}</strong></td>`;
       phaseOrder.forEach(ph => {
@@ -920,12 +1021,14 @@ function renderDetail(s) {
   
   // COP estimator
   const copHtml = renderCOPEstimator(s);
+  const p2aSummary = getPhase2ASummary(s);
   
   document.getElementById('detail-body').innerHTML = `
     <div class="dt-hero">${tags.join('')}</div>
     <div class="dt-grid">
       <div class="dt-card"><div class="lbl">Demand</div><div class="val">${tierLabels[tier]}</div></div>
       <div class="dt-card"><div class="lbl">Phase 2C</div><div class="val">${s.prestige?.last_2c || 'No data'}</div></div>
+      <div class="dt-card"><div class="lbl">Phase 2A</div><div class="val">${p2aSummary}</div></div>
       <div class="dt-card"><div class="lbl">Type</div><div class="val">${s.type}</div></div>
       <div class="dt-card"><div class="lbl">Session</div><div class="val">${s.session}</div></div>
     </div>
@@ -949,6 +1052,15 @@ function renderDetail(s) {
   document.querySelectorAll('.nearby-item').forEach(el => {
     el.addEventListener('click', () => showDetail(el.dataset.id));
   });
+}
+
+function getPhase2ASummary(s) {
+  if (!s.ballots || !s.ballots.length) return 'No data';
+  const latest = s.ballots[s.ballots.length - 1];
+  const p2a = latest.phases?.['2A'] || latest.phases?.['2A(1)'] || latest.phases?.['2A(2)'];
+  if (!p2a || p2a.app === null || p2a.vac === null) return 'Open / No ballot';
+  const isBallot = p2a.app > p2a.vac;
+  return `${isBallot ? 'Ballot' : 'Open'} (${p2a.app}/${p2a.vac})`;
 }
 
 function renderCOPEstimator(s) {
