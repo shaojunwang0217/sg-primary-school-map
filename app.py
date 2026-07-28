@@ -99,7 +99,7 @@ def enrich_school(s, include_nearby=True, nearby_radius=1.0):
     raw = BALLOT_HISTORY.get(pid, [])
     if raw:
         recent = []
-        phase_order = ["2A", "2A(1)", "2A(2)", "2B", "2C", "2C(S)"]
+        phase_order = ["1", "2A", "2A(1)", "2A(2)", "2B", "2C", "2C(S)"]
         for b in raw:
             phases = b.get("phases", {})
             pd = {}
