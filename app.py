@@ -416,6 +416,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-cache")  # always revalidate; users must get JS fixes
         self.end_headers()
         self.wfile.write(body)
     
