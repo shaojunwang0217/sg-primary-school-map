@@ -3,8 +3,8 @@
     "admiralty": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (87 app for 52 vac)",
-      "avg_ratio_2c": 1.72,
+      "last_2c": "Ballot (87 app for 40 vac)",
+      "avg_ratio_2c": 1.93,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -12,8 +12,8 @@
     "ahmad-ibrahim": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (31 app for 185 vac)",
-      "avg_ratio_2c": 0.17,
+      "last_2c": "Open (21 app for 186 vac)",
+      "avg_ratio_2c": 0.15,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -21,8 +21,8 @@
     "ai-tong": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (81 app for 43 vac)",
-      "avg_ratio_2c": 1.97,
+      "last_2c": "Ballot (76 app for 40 vac)",
+      "avg_ratio_2c": 2.03,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -30,17 +30,17 @@
     "alexandra": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (73 app for 67 vac)",
-      "avg_ratio_2c": 1.2,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (86 app for 55 vac)",
+      "avg_ratio_2c": 1.36,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "anchor-green": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (23 app for 155 vac)",
-      "avg_ratio_2c": 0.21,
+      "last_2c": "Open (23 app for 140 vac)",
+      "avg_ratio_2c": 0.17,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -48,8 +48,8 @@
     "anderson": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (91 app for 65 vac)",
-      "avg_ratio_2c": 1.24,
+      "last_2c": "Ballot (101 app for 77 vac)",
+      "avg_ratio_2c": 1.26,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -57,8 +57,8 @@
     "ang-mo-kio": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (36 app for 123 vac)",
-      "avg_ratio_2c": 0.36,
+      "last_2c": "Open (27 app for 137 vac)",
+      "avg_ratio_2c": 0.31,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -66,8 +66,8 @@
     "anglo-chinese-junior": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (95 app for 61 vac)",
-      "avg_ratio_2c": 1.35,
+      "last_2c": "Ballot (68 app for 54 vac)",
+      "avg_ratio_2c": 1.34,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -75,8 +75,8 @@
     "anglo-chinese-primary": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (96 app for 66 vac)",
-      "avg_ratio_2c": 1.33,
+      "last_2c": "Ballot (84 app for 72 vac)",
+      "avg_ratio_2c": 1.29,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -84,17 +84,17 @@
     "angsana": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (167 app for 59 vac)",
-      "avg_ratio_2c": 2.39,
+      "last_2c": "Ballot (154 app for 60 vac)",
+      "avg_ratio_2c": 2.66,
       "ballot_3yr": 3,
-      "ballot_6yr": 3,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "beacon": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (38 app for 107 vac)",
-      "avg_ratio_2c": 0.37,
+      "last_2c": "Open (24 app for 103 vac)",
+      "avg_ratio_2c": 0.32,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -102,8 +102,8 @@
     "bedok-green": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (30 app for 195 vac)",
-      "avg_ratio_2c": 0.21,
+      "last_2c": "Open (31 app for 162 vac)",
+      "avg_ratio_2c": 0.22,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -111,8 +111,8 @@
     "bendemeer": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (27 app for 133 vac)",
-      "avg_ratio_2c": 0.21,
+      "last_2c": "Open (24 app for 134 vac)",
+      "avg_ratio_2c": 0.2,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -120,7 +120,7 @@
     "blangah-rise": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (19 app for 89 vac)",
+      "last_2c": "Open (21 app for 91 vac)",
       "avg_ratio_2c": 0.21,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -129,7 +129,7 @@
     "boon-lay-garden": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (35 app for 135 vac)",
+      "last_2c": "Open (22 app for 92 vac)",
       "avg_ratio_2c": 0.25,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -138,8 +138,8 @@
     "bukit-panjang": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (78 app for 61 vac)",
-      "avg_ratio_2c": 1.92,
+      "last_2c": "Ballot (77 app for 41 vac)",
+      "avg_ratio_2c": 1.84,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -147,17 +147,17 @@
     "bukit-timah": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (104 app for 132 vac)",
-      "avg_ratio_2c": 0.66,
-      "ballot_3yr": 0,
-      "ballot_6yr": 0,
+      "last_2c": "Ballot (114 app for 113 vac)",
+      "avg_ratio_2c": 0.79,
+      "ballot_3yr": 1,
+      "ballot_6yr": 1,
       "recent_years": 3
     },
     "bukit-view": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (92 app for 202 vac)",
-      "avg_ratio_2c": 0.27,
+      "last_2c": "Open (207 app for 212 vac)",
+      "avg_ratio_2c": 0.56,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -165,26 +165,26 @@
     "canberra": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (105 app for 87 vac)",
-      "avg_ratio_2c": 1.15,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (86 app for 87 vac)",
+      "avg_ratio_2c": 1.12,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "canossa-catholic": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (34 app for 60 vac)",
-      "avg_ratio_2c": 0.72,
-      "ballot_3yr": 1,
+      "last_2c": "Open (50 app for 42 vac)",
+      "avg_ratio_2c": 0.74,
+      "ballot_3yr": 0,
       "ballot_6yr": 1,
       "recent_years": 3
     },
     "cantonment": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (29 app for 116 vac)",
-      "avg_ratio_2c": 0.29,
+      "last_2c": "Open (36 app for 93 vac)",
+      "avg_ratio_2c": 0.28,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -192,8 +192,8 @@
     "casuarina": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (30 app for 64 vac)",
-      "avg_ratio_2c": 0.54,
+      "last_2c": "Open (31 app for 66 vac)",
+      "avg_ratio_2c": 0.48,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -201,8 +201,8 @@
     "catholic-high": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (72 app for 40 vac)",
-      "avg_ratio_2c": 1.42,
+      "last_2c": "Ballot (64 app for 41 vac)",
+      "avg_ratio_2c": 1.51,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -210,8 +210,8 @@
     "cedar": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (57 app for 146 vac)",
-      "avg_ratio_2c": 0.33,
+      "last_2c": "Open (57 app for 141 vac)",
+      "avg_ratio_2c": 0.38,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -219,8 +219,8 @@
     "changkat": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (42 app for 220 vac)",
-      "avg_ratio_2c": 0.32,
+      "last_2c": "Open (40 app for 229 vac)",
+      "avg_ratio_2c": 0.22,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -228,8 +228,8 @@
     "chij-katong": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (71 app for 107 vac)",
-      "avg_ratio_2c": 0.56,
+      "last_2c": "Open (82 app for 92 vac)",
+      "avg_ratio_2c": 0.66,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -237,8 +237,8 @@
     "chij-kellock": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (57 app for 123 vac)",
-      "avg_ratio_2c": 0.41,
+      "last_2c": "Open (53 app for 101 vac)",
+      "avg_ratio_2c": 0.45,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -246,35 +246,35 @@
     "chij-our-lady-of-good-counsel": {
       "tier": 4,
       "label": "Open",
-      "last_2c": "Open",
-      "avg_ratio_2c": 0.41,
+      "last_2c": "Open (28 app for 89 vac)",
+      "avg_ratio_2c": 0.38,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 2
+      "recent_years": 3
     },
     "chij-our-lady-of-the-nativity": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (110 app for 104 vac)",
-      "avg_ratio_2c": 1.09,
+      "last_2c": "Open (122 app for 130 vac)",
+      "avg_ratio_2c": 1.04,
       "ballot_3yr": 2,
       "ballot_6yr": 2,
-      "recent_years": 2
+      "recent_years": 3
     },
     "chij-our-lady-queen-of-peace": {
       "tier": 4,
       "label": "Open",
-      "last_2c": "Open",
-      "avg_ratio_2c": 0.59,
+      "last_2c": "Open (80 app for 139 vac)",
+      "avg_ratio_2c": 0.58,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 2
+      "recent_years": 3
     },
     "chij-toa-payoh": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (77 app for 49 vac)",
-      "avg_ratio_2c": 1.62,
+      "last_2c": "Ballot (75 app for 64 vac)",
+      "avg_ratio_2c": 1.59,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -282,8 +282,8 @@
     "chij-st-nicholas-girls": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (71 app for 41 vac)",
-      "avg_ratio_2c": 1.78,
+      "last_2c": "Ballot (78 app for 48 vac)",
+      "avg_ratio_2c": 1.62,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -291,8 +291,8 @@
     "chongfu": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (138 app for 40 vac)",
-      "avg_ratio_2c": 2.85,
+      "last_2c": "Ballot (137 app for 48 vac)",
+      "avg_ratio_2c": 3.29,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -300,17 +300,17 @@
     "chongzheng": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (127 app for 125 vac)",
-      "avg_ratio_2c": 1.15,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (105 app for 131 vac)",
+      "avg_ratio_2c": 1.03,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "chua-chu-kang": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (152 app for 77 vac)",
-      "avg_ratio_2c": 1.69,
+      "last_2c": "Ballot (125 app for 93 vac)",
+      "avg_ratio_2c": 1.54,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -318,8 +318,8 @@
     "clementi": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (86 app for 231 vac)",
-      "avg_ratio_2c": 0.33,
+      "last_2c": "Open (100 app for 165 vac)",
+      "avg_ratio_2c": 0.46,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -327,8 +327,8 @@
     "compassvale": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (112 app for 96 vac)",
-      "avg_ratio_2c": 1.29,
+      "last_2c": "Ballot (99 app for 70 vac)",
+      "avg_ratio_2c": 1.32,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -336,16 +336,16 @@
     "concord": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Ballot (96 app for 86 vac)",
-      "avg_ratio_2c": 0.79,
+      "last_2c": "Open (63 app for 111 vac)",
+      "avg_ratio_2c": 0.75,
       "ballot_3yr": 1,
-      "ballot_6yr": 2,
+      "ballot_6yr": 1,
       "recent_years": 3
     },
     "corporation": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (23 app for 109 vac)",
+      "last_2c": "Open (25 app for 95 vac)",
       "avg_ratio_2c": 0.23,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -355,16 +355,16 @@
       "tier": 5,
       "label": "Low Demand",
       "last_2c": "Open (26 app for 99 vac)",
-      "avg_ratio_2c": 0.26,
+      "avg_ratio_2c": 0.24,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 2
+      "recent_years": 3
     },
     "dazhong": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (72 app for 80 vac)",
-      "avg_ratio_2c": 1.15,
+      "last_2c": "Open (32 app for 90 vac)",
+      "avg_ratio_2c": 0.94,
       "ballot_3yr": 1,
       "ballot_6yr": 1,
       "recent_years": 3
@@ -372,17 +372,17 @@
     "de-la-salle": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (114 app for 143 vac)",
-      "avg_ratio_2c": 0.82,
-      "ballot_3yr": 0,
+      "last_2c": "Ballot (98 app for 94 vac)",
+      "avg_ratio_2c": 0.92,
+      "ballot_3yr": 1,
       "ballot_6yr": 1,
       "recent_years": 3
     },
     "east-spring": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (55 app for 165 vac)",
-      "avg_ratio_2c": 0.4,
+      "last_2c": "Open (47 app for 158 vac)",
+      "avg_ratio_2c": 0.34,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -390,8 +390,8 @@
     "edgefield": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (26 app for 178 vac)",
-      "avg_ratio_2c": 0.21,
+      "last_2c": "Open (39 app for 141 vac)",
+      "avg_ratio_2c": 0.2,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -399,8 +399,8 @@
     "elias-park": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (115 app for 66 vac)",
-      "avg_ratio_2c": 1.62,
+      "last_2c": "Ballot (98 app for 58 vac)",
+      "avg_ratio_2c": 1.63,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -408,8 +408,8 @@
     "endeavour": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (68 app for 174 vac)",
-      "avg_ratio_2c": 0.34,
+      "last_2c": "Open (43 app for 140 vac)",
+      "avg_ratio_2c": 0.35,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -417,8 +417,8 @@
     "evergreen": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (68 app for 100 vac)",
-      "avg_ratio_2c": 0.72,
+      "last_2c": "Open (64 app for 101 vac)",
+      "avg_ratio_2c": 0.7,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -426,8 +426,8 @@
     "fairfield-methodist": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (70 app for 42 vac)",
-      "avg_ratio_2c": 1.68,
+      "last_2c": "Ballot (80 app for 48 vac)",
+      "avg_ratio_2c": 1.69,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -435,7 +435,7 @@
     "farrer-park": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (24 app for 129 vac)",
+      "last_2c": "Open (27 app for 135 vac)",
       "avg_ratio_2c": 0.22,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -444,26 +444,26 @@
     "fengshan": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (93 app for 69 vac)",
+      "last_2c": "Open (71 app for 89 vac)",
       "avg_ratio_2c": 1.12,
       "ballot_3yr": 2,
-      "ballot_6yr": 5,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "fern-green": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (85 app for 153 vac)",
-      "avg_ratio_2c": 0.91,
-      "ballot_3yr": 1,
-      "ballot_6yr": 4,
+      "last_2c": "Open (71 app for 171 vac)",
+      "avg_ratio_2c": 0.65,
+      "ballot_3yr": 0,
+      "ballot_6yr": 3,
       "recent_years": 3
     },
     "fernvale": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (72 app for 156 vac)",
-      "avg_ratio_2c": 0.56,
+      "last_2c": "Open (85 app for 126 vac)",
+      "avg_ratio_2c": 0.58,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -471,7 +471,7 @@
     "first-toa-payoh": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (10 app for 151 vac)",
+      "last_2c": "Open (11 app for 125 vac)",
       "avg_ratio_2c": 0.1,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -480,8 +480,8 @@
     "frontier": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (66 app for 40 vac)",
-      "avg_ratio_2c": 1.68,
+      "last_2c": "Ballot (64 app for 40 vac)",
+      "avg_ratio_2c": 1.77,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -489,8 +489,8 @@
     "fuchun": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (47 app for 94 vac)",
-      "avg_ratio_2c": 0.45,
+      "last_2c": "Open (53 app for 95 vac)",
+      "avg_ratio_2c": 0.48,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -498,8 +498,8 @@
     "fuhua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (31 app for 119 vac)",
-      "avg_ratio_2c": 0.32,
+      "last_2c": "Open (30 app for 140 vac)",
+      "avg_ratio_2c": 0.25,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -507,8 +507,8 @@
     "gan-eng-seng": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (17 app for 116 vac)",
-      "avg_ratio_2c": 0.18,
+      "last_2c": "Open (22 app for 86 vac)",
+      "avg_ratio_2c": 0.19,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -516,17 +516,17 @@
     "geylang-methodist": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (138 app for 138 vac)",
+      "last_2c": "Ballot (151 app for 149 vac)",
       "avg_ratio_2c": 0.91,
       "ballot_3yr": 1,
-      "ballot_6yr": 2,
+      "ballot_6yr": 3,
       "recent_years": 3
     },
     "gongshang": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (117 app for 44 vac)",
-      "avg_ratio_2c": 2.5,
+      "last_2c": "Ballot (92 app for 48 vac)",
+      "avg_ratio_2c": 2.33,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -534,8 +534,8 @@
     "greendale": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (24 app for 128 vac)",
-      "avg_ratio_2c": 0.16,
+      "last_2c": "Open (16 app for 126 vac)",
+      "avg_ratio_2c": 0.17,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -543,8 +543,8 @@
     "greenridge": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (27 app for 87 vac)",
-      "avg_ratio_2c": 0.27,
+      "last_2c": "Open (32 app for 103 vac)",
+      "avg_ratio_2c": 0.32,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -552,8 +552,8 @@
     "greenwood": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (75 app for 91 vac)",
-      "avg_ratio_2c": 0.69,
+      "last_2c": "Open (67 app for 121 vac)",
+      "avg_ratio_2c": 0.63,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -561,17 +561,17 @@
     "haig-girls": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (83 app for 98 vac)",
-      "avg_ratio_2c": 0.89,
-      "ballot_3yr": 1,
-      "ballot_6yr": 3,
+      "last_2c": "Open (106 app for 124 vac)",
+      "avg_ratio_2c": 0.8,
+      "ballot_3yr": 0,
+      "ballot_6yr": 2,
       "recent_years": 3
     },
     "henry-park": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (93 app for 63 vac)",
-      "avg_ratio_2c": 1.49,
+      "last_2c": "Ballot (76 app for 51 vac)",
+      "avg_ratio_2c": 1.5,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -579,8 +579,8 @@
     "holy-innocents": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (110 app for 45 vac)",
-      "avg_ratio_2c": 2.57,
+      "last_2c": "Ballot (97 app for 44 vac)",
+      "avg_ratio_2c": 2.35,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -588,8 +588,8 @@
     "hong-wen": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (153 app for 62 vac)",
-      "avg_ratio_2c": 2.13,
+      "last_2c": "Ballot (121 app for 60 vac)",
+      "avg_ratio_2c": 2.08,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -597,8 +597,8 @@
     "horizon": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (79 app for 50 vac)",
-      "avg_ratio_2c": 1.7,
+      "last_2c": "Ballot (88 app for 46 vac)",
+      "avg_ratio_2c": 1.73,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -606,17 +606,17 @@
     "hougang": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (115 app for 98 vac)",
-      "avg_ratio_2c": 1.33,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (64 app for 73 vac)",
+      "avg_ratio_2c": 1.19,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "huamin": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (86 app for 58 vac)",
-      "avg_ratio_2c": 1.55,
+      "last_2c": "Ballot (106 app for 58 vac)",
+      "avg_ratio_2c": 1.64,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -624,17 +624,17 @@
     "innova": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (77 app for 105 vac)",
-      "avg_ratio_2c": 0.64,
+      "last_2c": "Open (69 app for 123 vac)",
+      "avg_ratio_2c": 0.62,
       "ballot_3yr": 0,
-      "ballot_6yr": 3,
+      "ballot_6yr": 2,
       "recent_years": 3
     },
     "jiemin": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (38 app for 101 vac)",
-      "avg_ratio_2c": 0.43,
+      "last_2c": "Open (46 app for 150 vac)",
+      "avg_ratio_2c": 0.39,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -642,35 +642,35 @@
     "jing-shan": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Open (50 app for 60 vac)",
-      "avg_ratio_2c": 1.01,
-      "ballot_3yr": 2,
+      "last_2c": "Open (57 app for 60 vac)",
+      "avg_ratio_2c": 0.99,
+      "ballot_3yr": 1,
       "ballot_6yr": 2,
       "recent_years": 3
     },
     "junyuan": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (91 app for 85 vac)",
-      "avg_ratio_2c": 1.01,
-      "ballot_3yr": 2,
+      "last_2c": "Ballot (100 app for 81 vac)",
+      "avg_ratio_2c": 1.19,
+      "ballot_3yr": 3,
       "ballot_6yr": 3,
       "recent_years": 3
     },
     "jurong": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (48 app for 121 vac)",
-      "avg_ratio_2c": 0.46,
+      "last_2c": "Open (43 app for 97 vac)",
+      "avg_ratio_2c": 0.42,
       "ballot_3yr": 0,
-      "ballot_6yr": 1,
+      "ballot_6yr": 0,
       "recent_years": 3
     },
     "jurong-west": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (77 app for 59 vac)",
-      "avg_ratio_2c": 1.03,
+      "last_2c": "Ballot (73 app for 59 vac)",
+      "avg_ratio_2c": 1.1,
       "ballot_3yr": 2,
       "ballot_6yr": 5,
       "recent_years": 3
@@ -678,26 +678,26 @@
     "keming": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (125 app for 77 vac)",
-      "avg_ratio_2c": 1.68,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (97 app for 88 vac)",
+      "avg_ratio_2c": 1.49,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "kheng-cheng": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Ballot (173 app for 162 vac)",
-      "avg_ratio_2c": 0.92,
+      "last_2c": "Open (115 app for 125 vac)",
+      "avg_ratio_2c": 0.93,
       "ballot_3yr": 1,
-      "ballot_6yr": 3,
+      "ballot_6yr": 2,
       "recent_years": 3
     },
     "kong-hwa": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (118 app for 49 vac)",
-      "avg_ratio_2c": 1.79,
+      "last_2c": "Ballot (117 app for 56 vac)",
+      "avg_ratio_2c": 1.99,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -706,16 +706,16 @@
       "tier": 5,
       "label": "Low Demand",
       "last_2c": "Open (21 app for 60 vac)",
-      "avg_ratio_2c": 0.35,
+      "avg_ratio_2c": 0.21,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 1
+      "recent_years": 3
     },
     "kuo-chuan-presbyterian": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (113 app for 59 vac)",
-      "avg_ratio_2c": 1.59,
+      "last_2c": "Ballot (82 app for 48 vac)",
+      "avg_ratio_2c": 1.78,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -723,17 +723,17 @@
     "lakeside": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (97 app for 130 vac)",
-      "avg_ratio_2c": 0.83,
+      "last_2c": "Open (74 app for 121 vac)",
+      "avg_ratio_2c": 0.72,
       "ballot_3yr": 0,
-      "ballot_6yr": 3,
+      "ballot_6yr": 2,
       "recent_years": 3
     },
     "lianhua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (26 app for 242 vac)",
-      "avg_ratio_2c": 0.13,
+      "last_2c": "Open (28 app for 205 vac)",
+      "avg_ratio_2c": 0.12,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -741,8 +741,8 @@
     "maha-bodhi": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (125 app for 49 vac)",
-      "avg_ratio_2c": 1.71,
+      "last_2c": "Ballot (77 app for 43 vac)",
+      "avg_ratio_2c": 1.87,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -750,8 +750,8 @@
     "maris-stella-high": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (124 app for 62 vac)",
-      "avg_ratio_2c": 1.64,
+      "last_2c": "Ballot (164 app for 75 vac)",
+      "avg_ratio_2c": 1.9,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -759,8 +759,8 @@
     "marsiling": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (99 app for 104 vac)",
-      "avg_ratio_2c": 0.78,
+      "last_2c": "Open (85 app for 92 vac)",
+      "avg_ratio_2c": 0.92,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -768,8 +768,8 @@
     "marymount-convent": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (55 app for 206 vac)",
-      "avg_ratio_2c": 0.25,
+      "last_2c": "Open (27 app for 210 vac)",
+      "avg_ratio_2c": 0.19,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -777,8 +777,8 @@
     "mayflower": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (26 app for 91 vac)",
-      "avg_ratio_2c": 0.25,
+      "last_2c": "Open (28 app for 101 vac)",
+      "avg_ratio_2c": 0.26,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -786,8 +786,8 @@
     "mee-toh": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (153 app for 119 vac)",
-      "avg_ratio_2c": 1.23,
+      "last_2c": "Ballot (155 app for 137 vac)",
+      "avg_ratio_2c": 1.2,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -795,8 +795,8 @@
     "meridian": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (29 app for 146 vac)",
-      "avg_ratio_2c": 0.14,
+      "last_2c": "Open (15 app for 154 vac)",
+      "avg_ratio_2c": 0.13,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -804,8 +804,8 @@
     "methodist-girls": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (78 app for 45 vac)",
-      "avg_ratio_2c": 1.49,
+      "last_2c": "Ballot (63 app for 41 vac)",
+      "avg_ratio_2c": 1.52,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -813,8 +813,8 @@
     "montfort-junior": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (11 app for 118 vac)",
-      "avg_ratio_2c": 0.17,
+      "last_2c": "Open (9 app for 126 vac)",
+      "avg_ratio_2c": 0.13,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -822,8 +822,8 @@
     "nan-chiau": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (269 app for 85 vac)",
-      "avg_ratio_2c": 2.98,
+      "last_2c": "Ballot (213 app for 88 vac)",
+      "avg_ratio_2c": 2.8,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -831,8 +831,8 @@
     "nan-hua": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (166 app for 41 vac)",
-      "avg_ratio_2c": 4.28,
+      "last_2c": "Ballot (123 app for 41 vac)",
+      "avg_ratio_2c": 3.68,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -840,8 +840,8 @@
     "nanyang": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (63 app for 42 vac)",
-      "avg_ratio_2c": 1.73,
+      "last_2c": "Ballot (68 app for 40 vac)",
+      "avg_ratio_2c": 1.72,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -849,17 +849,17 @@
     "naval-base": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (64 app for 60 vac)",
-      "avg_ratio_2c": 1.25,
-      "ballot_3yr": 3,
+      "last_2c": "Open (65 app for 79 vac)",
+      "avg_ratio_2c": 1.01,
+      "ballot_3yr": 2,
       "ballot_6yr": 5,
       "recent_years": 3
     },
     "new-town": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (21 app for 178 vac)",
-      "avg_ratio_2c": 0.14,
+      "last_2c": "Open (26 app for 156 vac)",
+      "avg_ratio_2c": 0.16,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -867,17 +867,17 @@
     "ngee-ann": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Ballot (148 app for 127 vac)",
-      "avg_ratio_2c": 1.0,
-      "ballot_3yr": 1,
+      "last_2c": "Ballot (114 app for 103 vac)",
+      "avg_ratio_2c": 1.03,
+      "ballot_3yr": 2,
       "ballot_6yr": 4,
       "recent_years": 3
     },
     "north-spring": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (41 app for 120 vac)",
-      "avg_ratio_2c": 0.31,
+      "last_2c": "Open (36 app for 99 vac)",
+      "avg_ratio_2c": 0.36,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -885,17 +885,17 @@
     "north-view": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (109 app for 60 vac)",
-      "avg_ratio_2c": 1.6,
+      "last_2c": "Ballot (122 app for 59 vac)",
+      "avg_ratio_2c": 1.89,
       "ballot_3yr": 3,
-      "ballot_6yr": 3,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "north-vista": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (35 app for 136 vac)",
-      "avg_ratio_2c": 0.36,
+      "last_2c": "Open (22 app for 127 vac)",
+      "avg_ratio_2c": 0.29,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -903,8 +903,8 @@
     "northland": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (142 app for 41 vac)",
-      "avg_ratio_2c": 3.58,
+      "last_2c": "Ballot (141 app for 42 vac)",
+      "avg_ratio_2c": 3.19,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -912,8 +912,8 @@
     "northoaks": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (10 app for 201 vac)",
-      "avg_ratio_2c": 0.1,
+      "last_2c": "Open (14 app for 188 vac)",
+      "avg_ratio_2c": 0.08,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -921,26 +921,26 @@
     "oasis": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Open (59 app for 105 vac)",
-      "avg_ratio_2c": 0.89,
-      "ballot_3yr": 2,
-      "ballot_6yr": 5,
+      "last_2c": "Open (35 app for 108 vac)",
+      "avg_ratio_2c": 0.65,
+      "ballot_3yr": 1,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "opera-estate": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (83 app for 104 vac)",
-      "avg_ratio_2c": 0.76,
-      "ballot_3yr": 0,
+      "last_2c": "Ballot (70 app for 119 vac)",
+      "avg_ratio_2c": 0.71,
+      "ballot_3yr": 1,
       "ballot_6yr": 1,
       "recent_years": 3
     },
     "palm-view": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (84 app for 165 vac)",
-      "avg_ratio_2c": 0.54,
+      "last_2c": "Open (93 app for 99 vac)",
+      "avg_ratio_2c": 0.66,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -948,8 +948,8 @@
     "park-view": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (42 app for 110 vac)",
-      "avg_ratio_2c": 0.49,
+      "last_2c": "Open (51 app for 119 vac)",
+      "avg_ratio_2c": 0.41,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -957,8 +957,8 @@
     "pasir-ris": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (59 app for 41 vac)",
-      "avg_ratio_2c": 1.62,
+      "last_2c": "Ballot (81 app for 45 vac)",
+      "avg_ratio_2c": 1.68,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -966,8 +966,8 @@
     "paya-lebar-methodist-girls": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (110 app for 89 vac)",
-      "avg_ratio_2c": 1.25,
+      "last_2c": "Ballot (103 app for 99 vac)",
+      "avg_ratio_2c": 1.21,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -975,25 +975,25 @@
     "pei-chun-public": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (94 app for 45 vac)",
-      "avg_ratio_2c": 1.61,
+      "last_2c": "Ballot (76 app for 44 vac)",
+      "avg_ratio_2c": 1.66,
       "ballot_3yr": 3,
-      "ballot_6yr": 5,
+      "ballot_6yr": 6,
       "recent_years": 3
     },
     "pei-hwa-presbyterian": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (84 app for 41 vac)",
-      "avg_ratio_2c": 1.84,
+      "last_2c": "Ballot (53 app for 43 vac)",
+      "avg_ratio_2c": 1.63,
       "ballot_3yr": 3,
-      "ballot_6yr": 5,
+      "ballot_6yr": 6,
       "recent_years": 3
     },
     "pei-tong": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (30 app for 220 vac)",
+      "last_2c": "Open (35 app for 218 vac)",
       "avg_ratio_2c": 0.14,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -1002,8 +1002,8 @@
     "peiying": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (53 app for 105 vac)",
-      "avg_ratio_2c": 0.46,
+      "last_2c": "Open (61 app for 120 vac)",
+      "avg_ratio_2c": 0.5,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1011,17 +1011,17 @@
     "pioneer": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (194 app for 332 vac)",
-      "avg_ratio_2c": 0.58,
+      "last_2c": "Open (276 app for 309 vac)",
+      "avg_ratio_2c": 0.74,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 1
+      "recent_years": 2
     },
     "poi-ching": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (212 app for 99 vac)",
-      "avg_ratio_2c": 2.32,
+      "last_2c": "Ballot (183 app for 102 vac)",
+      "avg_ratio_2c": 2.12,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1029,8 +1029,8 @@
     "princess-elizabeth": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (232 app for 41 vac)",
-      "avg_ratio_2c": 6.05,
+      "last_2c": "Ballot (159 app for 40 vac)",
+      "avg_ratio_2c": 5.41,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1038,8 +1038,8 @@
     "punggol-cove": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (26 app for 126 vac)",
-      "avg_ratio_2c": 0.44,
+      "last_2c": "Open (24 app for 177 vac)",
+      "avg_ratio_2c": 0.24,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1047,8 +1047,8 @@
     "punggol-green": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (118 app for 58 vac)",
-      "avg_ratio_2c": 1.92,
+      "last_2c": "Ballot (96 app for 57 vac)",
+      "avg_ratio_2c": 1.85,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1056,35 +1056,35 @@
     "punggol": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "No ballot data",
-      "avg_ratio_2c": 0,
+      "last_2c": "Open (70 app for 61 vac)",
+      "avg_ratio_2c": 1.15,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 0
+      "recent_years": 1
     },
     "punggol-view": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (75 app for 59 vac)",
-      "avg_ratio_2c": 1.24,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (60 app for 99 vac)",
+      "avg_ratio_2c": 1.03,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "qifa": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (148 app for 131 vac)",
-      "avg_ratio_2c": 1.24,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (128 app for 147 vac)",
+      "avg_ratio_2c": 1.18,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "qihua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (52 app for 112 vac)",
-      "avg_ratio_2c": 0.39,
+      "last_2c": "Open (41 app for 99 vac)",
+      "avg_ratio_2c": 0.38,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1092,17 +1092,17 @@
     "queenstown": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (115 app for 105 vac)",
-      "avg_ratio_2c": 1.03,
-      "ballot_3yr": 2,
-      "ballot_6yr": 3,
+      "last_2c": "Open (108 app for 147 vac)",
+      "avg_ratio_2c": 0.89,
+      "ballot_3yr": 1,
+      "ballot_6yr": 2,
       "recent_years": 3
     },
     "radin-mas": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (96 app for 47 vac)",
-      "avg_ratio_2c": 1.67,
+      "last_2c": "Ballot (66 app for 42 vac)",
+      "avg_ratio_2c": 1.69,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1110,17 +1110,17 @@
     "raffles-girls": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (143 app for 115 vac)",
-      "avg_ratio_2c": 1.25,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (128 app for 137 vac)",
+      "avg_ratio_2c": 1.18,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "red-swastika": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (93 app for 41 vac)",
-      "avg_ratio_2c": 1.95,
+      "last_2c": "Ballot (83 app for 40 vac)",
+      "avg_ratio_2c": 1.94,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1128,8 +1128,8 @@
     "river-valley": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Open (94 app for 94 vac)",
-      "avg_ratio_2c": 1.11,
+      "last_2c": "Ballot (99 app for 74 vac)",
+      "avg_ratio_2c": 1.15,
       "ballot_3yr": 2,
       "ballot_6yr": 5,
       "recent_years": 3
@@ -1137,17 +1137,17 @@
     "riverside": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (79 app for 54 vac)",
-      "avg_ratio_2c": 1.45,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (64 app for 64 vac)",
+      "avg_ratio_2c": 1.28,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "rivervale": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (111 app for 96 vac)",
-      "avg_ratio_2c": 1.48,
+      "last_2c": "Ballot (106 app for 54 vac)",
+      "avg_ratio_2c": 1.5,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1155,8 +1155,8 @@
     "rosyth": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (132 app for 42 vac)",
-      "avg_ratio_2c": 3.26,
+      "last_2c": "Ballot (120 app for 46 vac)",
+      "avg_ratio_2c": 2.97,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1164,8 +1164,8 @@
     "rulang": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (98 app for 40 vac)",
-      "avg_ratio_2c": 2.66,
+      "last_2c": "Ballot (90 app for 41 vac)",
+      "avg_ratio_2c": 2.48,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1173,16 +1173,16 @@
     "sembawang": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (107 app for 75 vac)",
-      "avg_ratio_2c": 1.22,
-      "ballot_3yr": 2,
+      "last_2c": "Ballot (79 app for 58 vac)",
+      "avg_ratio_2c": 1.37,
+      "ballot_3yr": 3,
       "ballot_6yr": 5,
       "recent_years": 3
     },
     "seng-kang": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (11 app for 127 vac)",
+      "last_2c": "Open (16 app for 114 vac)",
       "avg_ratio_2c": 0.15,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -1191,8 +1191,8 @@
     "sengkang-green": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (84 app for 48 vac)",
-      "avg_ratio_2c": 1.97,
+      "last_2c": "Ballot (67 app for 50 vac)",
+      "avg_ratio_2c": 1.78,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1200,8 +1200,8 @@
     "shuqun": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (79 app for 41 vac)",
-      "avg_ratio_2c": 1.85,
+      "last_2c": "Ballot (75 app for 48 vac)",
+      "avg_ratio_2c": 1.83,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1209,8 +1209,8 @@
     "si-ling": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (26 app for 118 vac)",
-      "avg_ratio_2c": 0.25,
+      "last_2c": "Open (33 app for 86 vac)",
+      "avg_ratio_2c": 0.3,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1218,8 +1218,8 @@
     "singapore-chinese-girls": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (58 app for 41 vac)",
-      "avg_ratio_2c": 1.43,
+      "last_2c": "Ballot (62 app for 41 vac)",
+      "avg_ratio_2c": 1.48,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1227,8 +1227,8 @@
     "south-view": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (155 app for 41 vac)",
-      "avg_ratio_2c": 3.31,
+      "last_2c": "Ballot (105 app for 44 vac)",
+      "avg_ratio_2c": 3.04,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1236,53 +1236,53 @@
     "springdale": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (66 app for 92 vac)",
-      "avg_ratio_2c": 0.74,
+      "last_2c": "Open (74 app for 79 vac)",
+      "avg_ratio_2c": 0.86,
       "ballot_3yr": 0,
-      "ballot_6yr": 2,
+      "ballot_6yr": 1,
       "recent_years": 3
     },
     "st-anthony-canossian": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "No ballot data",
-      "avg_ratio_2c": 0,
+      "last_2c": "Open (38 app for 137 vac)",
+      "avg_ratio_2c": 0.28,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 0
+      "recent_years": 1
     },
     "st-anthony": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (33 app for 164 vac)",
-      "avg_ratio_2c": 0.22,
-      "ballot_3yr": 0,
-      "ballot_6yr": 0,
+      "last_2c": "Ballot (113 app for 65 vac)",
+      "avg_ratio_2c": 0.73,
+      "ballot_3yr": 1,
+      "ballot_6yr": 1,
       "recent_years": 3
     },
     "st-gabriel": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (70 app for 82 vac)",
-      "avg_ratio_2c": 0.76,
-      "ballot_3yr": 0,
+      "last_2c": "Ballot (85 app for 83 vac)",
+      "avg_ratio_2c": 0.87,
+      "ballot_3yr": 1,
       "ballot_6yr": 1,
       "recent_years": 3
     },
     "st-hilda": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (136 app for 43 vac)",
-      "avg_ratio_2c": 3.24,
+      "last_2c": "Ballot (118 app for 46 vac)",
+      "avg_ratio_2c": 2.96,
       "ballot_3yr": 3,
-      "ballot_6yr": 5,
+      "ballot_6yr": 6,
       "recent_years": 3
     },
     "st-joseph-institution-junior": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (115 app for 78 vac)",
-      "avg_ratio_2c": 1.25,
+      "last_2c": "Ballot (108 app for 81 vac)",
+      "avg_ratio_2c": 1.33,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1290,17 +1290,17 @@
     "st-margaret": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (125 app for 113 vac)",
-      "avg_ratio_2c": 0.94,
+      "last_2c": "Open (122 app for 117 vac)",
+      "avg_ratio_2c": 1.07,
       "ballot_3yr": 2,
-      "ballot_6yr": 5,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "st-stephen": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (74 app for 183 vac)",
-      "avg_ratio_2c": 0.37,
+      "last_2c": "Open (87 app for 131 vac)",
+      "avg_ratio_2c": 0.47,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1308,17 +1308,17 @@
     "tampines-north": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "No ballot data",
-      "avg_ratio_2c": 0,
+      "last_2c": "Open (50 app for 172 vac)",
+      "avg_ratio_2c": 0.29,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 0
+      "recent_years": 1
     },
     "tampines": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (60 app for 191 vac)",
-      "avg_ratio_2c": 0.31,
+      "last_2c": "Open (78 app for 150 vac)",
+      "avg_ratio_2c": 0.37,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1326,17 +1326,17 @@
     "tanjong-katong": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (83 app for 53 vac)",
-      "avg_ratio_2c": 1.41,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (94 app for 56 vac)",
+      "avg_ratio_2c": 1.56,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "tao-nan": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (81 app for 45 vac)",
-      "avg_ratio_2c": 1.81,
+      "last_2c": "Ballot (57 app for 42 vac)",
+      "avg_ratio_2c": 1.49,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1344,17 +1344,17 @@
     "teck-ghee": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (76 app for 137 vac)",
-      "avg_ratio_2c": 0.74,
+      "last_2c": "Open (90 app for 124 vac)",
+      "avg_ratio_2c": 0.73,
       "ballot_3yr": 0,
-      "ballot_6yr": 1,
+      "ballot_6yr": 0,
       "recent_years": 3
     },
     "teck-whye": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (23 app for 144 vac)",
-      "avg_ratio_2c": 0.15,
+      "last_2c": "Open (22 app for 122 vac)",
+      "avg_ratio_2c": 0.16,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1362,8 +1362,8 @@
     "telok-kurau": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (63 app for 150 vac)",
-      "avg_ratio_2c": 0.46,
+      "last_2c": "Open (72 app for 137 vac)",
+      "avg_ratio_2c": 0.5,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1371,8 +1371,8 @@
     "temasek": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (103 app for 50 vac)",
-      "avg_ratio_2c": 2.02,
+      "last_2c": "Ballot (86 app for 50 vac)",
+      "avg_ratio_2c": 1.78,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1381,16 +1381,16 @@
       "tier": 5,
       "label": "Low Demand",
       "last_2c": "Open (21 app for 116 vac)",
-      "avg_ratio_2c": 0.22,
+      "avg_ratio_2c": 0.2,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
-      "recent_years": 2
+      "recent_years": 3
     },
     "unity": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (54 app for 143 vac)",
-      "avg_ratio_2c": 0.44,
+      "last_2c": "Open (46 app for 100 vac)",
+      "avg_ratio_2c": 0.43,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1398,17 +1398,17 @@
     "waterway": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (102 app for 60 vac)",
-      "avg_ratio_2c": 1.12,
+      "last_2c": "Open (64 app for 65 vac)",
+      "avg_ratio_2c": 1.23,
       "ballot_3yr": 2,
-      "ballot_6yr": 5,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "wellington": {
       "tier": 1,
       "label": "Elite",
-      "last_2c": "Ballot (104 app for 40 vac)",
-      "avg_ratio_2c": 2.37,
+      "last_2c": "Ballot (85 app for 45 vac)",
+      "avg_ratio_2c": 2.34,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1416,26 +1416,26 @@
     "west-grove": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (41 app for 137 vac)",
+      "last_2c": "Open (37 app for 101 vac)",
       "avg_ratio_2c": 0.33,
       "ballot_3yr": 0,
-      "ballot_6yr": 1,
+      "ballot_6yr": 0,
       "recent_years": 3
     },
     "west-spring": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Open (40 app for 63 vac)",
-      "avg_ratio_2c": 0.98,
-      "ballot_3yr": 2,
-      "ballot_6yr": 5,
+      "last_2c": "Open (59 app for 61 vac)",
+      "avg_ratio_2c": 0.94,
+      "ballot_3yr": 1,
+      "ballot_6yr": 4,
       "recent_years": 3
     },
     "west-view": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (32 app for 61 vac)",
-      "avg_ratio_2c": 0.53,
+      "last_2c": "Open (35 app for 60 vac)",
+      "avg_ratio_2c": 0.56,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1443,8 +1443,8 @@
     "westwood": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (76 app for 53 vac)",
-      "avg_ratio_2c": 1.51,
+      "last_2c": "Ballot (66 app for 52 vac)",
+      "avg_ratio_2c": 1.47,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1452,8 +1452,8 @@
     "white-sands": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (79 app for 102 vac)",
-      "avg_ratio_2c": 0.95,
+      "last_2c": "Ballot (69 app for 65 vac)",
+      "avg_ratio_2c": 0.94,
       "ballot_3yr": 1,
       "ballot_6yr": 4,
       "recent_years": 3
@@ -1461,26 +1461,26 @@
     "woodgrove": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (87 app for 98 vac)",
-      "avg_ratio_2c": 0.88,
+      "last_2c": "Open (85 app for 94 vac)",
+      "avg_ratio_2c": 0.86,
       "ballot_3yr": 0,
-      "ballot_6yr": 3,
+      "ballot_6yr": 2,
       "recent_years": 3
     },
     "woodlands": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (87 app for 90 vac)",
-      "avg_ratio_2c": 0.88,
-      "ballot_3yr": 0,
+      "last_2c": "Ballot (82 app for 71 vac)",
+      "avg_ratio_2c": 0.98,
+      "ballot_3yr": 1,
       "ballot_6yr": 3,
       "recent_years": 3
     },
     "woodlands-ring": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (50 app for 103 vac)",
-      "avg_ratio_2c": 0.54,
+      "last_2c": "Open (59 app for 104 vac)",
+      "avg_ratio_2c": 0.56,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1488,8 +1488,8 @@
     "xinghua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (45 app for 140 vac)",
-      "avg_ratio_2c": 0.22,
+      "last_2c": "Open (40 app for 144 vac)",
+      "avg_ratio_2c": 0.25,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1497,8 +1497,8 @@
     "xingnan": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (47 app for 97 vac)",
-      "avg_ratio_2c": 0.44,
+      "last_2c": "Open (54 app for 87 vac)",
+      "avg_ratio_2c": 0.55,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1506,8 +1506,8 @@
     "xinmin": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (87 app for 53 vac)",
-      "avg_ratio_2c": 1.77,
+      "last_2c": "Ballot (82 app for 54 vac)",
+      "avg_ratio_2c": 1.74,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1515,8 +1515,8 @@
     "xishan": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (66 app for 146 vac)",
-      "avg_ratio_2c": 0.51,
+      "last_2c": "Open (47 app for 106 vac)",
+      "avg_ratio_2c": 0.53,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1524,17 +1524,17 @@
     "yangzheng": {
       "tier": 2,
       "label": "High Demand",
-      "last_2c": "Ballot (98 app for 47 vac)",
-      "avg_ratio_2c": 1.7,
-      "ballot_3yr": 3,
-      "ballot_6yr": 6,
+      "last_2c": "Open (56 app for 55 vac)",
+      "avg_ratio_2c": 1.51,
+      "ballot_3yr": 2,
+      "ballot_6yr": 5,
       "recent_years": 3
     },
     "yew-tee": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (68 app for 144 vac)",
-      "avg_ratio_2c": 0.47,
+      "last_2c": "Open (55 app for 97 vac)",
+      "avg_ratio_2c": 0.53,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1542,8 +1542,8 @@
     "yio-chu-kang": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (22 app for 110 vac)",
-      "avg_ratio_2c": 0.2,
+      "last_2c": "Open (21 app for 126 vac)",
+      "avg_ratio_2c": 0.19,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1551,7 +1551,7 @@
     "yishun": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (50 app for 122 vac)",
+      "last_2c": "Open (36 app for 93 vac)",
       "avg_ratio_2c": 0.37,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -1560,8 +1560,8 @@
     "yu-neng": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (60 app for 44 vac)",
-      "avg_ratio_2c": 1.39,
+      "last_2c": "Ballot (90 app for 51 vac)",
+      "avg_ratio_2c": 1.49,
       "ballot_3yr": 3,
       "ballot_6yr": 6,
       "recent_years": 3
@@ -1569,8 +1569,8 @@
     "yuhua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (26 app for 174 vac)",
-      "avg_ratio_2c": 0.13,
+      "last_2c": "Open (11 app for 162 vac)",
+      "avg_ratio_2c": 0.11,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1578,7 +1578,7 @@
     "yumin": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (10 app for 201 vac)",
+      "last_2c": "Open (14 app for 174 vac)",
       "avg_ratio_2c": 0.06,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -1587,17 +1587,17 @@
     "zhangde": {
       "tier": 4,
       "label": "Moderate",
-      "last_2c": "Open (74 app for 87 vac)",
-      "avg_ratio_2c": 0.96,
+      "last_2c": "Open (47 app for 95 vac)",
+      "avg_ratio_2c": 0.82,
       "ballot_3yr": 1,
-      "ballot_6yr": 2,
+      "ballot_6yr": 1,
       "recent_years": 3
     },
     "zhenghua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (50 app for 62 vac)",
-      "avg_ratio_2c": 0.72,
+      "last_2c": "Open (59 app for 60 vac)",
+      "avg_ratio_2c": 0.86,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
       "recent_years": 3
@@ -1605,7 +1605,7 @@
     "zhonghua": {
       "tier": 5,
       "label": "Low Demand",
-      "last_2c": "Open (8 app for 133 vac)",
+      "last_2c": "Open (18 app for 126 vac)",
       "avg_ratio_2c": 0.13,
       "ballot_3yr": 0,
       "ballot_6yr": 0,
@@ -1614,19 +1614,19 @@
     "valour": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (88 app for 57 vac)",
-      "avg_ratio_2c": 1.37,
+      "last_2c": "Ballot (70 app for 61 vac)",
+      "avg_ratio_2c": 1.35,
       "ballot_3yr": 3,
-      "ballot_6yr": 5,
+      "ballot_6yr": 6,
       "recent_years": 3
     },
     "northshore": {
       "tier": 3,
       "label": "Popular",
-      "last_2c": "Ballot (128 app for 86 vac)",
-      "avg_ratio_2c": 1.16,
-      "ballot_3yr": 2,
-      "ballot_6yr": 2,
+      "last_2c": "Ballot (123 app for 93 vac)",
+      "avg_ratio_2c": 1.37,
+      "ballot_3yr": 3,
+      "ballot_6yr": 3,
       "recent_years": 3
     },
     "st-andrew-s-school-junior": {
@@ -1778,9 +1778,17 @@
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 22,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
+          },
+          "2C": {
+            "vac": 40,
+            "app": 87,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -1926,6 +1934,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 186,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
           }
         }
       }
@@ -2064,13 +2078,22 @@
             "vac": 119,
             "app": 160,
             "taken": 119,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 51,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 40,
+            "app": 76,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -2209,12 +2232,19 @@
             "vac": 60,
             "app": 63,
             "taken": 60,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "PR<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 55,
+            "app": 86,
+            "taken": 55,
             "ballot": false
           }
         }
@@ -2361,6 +2391,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 140,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
           }
         }
       }
@@ -2503,9 +2539,16 @@
           },
           "2B": {
             "vac": 32,
-            "app": 0,
-            "taken": 0,
+            "app": 21,
+            "taken": 21,
             "ballot": false
+          },
+          "2C": {
+            "vac": 77,
+            "app": 101,
+            "taken": 77,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -2651,6 +2694,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 137,
+            "app": 27,
+            "taken": 27,
+            "ballot": false
           }
         }
       }
@@ -2793,9 +2842,17 @@
           },
           "2B": {
             "vac": 26,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 41,
+            "taken": 26,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 54,
+            "app": 68,
+            "taken": 54,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -2938,9 +2995,17 @@
           },
           "2B": {
             "vac": 36,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 45,
+            "taken": 36,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 72,
+            "app": 84,
+            "taken": 72,
+            "ballot": true,
+            "ballot_cat": "SC>2"
           }
         }
       }
@@ -3079,13 +3144,21 @@
             "vac": 101,
             "app": 131,
             "taken": 101,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
             "ballot": false
+          },
+          "2C": {
+            "vac": 60,
+            "app": 154,
+            "taken": 60,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -3231,6 +3304,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 103,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
           }
         }
       }
@@ -3372,9 +3451,15 @@
             "ballot": false
           },
           "2B": {
-            "vac": 53,
+            "vac": 54,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 162,
+            "app": 31,
+            "taken": 31,
             "ballot": false
           }
         }
@@ -3521,6 +3606,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 134,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
           }
         }
       }
@@ -3665,6 +3756,12 @@
             "vac": 30,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 91,
+            "app": 21,
+            "taken": 21,
             "ballot": false
           }
         }
@@ -3811,6 +3908,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 92,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
           }
         }
       }
@@ -3953,9 +4056,16 @@
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 19,
+            "taken": 19,
             "ballot": false
+          },
+          "2C": {
+            "vac": 41,
+            "app": 77,
+            "taken": 41,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -4098,9 +4208,16 @@
           },
           "2B": {
             "vac": 38,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
             "ballot": false
+          },
+          "2C": {
+            "vac": 113,
+            "app": 114,
+            "taken": 113,
+            "ballot": true,
+            "ballot_cat": "PR1-2"
           }
         }
       }
@@ -4246,6 +4363,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 212,
+            "app": 207,
+            "taken": 207,
+            "ballot": false
           }
         }
       }
@@ -4388,8 +4511,14 @@
           },
           "2B": {
             "vac": 34,
-            "app": 0,
-            "taken": 0,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 87,
+            "app": 86,
+            "taken": 86,
             "ballot": false
           }
         }
@@ -4527,14 +4656,20 @@
           },
           "2A": {
             "vac": 0,
-            "app": 0,
+            "app": null,
             "taken": 0,
             "ballot": false
           },
           "2B": {
-            "vac": 19,
-            "app": 0,
-            "taken": 0,
+            "vac": 20,
+            "app": 21,
+            "taken": 20,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 42,
+            "app": 50,
+            "taken": 42,
             "ballot": false
           }
         }
@@ -4681,6 +4816,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 93,
+            "app": 36,
+            "taken": 36,
+            "ballot": false
           }
         }
       }
@@ -4826,6 +4967,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 66,
+            "app": 31,
+            "taken": 31,
+            "ballot": false
           }
         }
       }
@@ -4964,13 +5111,22 @@
             "vac": 122,
             "app": 129,
             "taken": 122,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 35,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 41,
+            "app": 64,
+            "taken": 41,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -5113,8 +5269,14 @@
           },
           "2B": {
             "vac": 47,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 141,
+            "app": 57,
+            "taken": 57,
             "ballot": false
           }
         }
@@ -5261,6 +5423,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 229,
+            "app": 40,
+            "taken": 40,
+            "ballot": false
           }
         }
       }
@@ -5403,8 +5571,14 @@
           },
           "2B": {
             "vac": 40,
-            "app": 0,
-            "taken": 0,
+            "app": 31,
+            "taken": 31,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 92,
+            "app": 82,
+            "taken": 82,
             "ballot": false
           }
         }
@@ -5548,8 +5722,14 @@
           },
           "2B": {
             "vac": 37,
-            "app": 0,
-            "taken": 0,
+            "app": 12,
+            "taken": 12,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 101,
+            "app": 53,
+            "taken": 53,
             "ballot": false
           }
         }
@@ -5692,10 +5872,18 @@
             "ballot": false
           },
           "2B": {
-            "vac": 31,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 32,
+            "app": 34,
+            "taken": 32,
+            "ballot": true,
+            "ballot_cat": "SC>2"
+          },
+          "2C": {
+            "vac": 64,
+            "app": 75,
+            "taken": 64,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -5838,9 +6026,17 @@
           },
           "2B": {
             "vac": 24,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 49,
+            "taken": 24,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 48,
+            "app": 78,
+            "taken": 48,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -5982,10 +6178,18 @@
             "ballot": false
           },
           "2B": {
-            "vac": 23,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 24,
+            "app": 45,
+            "taken": 24,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 48,
+            "app": 137,
+            "taken": 48,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -6128,8 +6332,14 @@
           },
           "2B": {
             "vac": 45,
-            "app": 0,
-            "taken": 0,
+            "app": 5,
+            "taken": 5,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 131,
+            "app": 105,
+            "taken": 105,
             "ballot": false
           }
         }
@@ -6273,9 +6483,16 @@
           },
           "2B": {
             "vac": 35,
-            "app": 0,
-            "taken": 0,
+            "app": 14,
+            "taken": 14,
             "ballot": false
+          },
+          "2C": {
+            "vac": 93,
+            "app": 125,
+            "taken": 93,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -6421,6 +6638,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 165,
+            "app": 100,
+            "taken": 100,
+            "ballot": false
           }
         }
       }
@@ -6563,9 +6786,16 @@
           },
           "2B": {
             "vac": 30,
-            "app": 0,
-            "taken": 0,
+            "app": 21,
+            "taken": 21,
             "ballot": false
+          },
+          "2C": {
+            "vac": 70,
+            "app": 99,
+            "taken": 70,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -6711,6 +6941,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 111,
+            "app": 63,
+            "taken": 63,
+            "ballot": false
           }
         }
       }
@@ -6855,6 +7091,12 @@
             "vac": 32,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 95,
+            "app": 25,
+            "taken": 25,
             "ballot": false
           }
         }
@@ -7103,6 +7345,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 90,
+            "app": 32,
+            "taken": 32,
+            "ballot": false
           }
         }
       }
@@ -7245,9 +7493,16 @@
           },
           "2B": {
             "vac": 33,
-            "app": 0,
-            "taken": 0,
+            "app": 8,
+            "taken": 8,
             "ballot": false
+          },
+          "2C": {
+            "vac": 94,
+            "app": 98,
+            "taken": 94,
+            "ballot": true,
+            "ballot_cat": "PR<1"
           }
         }
       }
@@ -7392,6 +7647,12 @@
             "vac": 53,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 158,
+            "app": 47,
+            "taken": 47,
             "ballot": false
           }
         }
@@ -7538,6 +7799,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 141,
+            "app": 39,
+            "taken": 39,
+            "ballot": false
           }
         }
       }
@@ -7676,13 +7943,21 @@
             "vac": 38,
             "app": 54,
             "taken": 38,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 2,
+            "taken": 2,
             "ballot": false
+          },
+          "2C": {
+            "vac": 58,
+            "app": 98,
+            "taken": 58,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -7825,8 +8100,14 @@
           },
           "2B": {
             "vac": 47,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 140,
+            "app": 43,
+            "taken": 43,
             "ballot": false
           }
         }
@@ -7970,8 +8251,14 @@
           },
           "2B": {
             "vac": 34,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 101,
+            "app": 64,
+            "taken": 64,
             "ballot": false
           }
         }
@@ -8115,9 +8402,16 @@
           },
           "2B": {
             "vac": 22,
-            "app": 0,
-            "taken": 0,
+            "app": 27,
+            "taken": 22,
             "ballot": false
+          },
+          "2C": {
+            "vac": 48,
+            "app": 80,
+            "taken": 48,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -8262,6 +8556,12 @@
             "vac": 45,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 135,
+            "app": 27,
+            "taken": 27,
             "ballot": false
           }
         }
@@ -8408,6 +8708,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 89,
+            "app": 71,
+            "taken": 71,
+            "ballot": false
           }
         }
       }
@@ -8552,6 +8858,12 @@
             "vac": 57,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 171,
+            "app": 71,
+            "taken": 71,
             "ballot": false
           }
         }
@@ -8698,6 +9010,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 126,
+            "app": 85,
+            "taken": 85,
+            "ballot": false
           }
         }
       }
@@ -8843,6 +9161,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 125,
+            "app": 11,
+            "taken": 11,
+            "ballot": false
           }
         }
       }
@@ -8981,13 +9305,21 @@
             "vac": 41,
             "app": 58,
             "taken": 41,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 20,
+            "taken": 20,
             "ballot": false
+          },
+          "2C": {
+            "vac": 40,
+            "app": 64,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -9133,6 +9465,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 95,
+            "app": 53,
+            "taken": 53,
+            "ballot": false
           }
         }
       }
@@ -9275,8 +9613,14 @@
           },
           "2B": {
             "vac": 47,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 140,
+            "app": 30,
+            "taken": 30,
             "ballot": false
           }
         }
@@ -9423,6 +9767,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 86,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
           }
         }
       }
@@ -9565,9 +9915,16 @@
           },
           "2B": {
             "vac": 52,
-            "app": 0,
-            "taken": 0,
+            "app": 7,
+            "taken": 7,
             "ballot": false
+          },
+          "2C": {
+            "vac": 149,
+            "app": 151,
+            "taken": 149,
+            "ballot": true,
+            "ballot_cat": "PR>2"
           }
         }
       }
@@ -9706,13 +10063,21 @@
             "vac": 124,
             "app": 175,
             "taken": 124,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 13,
+            "taken": 13,
             "ballot": false
+          },
+          "2C": {
+            "vac": 48,
+            "app": 92,
+            "taken": 48,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -9857,6 +10222,12 @@
             "vac": 42,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 126,
+            "app": 16,
+            "taken": 16,
             "ballot": false
           }
         }
@@ -10003,6 +10374,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 103,
+            "app": 32,
+            "taken": 32,
+            "ballot": false
           }
         }
       }
@@ -10148,6 +10525,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 121,
+            "app": 67,
+            "taken": 67,
+            "ballot": false
           }
         }
       }
@@ -10290,8 +10673,14 @@
           },
           "2B": {
             "vac": 45,
-            "app": 0,
-            "taken": 0,
+            "app": 11,
+            "taken": 11,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 124,
+            "app": 106,
+            "taken": 106,
             "ballot": false
           }
         }
@@ -10435,9 +10824,17 @@
           },
           "2B": {
             "vac": 25,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 29,
+            "taken": 25,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
+          },
+          "2C": {
+            "vac": 51,
+            "app": 76,
+            "taken": 51,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -10580,9 +10977,17 @@
           },
           "2B": {
             "vac": 21,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 45,
+            "taken": 21,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 44,
+            "app": 97,
+            "taken": 44,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -10725,9 +11130,17 @@
           },
           "2B": {
             "vac": 30,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 32,
+            "taken": 30,
+            "ballot": true,
+            "ballot_cat": "SC>2"
+          },
+          "2C": {
+            "vac": 60,
+            "app": 121,
+            "taken": 60,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -10866,13 +11279,21 @@
             "vac": 66,
             "app": 86,
             "taken": 66,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 16,
+            "taken": 16,
             "ballot": false
+          },
+          "2C": {
+            "vac": 46,
+            "app": 88,
+            "taken": 46,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -11015,8 +11436,14 @@
           },
           "2B": {
             "vac": 25,
-            "app": 0,
-            "taken": 0,
+            "app": 2,
+            "taken": 2,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 73,
+            "app": 64,
+            "taken": 64,
             "ballot": false
           }
         }
@@ -11156,13 +11583,21 @@
             "vac": 83,
             "app": 85,
             "taken": 83,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 3,
+            "taken": 3,
             "ballot": false
+          },
+          "2C": {
+            "vac": 58,
+            "app": 106,
+            "taken": 58,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -11305,8 +11740,14 @@
           },
           "2B": {
             "vac": 41,
-            "app": 0,
-            "taken": 0,
+            "app": 2,
+            "taken": 2,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 123,
+            "app": 69,
+            "taken": 69,
             "ballot": false
           }
         }
@@ -11450,8 +11891,14 @@
           },
           "2B": {
             "vac": 50,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 150,
+            "app": 46,
+            "taken": 46,
             "ballot": false
           }
         }
@@ -11591,12 +12038,18 @@
             "vac": 40,
             "app": 47,
             "taken": 40,
-            "ballot": true
+            "ballot": false
           },
           "2B": {
             "vac": 20,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 60,
+            "app": 57,
+            "taken": 57,
             "ballot": false
           }
         }
@@ -11740,9 +12193,16 @@
           },
           "2B": {
             "vac": 27,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
             "ballot": false
+          },
+          "2C": {
+            "vac": 81,
+            "app": 100,
+            "taken": 81,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -11888,6 +12348,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 97,
+            "app": 43,
+            "taken": 43,
+            "ballot": false
           }
         }
       }
@@ -12026,13 +12492,21 @@
             "vac": 26,
             "app": 39,
             "taken": 26,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
             "ballot": false
+          },
+          "2C": {
+            "vac": 59,
+            "app": 73,
+            "taken": 59,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -12175,8 +12649,14 @@
           },
           "2B": {
             "vac": 37,
-            "app": 0,
-            "taken": 0,
+            "app": 23,
+            "taken": 23,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 88,
+            "app": 97,
+            "taken": 88,
             "ballot": false
           }
         }
@@ -12323,6 +12803,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 125,
+            "app": 115,
+            "taken": 115,
+            "ballot": false
           }
         }
       }
@@ -12465,9 +12951,17 @@
           },
           "2B": {
             "vac": 27,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 57,
+            "taken": 27,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 56,
+            "app": 117,
+            "taken": 56,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -12691,10 +13185,18 @@
             "ballot": false
           },
           "2B": {
-            "vac": 23,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 24,
+            "app": 37,
+            "taken": 24,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 48,
+            "app": 82,
+            "taken": 48,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -12839,6 +13341,12 @@
             "vac": 40,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 121,
+            "app": 74,
+            "taken": 74,
             "ballot": false
           }
         }
@@ -12985,6 +13493,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 205,
+            "app": 28,
+            "taken": 28,
+            "ballot": false
           }
         }
       }
@@ -13126,10 +13640,18 @@
             "ballot": false
           },
           "2B": {
-            "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 21,
+            "app": 32,
+            "taken": 21,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
+          },
+          "2C": {
+            "vac": 43,
+            "app": 77,
+            "taken": 43,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -13272,9 +13794,17 @@
           },
           "2B": {
             "vac": 34,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 66,
+            "taken": 34,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 75,
+            "app": 164,
+            "taken": 75,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -13420,6 +13950,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 92,
+            "app": 85,
+            "taken": 85,
+            "ballot": false
           }
         }
       }
@@ -13562,8 +14098,14 @@
           },
           "2B": {
             "vac": 72,
-            "app": 0,
-            "taken": 0,
+            "app": 5,
+            "taken": 5,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 210,
+            "app": 27,
+            "taken": 27,
             "ballot": false
           }
         }
@@ -13710,6 +14252,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 101,
+            "app": 28,
+            "taken": 28,
+            "ballot": false
           }
         }
       }
@@ -13852,9 +14400,16 @@
           },
           "2B": {
             "vac": 59,
-            "app": 0,
-            "taken": 0,
+            "app": 41,
+            "taken": 41,
             "ballot": false
+          },
+          "2C": {
+            "vac": 137,
+            "app": 155,
+            "taken": 137,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -14000,6 +14555,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 154,
+            "app": 15,
+            "taken": 15,
+            "ballot": false
           }
         }
       }
@@ -14142,9 +14703,17 @@
           },
           "2B": {
             "vac": 21,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 40,
+            "taken": 21,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 41,
+            "app": 63,
+            "taken": 41,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -14287,8 +14856,14 @@
           },
           "2B": {
             "vac": 43,
-            "app": 0,
-            "taken": 0,
+            "app": 3,
+            "taken": 3,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 126,
+            "app": 9,
+            "taken": 9,
             "ballot": false
           }
         }
@@ -14432,9 +15007,17 @@
           },
           "2B": {
             "vac": 43,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 79,
+            "taken": 43,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 88,
+            "app": 213,
+            "taken": 88,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -14573,13 +15156,21 @@
             "vac": 58,
             "app": 104,
             "taken": 58,
-            "ballot": true
+            "ballot": false
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 42,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 41,
+            "app": 123,
+            "taken": 41,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -14718,13 +15309,22 @@
             "vac": 125,
             "app": 176,
             "taken": 125,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 52,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 40,
+            "app": 68,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -14867,8 +15467,14 @@
           },
           "2B": {
             "vac": 27,
-            "app": 0,
-            "taken": 0,
+            "app": 2,
+            "taken": 2,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 79,
+            "app": 65,
+            "taken": 65,
             "ballot": false
           }
         }
@@ -15015,6 +15621,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 156,
+            "app": 26,
+            "taken": 26,
+            "ballot": false
           }
         }
       }
@@ -15157,9 +15769,16 @@
           },
           "2B": {
             "vac": 34,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
             "ballot": false
+          },
+          "2C": {
+            "vac": 103,
+            "app": 114,
+            "taken": 103,
+            "ballot": true,
+            "ballot_cat": "PR<1"
           }
         }
       }
@@ -15305,6 +15924,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 99,
+            "app": 36,
+            "taken": 36,
+            "ballot": false
           }
         }
       }
@@ -15443,13 +16068,21 @@
             "vac": 58,
             "app": 72,
             "taken": 58,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 4,
+            "taken": 4,
             "ballot": false
+          },
+          "2C": {
+            "vac": 59,
+            "app": 122,
+            "taken": 59,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -15595,6 +16228,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 127,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
           }
         }
       }
@@ -15733,13 +16372,22 @@
             "vac": 74,
             "app": 79,
             "taken": 74,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 29,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 42,
+            "app": 141,
+            "taken": 42,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -15884,6 +16532,12 @@
             "vac": 63,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 188,
+            "app": 14,
+            "taken": 14,
             "ballot": false
           }
         }
@@ -16030,6 +16684,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 108,
+            "app": 35,
+            "taken": 35,
+            "ballot": false
           }
         }
       }
@@ -16175,6 +16835,13 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 119,
+            "app": 70,
+            "taken": 70,
+            "ballot": true,
+            "ballot_cat": "PR>2"
           }
         }
       }
@@ -16317,8 +16984,14 @@
           },
           "2B": {
             "vac": 33,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 99,
+            "app": 93,
+            "taken": 93,
             "ballot": false
           }
         }
@@ -16465,6 +17138,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 119,
+            "app": 51,
+            "taken": 51,
+            "ballot": false
           }
         }
       }
@@ -16603,13 +17282,21 @@
             "vac": 17,
             "app": 38,
             "taken": 17,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 15,
+            "taken": 15,
             "ballot": false
+          },
+          "2C": {
+            "vac": 45,
+            "app": 81,
+            "taken": 45,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -16752,9 +17439,16 @@
           },
           "2B": {
             "vac": 45,
-            "app": 0,
-            "taken": 0,
+            "app": 37,
+            "taken": 37,
             "ballot": false
+          },
+          "2C": {
+            "vac": 99,
+            "app": 103,
+            "taken": 99,
+            "ballot": true,
+            "ballot_cat": "SC>2"
           }
         }
       }
@@ -16899,6 +17593,12 @@
             "vac": 71,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 218,
+            "app": 35,
+            "taken": 35,
             "ballot": false
           }
         }
@@ -17045,6 +17745,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 120,
+            "app": 61,
+            "taken": 61,
+            "ballot": false
           }
         }
       }
@@ -17107,8 +17813,14 @@
           },
           "2B": {
             "vac": 105,
-            "app": 0,
-            "taken": 0,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 309,
+            "app": 276,
+            "taken": 276,
             "ballot": false
           }
         }
@@ -17252,9 +17964,16 @@
           },
           "2B": {
             "vac": 48,
-            "app": 0,
-            "taken": 0,
+            "app": 43,
+            "taken": 43,
             "ballot": false
+          },
+          "2C": {
+            "vac": 102,
+            "app": 183,
+            "taken": 102,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -17393,13 +18112,22 @@
             "vac": 47,
             "app": 137,
             "taken": 47,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 25,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 40,
+            "app": 159,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -17545,6 +18273,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 177,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
           }
         }
       }
@@ -17683,13 +18417,21 @@
             "vac": 51,
             "app": 60,
             "taken": 51,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 5,
+            "taken": 5,
             "ballot": false
+          },
+          "2C": {
+            "vac": 57,
+            "app": 96,
+            "taken": 57,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -17831,9 +18573,15 @@
             "ballot": false
           },
           "2B": {
-            "vac": 32,
+            "vac": 33,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 99,
+            "app": 60,
+            "taken": 60,
             "ballot": false
           }
         }
@@ -17976,9 +18724,15 @@
             "ballot": false
           },
           "2B": {
-            "vac": 49,
-            "app": 0,
-            "taken": 0,
+            "vac": 50,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 147,
+            "app": 128,
+            "taken": 128,
             "ballot": false
           }
         }
@@ -18125,6 +18879,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 99,
+            "app": 41,
+            "taken": 41,
+            "ballot": false
           }
         }
       }
@@ -18267,8 +19027,14 @@
           },
           "2B": {
             "vac": 49,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 147,
+            "app": 108,
+            "taken": 108,
             "ballot": false
           }
         }
@@ -18411,10 +19177,18 @@
             "ballot": false
           },
           "2B": {
-            "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 21,
+            "app": 23,
+            "taken": 21,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
+          },
+          "2C": {
+            "vac": 42,
+            "app": 66,
+            "taken": 42,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -18557,8 +19331,14 @@
           },
           "2B": {
             "vac": 53,
-            "app": 0,
-            "taken": 0,
+            "app": 24,
+            "taken": 24,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 137,
+            "app": 128,
+            "taken": 128,
             "ballot": false
           }
         }
@@ -18698,13 +19478,22 @@
             "vac": 24,
             "app": 88,
             "taken": 24,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 33,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 40,
+            "app": 83,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -18847,9 +19636,16 @@
           },
           "2B": {
             "vac": 32,
-            "app": 0,
-            "taken": 0,
+            "app": 23,
+            "taken": 23,
             "ballot": false
+          },
+          "2C": {
+            "vac": 74,
+            "app": 99,
+            "taken": 74,
+            "ballot": true,
+            "ballot_cat": "PR<1"
           }
         }
       }
@@ -18992,8 +19788,14 @@
           },
           "2B": {
             "vac": 22,
-            "app": 0,
-            "taken": 0,
+            "app": 4,
+            "taken": 4,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 64,
+            "app": 64,
+            "taken": 64,
             "ballot": false
           }
         }
@@ -19137,9 +19939,16 @@
           },
           "2B": {
             "vac": 24,
-            "app": 0,
-            "taken": 0,
+            "app": 18,
+            "taken": 18,
             "ballot": false
+          },
+          "2C": {
+            "vac": 54,
+            "app": 106,
+            "taken": 54,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -19278,13 +20087,21 @@
             "vac": 91,
             "app": 105,
             "taken": 91,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
-            "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "vac": 21,
+            "app": 18,
+            "taken": 18,
             "ballot": false
+          },
+          "2C": {
+            "vac": 46,
+            "app": 120,
+            "taken": 46,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -19423,13 +20240,22 @@
             "vac": 77,
             "app": 81,
             "taken": 77,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 23,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 41,
+            "app": 90,
+            "taken": 41,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -19572,9 +20398,16 @@
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 3,
+            "taken": 3,
             "ballot": false
+          },
+          "2C": {
+            "vac": 58,
+            "app": 79,
+            "taken": 58,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -19720,6 +20553,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 114,
+            "app": 16,
+            "taken": 16,
+            "ballot": false
           }
         }
       }
@@ -19858,13 +20697,21 @@
             "vac": 85,
             "app": 93,
             "taken": 85,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 10,
+            "taken": 10,
             "ballot": false
+          },
+          "2C": {
+            "vac": 50,
+            "app": 67,
+            "taken": 50,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -20003,13 +20850,21 @@
             "vac": 32,
             "app": 93,
             "taken": 32,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 13,
+            "taken": 13,
             "ballot": false
+          },
+          "2C": {
+            "vac": 48,
+            "app": 75,
+            "taken": 48,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -20155,6 +21010,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 86,
+            "app": 33,
+            "taken": 33,
+            "ballot": false
           }
         }
       }
@@ -20293,13 +21154,22 @@
             "vac": 76,
             "app": 78,
             "taken": 76,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 29,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 41,
+            "app": 62,
+            "taken": 41,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -20438,13 +21308,21 @@
             "vac": 97,
             "app": 157,
             "taken": 97,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 18,
+            "taken": 18,
             "ballot": false
+          },
+          "2C": {
+            "vac": 44,
+            "app": 105,
+            "taken": 44,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -20590,6 +21468,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 79,
+            "app": 74,
+            "taken": 74,
+            "ballot": false
           }
         }
       }
@@ -20732,9 +21616,17 @@
           },
           "2B": {
             "vac": 31,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 44,
+            "taken": 31,
+            "ballot": true,
+            "ballot_cat": "SC>2"
+          },
+          "2C": {
+            "vac": 65,
+            "app": 113,
+            "taken": 65,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -20877,9 +21769,16 @@
           },
           "2B": {
             "vac": 33,
-            "app": 0,
-            "taken": 0,
+            "app": 16,
+            "taken": 16,
             "ballot": false
+          },
+          "2C": {
+            "vac": 83,
+            "app": 85,
+            "taken": 83,
+            "ballot": true,
+            "ballot_cat": "PR>2"
           }
         }
       }
@@ -21022,9 +21921,17 @@
           },
           "2B": {
             "vac": 40,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 79,
+            "taken": 40,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
+          },
+          "2C": {
+            "vac": 81,
+            "app": 108,
+            "taken": 81,
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           }
         }
       }
@@ -21167,8 +22074,14 @@
           },
           "2B": {
             "vac": 42,
-            "app": 0,
-            "taken": 0,
+            "app": 11,
+            "taken": 11,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 117,
+            "app": 122,
+            "taken": 117,
             "ballot": false
           }
         }
@@ -21312,8 +22225,14 @@
           },
           "2B": {
             "vac": 49,
-            "app": 0,
-            "taken": 0,
+            "app": 19,
+            "taken": 19,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 131,
+            "app": 87,
+            "taken": 87,
             "ballot": false
           }
         }
@@ -21457,8 +22376,14 @@
           },
           "2B": {
             "vac": 49,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 150,
+            "app": 78,
+            "taken": 78,
             "ballot": false
           }
         }
@@ -21598,12 +22523,19 @@
             "vac": 73,
             "app": 78,
             "taken": 73,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "PR<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 9,
+            "taken": 9,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 56,
+            "app": 94,
+            "taken": 56,
             "ballot": false
           }
         }
@@ -21743,13 +22675,22 @@
             "vac": 108,
             "app": 129,
             "taken": 108,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 40,
+            "taken": 20,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 42,
+            "app": 57,
+            "taken": 42,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -21892,8 +22833,14 @@
           },
           "2B": {
             "vac": 43,
-            "app": 0,
-            "taken": 0,
+            "app": 5,
+            "taken": 5,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 124,
+            "app": 90,
+            "taken": 90,
             "ballot": false
           }
         }
@@ -22040,6 +22987,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 122,
+            "app": 22,
+            "taken": 22,
+            "ballot": false
           }
         }
       }
@@ -22185,6 +23138,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 137,
+            "app": 72,
+            "taken": 72,
+            "ballot": false
           }
         }
       }
@@ -22323,13 +23282,21 @@
             "vac": 64,
             "app": 131,
             "taken": 64,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC<1"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 12,
+            "taken": 12,
             "ballot": false
+          },
+          "2C": {
+            "vac": 50,
+            "app": 86,
+            "taken": 50,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -22577,6 +23544,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 100,
+            "app": 46,
+            "taken": 46,
+            "ballot": false
           }
         }
       }
@@ -22722,6 +23695,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 65,
+            "app": 64,
+            "taken": 64,
+            "ballot": false
           }
         }
       }
@@ -22860,13 +23839,21 @@
             "vac": 73,
             "app": 85,
             "taken": 73,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 15,
+            "taken": 15,
             "ballot": false
+          },
+          "2C": {
+            "vac": 45,
+            "app": 85,
+            "taken": 45,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -23012,6 +23999,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 101,
+            "app": 37,
+            "taken": 37,
+            "ballot": false
           }
         }
       }
@@ -23154,8 +24147,14 @@
           },
           "2B": {
             "vac": 21,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 61,
+            "app": 59,
+            "taken": 59,
             "ballot": false
           }
         }
@@ -23302,6 +24301,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 60,
+            "app": 35,
+            "taken": 35,
+            "ballot": false
           }
         }
       }
@@ -23444,9 +24449,16 @@
           },
           "2B": {
             "vac": 23,
-            "app": 0,
-            "taken": 0,
+            "app": 16,
+            "taken": 16,
             "ballot": false
+          },
+          "2C": {
+            "vac": 52,
+            "app": 66,
+            "taken": 52,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -23589,9 +24601,16 @@
           },
           "2B": {
             "vac": 23,
-            "app": 0,
-            "taken": 0,
+            "app": 5,
+            "taken": 5,
             "ballot": false
+          },
+          "2C": {
+            "vac": 65,
+            "app": 69,
+            "taken": 65,
+            "ballot": true,
+            "ballot_cat": "PR1-2"
           }
         }
       }
@@ -23733,9 +24752,15 @@
             "ballot": false
           },
           "2B": {
-            "vac": 31,
-            "app": 0,
-            "taken": 0,
+            "vac": 32,
+            "app": 3,
+            "taken": 3,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 94,
+            "app": 85,
+            "taken": 85,
             "ballot": false
           }
         }
@@ -23879,9 +24904,16 @@
           },
           "2B": {
             "vac": 24,
-            "app": 0,
-            "taken": 0,
+            "app": 3,
+            "taken": 3,
             "ballot": false
+          },
+          "2C": {
+            "vac": 71,
+            "app": 82,
+            "taken": 71,
+            "ballot": true,
+            "ballot_cat": "PR<1"
           }
         }
       }
@@ -24026,6 +25058,12 @@
             "vac": 34,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 104,
+            "app": 59,
+            "taken": 59,
             "ballot": false
           }
         }
@@ -24172,6 +25210,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 144,
+            "app": 40,
+            "taken": 40,
+            "ballot": false
           }
         }
       }
@@ -24317,6 +25361,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 87,
+            "app": 54,
+            "taken": 54,
+            "ballot": false
           }
         }
       }
@@ -24459,9 +25509,16 @@
           },
           "2B": {
             "vac": 24,
-            "app": 0,
-            "taken": 0,
+            "app": 18,
+            "taken": 18,
             "ballot": false
+          },
+          "2C": {
+            "vac": 54,
+            "app": 82,
+            "taken": 54,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -24607,6 +25664,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 106,
+            "app": 47,
+            "taken": 47,
+            "ballot": false
           }
         }
       }
@@ -24745,12 +25808,19 @@
             "vac": 48,
             "app": 85,
             "taken": 48,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC1-2"
           },
           "2B": {
             "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 55,
+            "app": 56,
+            "taken": 55,
             "ballot": false
           }
         }
@@ -24894,8 +25964,14 @@
           },
           "2B": {
             "vac": 33,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 97,
+            "app": 55,
+            "taken": 55,
             "ballot": false
           }
         }
@@ -25042,6 +26118,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 126,
+            "app": 21,
+            "taken": 21,
+            "ballot": false
           }
         }
       }
@@ -25187,6 +26269,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 93,
+            "app": 36,
+            "taken": 36,
+            "ballot": false
           }
         }
       }
@@ -25329,9 +26417,16 @@
           },
           "2B": {
             "vac": 22,
-            "app": 0,
-            "taken": 0,
+            "app": 14,
+            "taken": 14,
             "ballot": false
+          },
+          "2C": {
+            "vac": 51,
+            "app": 90,
+            "taken": 51,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -25476,6 +26571,12 @@
             "vac": 54,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 162,
+            "app": 11,
+            "taken": 11,
             "ballot": false
           }
         }
@@ -25622,6 +26723,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 174,
+            "app": 14,
+            "taken": 14,
+            "ballot": false
           }
         }
       }
@@ -25767,6 +26874,12 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 95,
+            "app": 47,
+            "taken": 47,
+            "ballot": false
           }
         }
       }
@@ -25905,12 +27018,18 @@
             "vac": 47,
             "app": 58,
             "taken": 47,
-            "ballot": true
+            "ballot": false
           },
           "2B": {
             "vac": 20,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 60,
+            "app": 59,
+            "taken": 59,
             "ballot": false
           }
         }
@@ -26054,8 +27173,14 @@
           },
           "2B": {
             "vac": 42,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 126,
+            "app": 18,
+            "taken": 18,
             "ballot": false
           }
         }
@@ -26195,13 +27320,20 @@
             "vac": 43,
             "app": 54,
             "taken": 43,
-            "ballot": true
+            "ballot": false
           },
           "2B": {
             "vac": 20,
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 61,
+            "app": 70,
+            "taken": 61,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -26347,6 +27479,13 @@
             "app": 0,
             "taken": 0,
             "ballot": false
+          },
+          "2C": {
+            "vac": 93,
+            "app": 123,
+            "taken": 93,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -26485,13 +27624,22 @@
             "vac": 59,
             "app": 83,
             "taken": 59,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
-            "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 21,
+            "app": 46,
+            "taken": 21,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 43,
+            "app": 53,
+            "taken": 43,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -26633,10 +27781,18 @@
             "ballot": false
           },
           "2B": {
-            "vac": 20,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "vac": 21,
+            "app": 27,
+            "taken": 21,
+            "ballot": true,
+            "ballot_cat": "SC<1"
+          },
+          "2C": {
+            "vac": 44,
+            "app": 76,
+            "taken": 44,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -26775,13 +27931,21 @@
             "vac": 99,
             "app": 121,
             "taken": 99,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
-            "vac": 20,
-            "app": 0,
-            "taken": 0,
+            "vac": 21,
+            "app": 16,
+            "taken": 16,
             "ballot": false
+          },
+          "2C": {
+            "vac": 46,
+            "app": 118,
+            "taken": 46,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -26854,8 +28018,14 @@
           },
           "2B": {
             "vac": 34,
-            "app": 0,
-            "taken": 0,
+            "app": 15,
+            "taken": 15,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 89,
+            "app": 28,
+            "taken": 28,
             "ballot": false
           }
         }
@@ -26929,8 +28099,14 @@
           },
           "2B": {
             "vac": 54,
-            "app": 0,
-            "taken": 0,
+            "app": 31,
+            "taken": 31,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 130,
+            "app": 122,
+            "taken": 122,
             "ballot": false
           }
         }
@@ -27004,8 +28180,14 @@
           },
           "2B": {
             "vac": 48,
-            "app": 0,
-            "taken": 0,
+            "app": 6,
+            "taken": 6,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 139,
+            "app": 80,
+            "taken": 80,
             "ballot": false
           }
         }
@@ -27025,12 +28207,19 @@
             "vac": 50,
             "app": 61,
             "taken": 50,
-            "ballot": true
+            "ballot": true,
+            "ballot_cat": "SC>2"
           },
           "2B": {
             "vac": 20,
             "app": 0,
             "taken": 0,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 61,
+            "app": 70,
+            "taken": 61,
             "ballot": false
           }
         }
@@ -27054,9 +28243,17 @@
           },
           "2B": {
             "vac": 32,
-            "app": 0,
-            "taken": 0,
-            "ballot": false
+            "app": 35,
+            "taken": 32,
+            "ballot": true,
+            "ballot_cat": "SC>2"
+          },
+          "2C": {
+            "vac": 70,
+            "app": 100,
+            "taken": 70,
+            "ballot": true,
+            "ballot_cat": "SC<1"
           }
         }
       }
@@ -27079,8 +28276,14 @@
           },
           "2B": {
             "vac": 48,
-            "app": 0,
-            "taken": 0,
+            "app": 7,
+            "taken": 7,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 137,
+            "app": 38,
+            "taken": 38,
             "ballot": false
           }
         }
@@ -27104,8 +28307,14 @@
           },
           "2B": {
             "vac": 57,
-            "app": 0,
-            "taken": 0,
+            "app": 1,
+            "taken": 1,
+            "ballot": false
+          },
+          "2C": {
+            "vac": 172,
+            "app": 50,
+            "taken": 50,
             "ballot": false
           }
         }

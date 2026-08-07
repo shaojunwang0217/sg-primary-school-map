@@ -885,14 +885,14 @@ function renderSchoolCard(s, opts = {}) {
     // Phase 2A
     const p2a = latest.phases?.['2A'] || latest.phases?.['2A(1)'] || latest.phases?.['2A(2)'];
     if (p2a && p2a.app !== null && p2a.vac !== null) {
-      const isBallot = p2a.app > p2a.vac;
-      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2A ${p2a.app}/${p2a.vac}</span>`);
+      const isBallot = p2a.ballot ?? (p2a.app > p2a.vac);
+      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}"${p2a.ballot_cat ? ` title="Ballot: ${p2a.ballot_cat}"` : ''}>2A ${p2a.app}/${p2a.vac}${p2a.ballot_cat ? ` ·${p2a.ballot_cat}` : ''}</span>`);
     }
     // Phase 2C
     const p2c = latest.phases?.['2C'];
     if (p2c && p2c.app !== null && p2c.vac !== null) {
-      const isBallot = p2c.app > p2c.vac;
-      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}">2C ${p2c.app}/${p2c.vac}</span>`);
+      const isBallot = p2c.ballot ?? (p2c.app > p2c.vac);
+      ballotChips.push(`<span class="ballot-chip ${isBallot ? 'ballot' : 'open'}"${p2c.ballot_cat ? ` title="Ballot: ${p2c.ballot_cat}"` : ''}>2C ${p2c.app}/${p2c.vac}${p2c.ballot_cat ? ` ·${p2c.ballot_cat}` : ''}</span>`);
     }
   }
   
@@ -993,7 +993,10 @@ function renderDetail(s) {
       phaseOrder.forEach(ph => {
         const pd = b.phases?.[ph];
         if (!pd || pd.app === null || pd.vac === null) row += '<td><span class="ballot-na">—</span></td>';
-        else row += `<td><span class="ballot-badge ${pd.app > pd.vac ? 'bad' : 'good'}">${pd.app}/${pd.vac}</span></td>`;
+        else {
+          const isBallot = pd.ballot ?? (pd.app > pd.vac);
+          row += `<td><span class="ballot-badge ${isBallot ? 'bad' : 'good'}"${pd.ballot_cat ? ` title="Ballot: ${pd.ballot_cat}"` : ''}>${pd.app}/${pd.vac}${pd.ballot_cat ? ` <small>${pd.ballot_cat}</small>` : ''}</span></td>`;
+        }
       });
       return row + '</tr>';
     }).join('');

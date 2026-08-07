@@ -109,7 +109,8 @@ def enrich_school(s, include_nearby=True, nearby_radius=1.0):
                     pd[ph] = {
                         "vac": d.get("vac"),
                         "app": d.get("app"),
-                        "ballot": d.get("ballot", False)
+                        "ballot": d.get("ballot", False),
+                        "ballot_cat": d.get("ballot_cat"),
                     }
             if pd:
                 recent.append({"year": b.get("year"), "phases": pd})
