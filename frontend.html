@@ -761,31 +761,36 @@ function resetFiltersUI() {
 
 async function searchAddress(q) {
   document.getElementById('results-container').innerHTML = '<div class="loading"><div class="spinner"></div><br/>Searching...</div>';
+  let data;
   try {
     const resp = await fetch(`${API}/api/search?q=${encodeURIComponent(q)}&radius=${distanceRadius}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    const schools = data.nearby_schools || [];
-    // School-name matches win over geocode results, and explicit search overrides sticky filters
-    if (data.direct_matches && data.direct_matches.length > 0) {
-      userCoords = null;
-      resetFiltersUI();
-      applyFilters();
-      return;
-    }
-    userCoords = data.coords;
-    if (schools.length === 0) {
-      document.getElementById('results-container').innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>Could not find "${q}".<br>Try a school name, street, or postal code.</p></div>`;
-      document.getElementById('result-count').textContent = '';
-      return;
-    }
-    renderList(schools, { distance: true });
-    addMarkers(schools, { fit: true });
-    document.getElementById('result-count').textContent = `${schools.length} near "${q}"`;
+    data = await resp.json();
   } catch (e) {
     document.getElementById('results-container').innerHTML = '<div class="empty-state"><div class="icon">😔</div><p>Search failed.<br>Please try again.</p></div>';
     showToast('Search failed');
+    return;
   }
+  // Rendering below is outside try/catch so a UI bug can never masquerade as a search failure
+  const schools = data.nearby_schools || [];
+  // School-name matches win over geocode results, and explicit search overrides sticky filters
+  if (data.direct_matches && data.direct_matches.length > 0) {
+    userCoords = null;
+    resetFiltersUI();
+    applyFilters();
+    return;
+  }
+  // coords may be [lat,lng] array or {lat,lng} object depending on backend version
+  const c = data.coords;
+  userCoords = c ? (Array.isArray(c) ? { lat: c[0], lng: c[1] } : c) : null;
+  if (schools.length === 0) {
+    document.getElementById('results-container').innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>Could not find "${q}".<br>Try a school name, street, or postal code.</p></div>`;
+    document.getElementById('result-count').textContent = '';
+    return;
+  }
+  renderList(schools, { distance: true });
+  addMarkers(schools, { fit: true });
+  document.getElementById('result-count').textContent = `${schools.length} near "${q}"`;
 }
 
 async function searchNearby(lat, lng) {

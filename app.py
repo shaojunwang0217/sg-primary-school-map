@@ -302,7 +302,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
         
         self.api_response({
             "query": q,
-            "coords": coords,
+            "coords": {"lat": coords[0], "lng": coords[1]} if coords else None,
             "nearby_schools": nearby[:30],
             "direct_matches": direct[:10]
         })
