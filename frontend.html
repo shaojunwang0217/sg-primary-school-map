@@ -753,6 +753,7 @@ async function searchAddress(q) {
   document.getElementById('results-container').innerHTML = '<div class="loading"><div class="spinner"></div><br/>Searching...</div>';
   try {
     const resp = await fetch(`${API}/api/search?q=${encodeURIComponent(q)}&radius=${distanceRadius}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     userCoords = data.coords;
     const schools = data.nearby_schools || [];
@@ -760,10 +761,16 @@ async function searchAddress(q) {
       applyFilters();
       return;
     }
+    if (schools.length === 0 && !data.coords) {
+      document.getElementById('results-container').innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>Could not find "${q}".<br>Try a school name, street, or postal code.</p></div>`;
+      document.getElementById('result-count').textContent = '';
+      return;
+    }
     renderList(schools, { distance: true });
     addMarkers(schools, { fit: true });
     document.getElementById('result-count').textContent = `${schools.length} near "${q}"`;
   } catch (e) {
+    document.getElementById('results-container').innerHTML = '<div class="empty-state"><div class="icon">😔</div><p>Search failed.<br>Please try again.</p></div>';
     showToast('Search failed');
   }
 }
@@ -772,6 +779,7 @@ async function searchNearby(lat, lng) {
   document.getElementById('results-container').innerHTML = '<div class="loading"><div class="spinner"></div><br/>Finding nearby schools...</div>';
   try {
     const resp = await fetch(`${API}/api/nearyou?lat=${lat}&lng=${lng}&radius=${distanceRadius}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     renderList(data.schools || [], { distance: true });
     addMarkers(data.schools || [], { fit: true });

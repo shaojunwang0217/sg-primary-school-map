@@ -4,8 +4,8 @@ SG Primary School Map - Backend Server v2
 Data: MOE School Directory + OneMap geocoding + SGSchooling ballot history
 """
 
-import json, os, re, math
-from http.server import HTTPServer, BaseHTTPRequestHandler
+import json, os, re, math, time
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import urllib.request
 import urllib.parse
@@ -49,22 +49,39 @@ def extract_sg_postal(address):
     return m.group(1) if m else None
 
 
-def onemap_search(query):
-    if query in COORDS_CACHE:
-        return COORDS_CACHE[query]
-    try:
-        url = f"https://www.onemap.gov.sg/api/common/elastic/search?searchVal={urllib.parse.quote(query)}&returnGeom=Y&getAddrDetails=Y&pageNum=1"
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        resp = urllib.request.urlopen(req, timeout=8)
-        data = json.loads(resp.read())
-        if data.get("results"):
-            r = data["results"][0]
-            lat, lng = float(r["LATITUDE"]), float(r["LONGITUDE"])
-            COORDS_CACHE[query] = (lat, lng)
-            return (lat, lng)
-    except Exception as e:
-        print(f"OneMap error for '{query}': {e}")
+def onemap_search(query, retries=2):
+    """Geocode via OneMap. Retries on network errors; negative results cached 60s."""
+    cached = COORDS_CACHE.get(query)
+    if cached is not None:
+        coords, ts = cached
+        if coords is not None or time.time() - ts < 60:
+            return coords
+        del COORDS_CACHE[query]
+    url = f"https://www.onemap.gov.sg/api/common/elastic/search?searchVal={urllib.parse.quote(query)}&returnGeom=Y&getAddrDetails=Y&pageNum=1"
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            resp = urllib.request.urlopen(req, timeout=5)
+            data = json.loads(resp.read())
+            if data.get("results"):
+                r = data["results"][0]
+                lat, lng = float(r["LATITUDE"]), float(r["LONGITUDE"])
+                COORDS_CACHE[query] = ((lat, lng), time.time())
+                return (lat, lng)
+            break  # valid response, no match — don't retry
+        except Exception as e:
+            print(f"OneMap error for '{query}' (attempt {attempt + 1}/{retries}): {e}")
+            time.sleep(0.3)
+    COORDS_CACHE[query] = (None, time.time())
     return None
+
+
+def parse_radius(params, default=2.0):
+    try:
+        r = float(params.get("radius", [default])[0])
+        return r if 0 < r <= 10 else default
+    except (ValueError, TypeError):
+        return default
 
 
 def haversine(lat1, lng1, lat2, lng2):
@@ -149,6 +166,18 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
         self.wfile.write(body)
     
     def do_GET(self):
+        try:
+            self._dispatch_get()
+        except (BrokenPipeError, ConnectionResetError):
+            pass  # client went away; nothing to do
+        except Exception as e:
+            print(f"Unhandled error for {self.path}: {e}")
+            try:
+                self.api_response({"error": "Internal server error"}, 500)
+            except Exception:
+                pass
+
+    def _dispatch_get(self):
         parsed = urlparse(self.path)
         path = parsed.path
         params = parse_qs(parsed.query)
@@ -242,7 +271,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
         nearby = []
         if coords:
             lat, lng = coords
-            radius = float(params.get("radius", [2.0])[0])
+            radius = parse_radius(params)
             for s in SCHOOLS:
                 if s.get("lat") is None:
                     continue
@@ -291,7 +320,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             return
         
         lat, lng = coords
-        radius = float(params.get("radius", [2.0])[0])
+        radius = parse_radius(params)
         results = []
         for s in SCHOOLS:
             if s.get("lat") is None:
@@ -325,7 +354,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             self.api_response({"error": "Invalid lat,lng"}, 400)
             return
         
-        radius = float(params.get("radius", [2.0])[0])
+        radius = parse_radius(params)
         results = []
         for s in SCHOOLS:
             if s.get("lat") is None:
@@ -382,12 +411,22 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
         self.wfile.write(body)
     
     def log_message(self, format, *args):
-        print(f"[{self.log_date_time_string()}] {args[0]} {args[1]} {args[2]}")
+        # NOTE: called with variable arg counts (requests: 3 args, errors: 2) — never index blindly
+        try:
+            msg = format % args if args else str(format)
+        except Exception:
+            msg = str(format)
+        print(f"[{self.log_date_time_string()}] {msg}")
 
 
 if __name__ == "__main__":
     print(f"Starting SG Primary School Map v2 with {len(SCHOOLS)} schools ({sum(1 for s in SCHOOLS if s.get('lat'))} geocoded)")
     PORT = int(os.environ.get("PORT", 3456))
-    server = HTTPServer(("0.0.0.0", PORT), SchoolAPIHandler)
+
+    class SchoolMapServer(ThreadingHTTPServer):
+        daemon_threads = True
+        request_queue_size = 64  # default 5 drops connections under bursts
+
+    server = SchoolMapServer(("0.0.0.0", PORT), SchoolAPIHandler)
     print(f"🎒 Running at http://localhost:{PORT}")
     server.serve_forever()
