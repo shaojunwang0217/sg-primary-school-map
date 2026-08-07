@@ -276,6 +276,9 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             return
         
         coords = onemap_search(q)
+        # OneMap sometimes needs a country hint for bare 6-digit postal codes
+        if not coords and re.match(r'^\d{6}$', q):
+            coords = onemap_search(f"Singapore {q}")
         nearby = []
         if coords:
             lat, lng = coords
@@ -426,7 +429,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             msg = format % args if args else str(format)
         except Exception:
             msg = str(format)
-        print(f"[{self.log_date_time_string()}] {msg}")
+        print(f"[{self.log_date_time_string()}] {msg}", flush=True)
 
 
 if __name__ == "__main__":
