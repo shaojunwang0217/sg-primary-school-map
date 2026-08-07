@@ -749,19 +749,32 @@ async function fetchSchools() {
   }
 }
 
+function normText(t) {
+  return (t || '').toLowerCase().replace(/[\u2018\u2019`´]/g, "'").replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function resetFiltersUI() {
+  activeFilters = { tag: 'all', type: '', gender: '', session: '' };
+  document.querySelectorAll('.filter-chip').forEach(b => b.classList.toggle('active', b.dataset.filter === 'all'));
+  ['type', 'gender', 'session'].forEach(k => document.getElementById(k + '-select').value = '');
+}
+
 async function searchAddress(q) {
   document.getElementById('results-container').innerHTML = '<div class="loading"><div class="spinner"></div><br/>Searching...</div>';
   try {
     const resp = await fetch(`${API}/api/search?q=${encodeURIComponent(q)}&radius=${distanceRadius}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
-    userCoords = data.coords;
     const schools = data.nearby_schools || [];
-    if (schools.length === 0 && data.direct_matches && data.direct_matches.length > 0) {
+    // School-name matches win over geocode results, and explicit search overrides sticky filters
+    if (data.direct_matches && data.direct_matches.length > 0) {
+      userCoords = null;
+      resetFiltersUI();
       applyFilters();
       return;
     }
-    if (schools.length === 0 && !data.coords) {
+    userCoords = data.coords;
+    if (schools.length === 0) {
       document.getElementById('results-container').innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>Could not find "${q}".<br>Try a school name, street, or postal code.</p></div>`;
       document.getElementById('result-count').textContent = '';
       return;
@@ -825,12 +838,12 @@ function applyFilters() {
     if (activeFilters.session && s.session !== activeFilters.session) return false;
     
     if (searchTerm) {
-      const q = searchTerm.toLowerCase();
-      return s.name.toLowerCase().includes(q) ||
-             (s.address || '').toLowerCase().includes(q) ||
-             (s.region || '').toLowerCase().includes(q) ||
-             (s.mrt_desc || '').toLowerCase().includes(q) ||
-             s.tags?.some(t => t.toLowerCase().includes(q));
+      const q = normText(searchTerm);
+      return normText(s.name).includes(q) ||
+             normText(s.address).includes(q) ||
+             normText(s.region).includes(q) ||
+             normText(s.mrt_desc).includes(q) ||
+             s.tags?.some(t => normText(t).includes(q));
     }
     return true;
   });

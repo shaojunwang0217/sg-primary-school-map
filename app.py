@@ -84,6 +84,14 @@ def parse_radius(params, default=2.0):
         return default
 
 
+def norm_text(t):
+    """Normalize for search matching: unify apostrophes, strip punctuation."""
+    t = t.lower()
+    t = re.sub(r"[\u2018\u2019`´]", "'", t)
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def haversine(lat1, lng1, lat2, lng2):
     R = 6371
     dlat = math.radians(lat2 - lat1)
@@ -283,10 +291,11 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             nearby.sort(key=lambda x: x["distance_km"])
         
         direct = []
-        ql = q.lower()
-        for s in SCHOOLS:
-            if ql in s["name"].lower():
-                direct.append(enrich_school(s, include_nearby=False))
+        ql = norm_text(q)
+        if ql:
+            for s in SCHOOLS:
+                if ql in norm_text(s["name"]):
+                    direct.append(enrich_school(s, include_nearby=False))
         
         self.api_response({
             "query": q,
