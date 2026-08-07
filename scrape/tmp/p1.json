@@ -1,0 +1,718 @@
+{
+"Admiralty": {
+"taken": 106,
+"avail": 150
+},
+"Ahmad Ibrahim": {
+"taken": 43,
+"avail": 180
+},
+"Ai Tong": {
+"taken": 121,
+"avail": 240
+},
+"Alexandra MK": {
+"taken": 80,
+"avail": 140
+},
+"Anchor Green MK": {
+"taken": 56,
+"avail": 150
+},
+"Anderson": {
+"taken": 83,
+"avail": 150
+},
+"Ang Mo Kio MK": {
+"taken": 30,
+"avail": 120
+},
+"Anglo-Chinese (Junior)": {
+"taken": 37,
+"avail": 180
+},
+"Anglo-Chinese (Primary)": {
+"taken": 56,
+"avail": 180
+},
+"Angsana MK": {
+"taken": 119,
+"avail": 220
+},
+"Beacon": {
+"taken": 47,
+"avail": 90
+},
+"Bedok Green": {
+"taken": 40,
+"avail": 150
+},
+"Bendemeer MK": {
+"taken": 34,
+"avail": 130
+},
+"Blangah Rise": {
+"taken": 24,
+"avail": 60
+},
+"Boon Lay Garden": {
+"taken": 46,
+"avail": 90
+},
+"Bukit Panjang": {
+"taken": 96,
+"avail": 150
+},
+"Bukit Timah": {
+"taken": 60,
+"avail": 120
+},
+"Bukit View": {
+"taken": 87,
+"avail": 260
+},
+"Canberra": {
+"taken": 88,
+"avail": 150
+},
+"Canossa Catholic": {
+"taken": 60,
+"avail": 60
+},
+"Cantonment": {
+"taken": 23,
+"avail": 60
+},
+"Casuarina MK": {
+"taken": 63,
+"avail": 90
+},
+"Catholic High (Primary)": {
+"taken": 58,
+"avail": 180
+},
+"Cedar MK": {
+"taken": 60,
+"avail": 180
+},
+"Changkat": {
+"taken": 43,
+"avail": 220
+},
+"CHIJ (Katong)": {
+"taken": 34,
+"avail": 140
+},
+"CHIJ (Kellock)": {
+"taken": 34,
+"avail": 90
+},
+"CHIJ Our Lady of Good Counsel": {
+"taken": 32,
+"avail": 90
+},
+"CHIJ Our Lady of the Nativity": {
+"taken": 57,
+"avail": 180
+},
+"CHIJ Our Lady Queen of Peace": {
+"taken": 25,
+"avail": 120
+},
+"CHIJ (Toa Payoh)": {
+"taken": 49,
+"avail": 150
+},
+"CHIJ St. Nicholas Girls' (Primary)": {
+"taken": 45,
+"avail": 150
+},
+"Chongfu": {
+"taken": 121,
+"avail": 240
+},
+"Chongzheng": {
+"taken": 95,
+"avail": 220
+},
+"Chua Chu Kang": {
+"taken": 96,
+"avail": 180
+},
+"Clementi": {
+"taken": 62,
+"avail": 180
+},
+"Compassvale": {
+"taken": 104,
+"avail": 150
+},
+"Concord": {
+"taken": 77,
+"avail": 150
+},
+"Corporation": {
+"taken": 46,
+"avail": 90
+},
+"Dazhong MK": {
+"taken": 82,
+"avail": 140
+},
+"De La Salle": {
+"taken": 84,
+"avail": 150
+},
+"East Spring": {
+"taken": 75,
+"avail": 180
+},
+"Edgefield": {
+"taken": 61,
+"avail": 150
+},
+"Elias Park MK": {
+"taken": 62,
+"avail": 100
+},
+"Endeavour": {
+"taken": 65,
+"avail": 150
+},
+"Evergreen": {
+"taken": 66,
+"avail": 120
+},
+"Fairfield Methodist (Primary)": {
+"taken": 113,
+"avail": 210
+},
+"Farrer Park MK": {
+"taken": 38,
+"avail": 130
+},
+"Fengshan MK": {
+"taken": 58,
+"avail": 120
+},
+"Fern Green MK": {
+"taken": 79,
+"avail": 220
+},
+"Fernvale": {
+"taken": 83,
+"avail": 180
+},
+"First Toa Payoh MK": {
+"taken": 20,
+"avail": 90
+},
+"Frontier MK": {
+"taken": 79,
+"avail": 120
+},
+"Fuchun": {
+"taken": 58,
+"avail": 120
+},
+"Fuhua": {
+"taken": 56,
+"avail": 150
+},
+"Gan Eng Seng": {
+"taken": 22,
+"avail": 60
+},
+"Geylang Methodist (Primary)": {
+"taken": 79,
+"avail": 210
+},
+"Gongshang MK": {
+"taken": 96,
+"avail": 220
+},
+"Greendale MK": {
+"taken": 39,
+"avail": 120
+},
+"Greenridge": {
+"taken": 33,
+"avail": 90
+},
+"Greenwood": {
+"taken": 73,
+"avail": 150
+},
+"Haig Girls'": {
+"taken": 40,
+"avail": 130
+},
+"Henry Park": {
+"taken": 126,
+"avail": 240
+},
+"Holy Innocents'": {
+"taken": 103,
+"avail": 210
+},
+"Hong Wen": {
+"taken": 82,
+"avail": 150
+},
+"Horizon MK": {
+"taken": 84,
+"avail": 150
+},
+"Hougang MK": {
+"taken": 60,
+"avail": 120
+},
+"Huamin MK": {
+"taken": 97,
+"avail": 180
+},
+"Innova": {
+"taken": 52,
+"avail": 120
+},
+"Jiemin": {
+"taken": 55,
+"avail": 160
+},
+"Jing Shan MK": {
+"taken": 50,
+"avail": 90
+},
+"Junyuan MK": {
+"taken": 106,
+"avail": 220
+},
+"Jurong": {
+"taken": 63,
+"avail": 120
+},
+"Jurong West MK": {
+"taken": 64,
+"avail": 90
+},
+"Keming": {
+"taken": 80,
+"avail": 180
+},
+"Kheng Cheng": {
+"taken": 97,
+"avail": 180
+},
+"Kong Hwa": {
+"taken": 109,
+"avail": 220
+},
+"Kuo Chuan Presbyterian": {
+"taken": 97,
+"avail": 180
+},
+"Lakeside": {
+"taken": 95,
+"avail": 180
+},
+"Lianhua": {
+"taken": 62,
+"avail": 220
+},
+"Maha Bodhi": {
+"taken": 123,
+"avail": 240
+},
+"Maris Stella High (Primary)": {
+"taken": 102,
+"avail": 270
+},
+"Marsiling": {
+"taken": 74,
+"avail": 120
+},
+"Marymount Convent": {
+"taken": 21,
+"avail": 180
+},
+"Mayflower MK": {
+"taken": 35,
+"avail": 90
+},
+"Mee Toh": {
+"taken": 107,
+"avail": 240
+},
+"Meridian MK": {
+"taken": 45,
+"avail": 160
+},
+"Methodist Girls' (Primary)": {
+"taken": 55,
+"avail": 150
+},
+"Montfort Junior": {
+"taken": 15,
+"avail": 90
+},
+"Nan Chiau": {
+"taken": 130,
+"avail": 240
+},
+"Nan Hua": {
+"taken": 122,
+"avail": 180
+},
+"Nanyang": {
+"taken": 175,
+"avail": 300
+},
+"Naval Base MK": {
+"taken": 109,
+"avail": 180
+},
+"New Town": {
+"taken": 21,
+"avail": 120
+},
+"Ngee Ann": {
+"taken": 97,
+"avail": 180
+},
+"North Spring": {
+"taken": 43,
+"avail": 90
+},
+"North View MK": {
+"taken": 122,
+"avail": 180
+},
+"North Vista MK": {
+"taken": 59,
+"avail": 150
+},
+"Northland": {
+"taken": 106,
+"avail": 180
+},
+"Northoaks MK": {
+"taken": 19,
+"avail": 150
+},
+"Northshore MK": {
+"taken": 124,
+"avail": 220
+},
+"Oasis MK": {
+"taken": 83,
+"avail": 150
+},
+"Opera Estate": {
+"taken": 56,
+"avail": 120
+},
+"Palm View": {
+"taken": 103,
+"avail": 150
+},
+"Park View": {
+"taken": 53,
+"avail": 120
+},
+"Pasir Ris": {
+"taken": 73,
+"avail": 90
+},
+"Paya Lebar Methodist Girls' (Primary)": {
+"taken": 50,
+"avail": 180
+},
+"Pei Chun Public": {
+"taken": 128,
+"avail": 240
+},
+"Pei Hwa Presbyterian": {
+"taken": 105,
+"avail": 164
+},
+"Pei Tong MK": {
+"taken": 50,
+"avail": 220
+},
+"Peiying": {
+"taken": 76,
+"avail": 160
+},
+"Pioneer": {
+"taken": 41,
+"avail": 320
+},
+"Poi Ching": {
+"taken": 99,
+"avail": 220
+},
+"Princess Elizabeth MK": {
+"taken": 93,
+"avail": 140
+},
+"Punggol Cove MK": {
+"taken": 87,
+"avail": 220
+},
+"Punggol Green MK": {
+"taken": 99,
+"avail": 150
+},
+"Punggol MK": {
+"taken": 70,
+"avail": 120
+},
+"Punggol View MK": {
+"taken": 86,
+"avail": 150
+},
+"Qifa": {
+"taken": 89,
+"avail": 220
+},
+"Qihua": {
+"taken": 58,
+"avail": 120
+},
+"Queenstown": {
+"taken": 49,
+"avail": 150
+},
+"Radin Mas": {
+"taken": 72,
+"avail": 140
+},
+"Raffles Girls'": {
+"taken": 57,
+"avail": 210
+},
+"Red Swastika": {
+"taken": 126,
+"avail": 150
+},
+"River Valley": {
+"taken": 86,
+"avail": 150
+},
+"Riverside MK": {
+"taken": 85,
+"avail": 150
+},
+"Rivervale": {
+"taken": 85,
+"avail": 120
+},
+"Rosyth": {
+"taken": 119,
+"avail": 210
+},
+"Rulang": {
+"taken": 103,
+"avail": 180
+},
+"Sembawang MK": {
+"taken": 88,
+"avail": 140
+},
+"Seng Kang": {
+"taken": 29,
+"avail": 90
+},
+"Sengkang Green MK": {
+"taken": 95,
+"avail": 180
+},
+"Shuqun MK": {
+"taken": 88,
+"avail": 120
+},
+"Si Ling": {
+"taken": 23,
+"avail": 60
+},
+"Singapore Chinese Girls'": {
+"taken": 56,
+"avail": 132
+},
+"South View MK": {
+"taken": 113,
+"avail": 210
+},
+"Springdale MK": {
+"taken": 98,
+"avail": 150
+},
+"St Andrew's (Junior)": {
+"taken": 85,
+"avail": 180
+},
+"St. Anthony's Canossian": {
+"taken": 27,
+"avail": 120
+},
+"St. Anthony's": {
+"taken": 96,
+"avail": 180
+},
+"St. Gabriel's": {
+"taken": 29,
+"avail": 90
+},
+"St. Hilda's": {
+"taken": 121,
+"avail": 220
+},
+"St. Joseph's Institution Junior": {
+"taken": 58,
+"avail": 180
+},
+"St. Margaret's (Primary)": {
+"taken": 39,
+"avail": 132
+},
+"St. Stephen's": {
+"taken": 41,
+"avail": 150
+},
+"Tampines North": {
+"taken": 92,
+"avail": 220
+},
+"Tampines MK": {
+"taken": 95,
+"avail": 260
+},
+"Tanjong Katong MK": {
+"taken": 67,
+"avail": 140
+},
+"Tao Nan": {
+"taken": 162,
+"avail": 270
+},
+"Teck Ghee": {
+"taken": 66,
+"avail": 150
+},
+"Teck Whye": {
+"taken": 45,
+"avail": 120
+},
+"Telok Kurau": {
+"taken": 78,
+"avail": 180
+},
+"Temasek MK": {
+"taken": 76,
+"avail": 140
+},
+"Unity": {
+"taken": 60,
+"avail": 120
+},
+"Valour MK": {
+"taken": 107,
+"avail": 150
+},
+"Waterway MK": {
+"taken": 100,
+"avail": 150
+},
+"Wellington MK": {
+"taken": 107,
+"avail": 180
+},
+"West Grove": {
+"taken": 69,
+"avail": 120
+},
+"West Spring MK": {
+"taken": 81,
+"avail": 150
+},
+"West View MK": {
+"taken": 61,
+"avail": 90
+},
+"Westwood MK": {
+"taken": 87,
+"avail": 150
+},
+"White Sands": {
+"taken": 67,
+"avail": 90
+},
+"Woodgrove": {
+"taken": 69,
+"avail": 120
+},
+"Woodlands": {
+"taken": 104,
+"avail": 150
+},
+"Woodlands Ring": {
+"taken": 60,
+"avail": 120
+},
+"Xinghua": {
+"taken": 31,
+"avail": 120
+},
+"Xingnan": {
+"taken": 70,
+"avail": 120
+},
+"Xinmin": {
+"taken": 84,
+"avail": 150
+},
+"Xishan": {
+"taken": 91,
+"avail": 160
+},
+"Yangzheng MK": {
+"taken": 52,
+"avail": 100
+},
+"Yew Tee": {
+"taken": 74,
+"avail": 120
+},
+"Yio Chu Kang": {
+"taken": 51,
+"avail": 120
+},
+"Yishun MK": {
+"taken": 65,
+"avail": 130
+},
+"Yu Neng": {
+"taken": 68,
+"avail": 120
+},
+"Yuhua": {
+"taken": 32,
+"avail": 150
+},
+"Yumin": {
+"taken": 58,
+"avail": 180
+},
+"Zhangde": {
+"taken": 44,
+"avail": 90
+},
+"Zhenghua MK": {
+"taken": 103,
+"avail": 150
+},
+"Zhonghua": {
+"taken": 20,
+"avail": 90
+}
+}

@@ -1,0 +1,1613 @@
+[
+{
+"region": "Ang Mo Kio",
+"school": "anderson primary",
+"app_pct": 66,
+"places": 32,
+"day1": 20,
+"day2": 21,
+"id": "anderson"
+},
+{
+"region": "Ang Mo Kio",
+"school": "ang mo kio primary",
+"app_pct": 0,
+"places": 46,
+"day1": 0,
+"day2": 0,
+"id": "ang-mo-kio"
+},
+{
+"region": "Ang Mo Kio",
+"school": "chij st nicholas girls\u2019",
+"app_pct": 204,
+"places": 24,
+"day1": 38,
+"day2": 49,
+"id": "chij-st-nicholas-girls"
+},
+{
+"region": "Ang Mo Kio",
+"school": "jing shan primary",
+"app_pct": 0,
+"places": 20,
+"day1": 0,
+"day2": 0,
+"id": "jing-shan"
+},
+{
+"region": "Ang Mo Kio",
+"school": "mayflower primary",
+"app_pct": 0,
+"places": 33,
+"day1": 0,
+"day2": 0,
+"id": "mayflower"
+},
+{
+"region": "Ang Mo Kio",
+"school": "teck ghee primary",
+"app_pct": 12,
+"places": 43,
+"day1": 4,
+"day2": 5,
+"id": "teck-ghee"
+},
+{
+"region": "Bedok",
+"school": "bedok green primary",
+"app_pct": 0,
+"places": 53,
+"day1": 0,
+"day2": 0,
+"id": "bedok-green"
+},
+{
+"region": "Bedok",
+"school": "chij (katong) primary",
+"app_pct": 78,
+"places": 40,
+"day1": 22,
+"day2": 31,
+"id": "chij-katong"
+},
+{
+"region": "Bedok",
+"school": "fengshan primary",
+"app_pct": 0,
+"places": 29,
+"day1": 0,
+"day2": 0,
+"id": "fengshan"
+},
+{
+"region": "Bedok",
+"school": "opera estate primary",
+"app_pct": 0,
+"places": 39,
+"day1": 0,
+"day2": 0,
+"id": "opera-estate"
+},
+{
+"region": "Bedok",
+"school": "red swastika",
+"app_pct": 165,
+"places": 20,
+"day1": 30,
+"day2": 33,
+"id": "red-swastika"
+},
+{
+"region": "Bedok",
+"school": "st anthony\u2019s canossian primary",
+"app_pct": 15,
+"places": 48,
+"day1": 6,
+"day2": 7,
+"id": "st-anthony-canossian"
+},
+{
+"region": "Bedok",
+"school": "st stephen\u2019s",
+"app_pct": 39,
+"places": 49,
+"day1": 14,
+"day2": 19,
+"id": "st-stephen"
+},
+{
+"region": "Bedok",
+"school": "telok kurau primary",
+"app_pct": 0,
+"places": 45,
+"day1": 0,
+"day2": 0,
+"id": "telok-kurau"
+},
+{
+"region": "Bedok",
+"school": "temasek primary",
+"app_pct": 60,
+"places": 20,
+"day1": 11,
+"day2": 12,
+"id": "temasek"
+},
+{
+"region": "Bedok",
+"school": "yu neng primary",
+"app_pct": 64,
+"places": 22,
+"day1": 13,
+"day2": 14,
+"id": "yu-neng"
+},
+{
+"region": "Bishan",
+"school": "ai tong",
+"app_pct": 255,
+"places": 20,
+"day1": 45,
+"day2": 51,
+"id": "ai-tong"
+},
+{
+"region": "Bishan",
+"school": "catholic high",
+"app_pct": 175,
+"places": 20,
+"day1": 27,
+"day2": 35,
+"id": "catholic-high"
+},
+{
+"region": "Bishan",
+"school": "kuo chuan presbyterian primary",
+"app_pct": 154,
+"places": 23,
+"day1": 34,
+"day2": 37,
+"id": "kuo-chuan-presbyterian"
+},
+{
+"region": "Bukit Batok",
+"school": "bukit view primary",
+"app_pct": 0,
+"places": 70,
+"day1": 0,
+"day2": 0,
+"id": "bukit-view"
+},
+{
+"region": "Bukit Batok",
+"school": "dazhong primary",
+"app_pct": 0,
+"places": 30,
+"day1": 0,
+"day2": 0,
+"id": "dazhong"
+},
+{
+"region": "Bukit Batok",
+"school": "keming primary",
+"app_pct": 62,
+"places": 37,
+"day1": 21,
+"day2": 23,
+"id": "keming"
+},
+{
+"region": "Bukit Batok",
+"school": "lianhua primary",
+"app_pct": 0,
+"places": 68,
+"day1": 0,
+"day2": 0,
+"id": "lianhua"
+},
+{
+"region": "Bukit Batok",
+"school": "princess elizabeth primary",
+"app_pct": 125,
+"places": 20,
+"day1": 21,
+"day2": 25,
+"id": "princess-elizabeth"
+},
+{
+"region": "Bukit Batok",
+"school": "st anthony\u2019s primary",
+"app_pct": 142,
+"places": 31,
+"day1": 5,
+"day2": 44,
+"id": "st-anthony"
+},
+{
+"region": "Bukit Merah",
+"school": "alexandra primary",
+"app_pct": 35,
+"places": 20,
+"day1": 6,
+"day2": 7,
+"id": "alexandra"
+},
+{
+"region": "Bukit Merah",
+"school": "blangah rise primary",
+"app_pct": 0,
+"places": 30,
+"day1": 0,
+"day2": 0,
+"id": "blangah-rise"
+},
+{
+"region": "Bukit Merah",
+"school": "cantonment primary",
+"app_pct": 0,
+"places": 31,
+"day1": 0,
+"day2": 0,
+"id": "cantonment"
+},
+{
+"region": "Bukit Merah",
+"school": "chij (kellock)",
+"app_pct": 32,
+"places": 37,
+"day1": 5,
+"day2": 12,
+"id": "chij-kellock"
+},
+{
+"region": "Bukit Merah",
+"school": "gan eng seng primary",
+"app_pct": 0,
+"places": 28,
+"day1": 0,
+"day2": 0,
+"id": "gan-eng-seng"
+},
+{
+"region": "Bukit Merah",
+"school": "radin mas primary",
+"app_pct": 110,
+"places": 20,
+"day1": 19,
+"day2": 23,
+"id": "radin-mas"
+},
+{
+"region": "Bukit Merah",
+"school": "zhangde primary",
+"app_pct": 0,
+"places": 31,
+"day1": 0,
+"day2": 0,
+"id": "zhangde"
+},
+{
+"region": "Bukit Panjang",
+"school": "beacon primary",
+"app_pct": 0,
+"places": 34,
+"day1": 0,
+"day2": 0,
+"id": "beacon"
+},
+{
+"region": "Bukit Panjang",
+"school": "bukit panjang primary",
+"app_pct": 95,
+"places": 20,
+"day1": 17,
+"day2": 19,
+"id": "bukit-panjang"
+},
+{
+"region": "Bukit Panjang",
+"school": "chij our lady queen of peace",
+"app_pct": 13,
+"places": 48,
+"day1": 5,
+"day2": 6,
+"id": "chij-our-lady-queen-of-peace"
+},
+{
+"region": "Bukit Panjang",
+"school": "greenridge primary",
+"app_pct": 0,
+"places": 34,
+"day1": 0,
+"day2": 0,
+"id": "greenridge"
+},
+{
+"region": "Bukit Panjang",
+"school": "west spring primary",
+"app_pct": 5,
+"places": 21,
+"day1": 1,
+"day2": 1,
+"id": "west-spring"
+},
+{
+"region": "Bukit Panjang",
+"school": "west view primary",
+"app_pct": 0,
+"places": 20,
+"day1": 0,
+"day2": 0,
+"id": "west-view"
+},
+{
+"region": "Bukit Panjang",
+"school": "zhenghua primary",
+"app_pct": 0,
+"places": 20,
+"day1": 0,
+"day2": 0,
+"id": "zhenghua"
+},
+{
+"region": "Bukit Timah",
+"school": "bukit timah primary",
+"app_pct": 3,
+"places": 38,
+"day1": 0,
+"day2": 1,
+"id": "bukit-timah"
+},
+{
+"region": "Bukit Timah",
+"school": "henry park primary",
+"app_pct": 116,
+"places": 25,
+"day1": 21,
+"day2": 29,
+"id": "henry-park"
+},
+{
+"region": "Bukit Timah",
+"school": "methodist girls\u2019 school (primary)",
+"app_pct": 190,
+"places": 21,
+"day1": 34,
+"day2": 40,
+"id": "methodist-girls"
+},
+{
+"region": "Bukit Timah",
+"school": "nanyang primary",
+"app_pct": 260,
+"places": 20,
+"day1": 47,
+"day2": 52,
+"id": "nanyang"
+},
+{
+"region": "Bukit Timah",
+"school": "pei hwa presbyterian primary",
+"app_pct": 219,
+"places": 20,
+"day1": 45,
+"day2": 46,
+"id": "pei-hwa-presbyterian"
+},
+{
+"region": "Bukit Timah",
+"school": "raffles girls\u2019 primary",
+"app_pct": 45,
+"places": 53,
+"day1": 23,
+"day2": 24,
+"id": "raffles-girls"
+},
+{
+"region": "Central",
+"school": "anglo-chinese school (junior)",
+"app_pct": 158,
+"places": 26,
+"day1": 38,
+"day2": 41,
+"id": "anglo-chinese-junior"
+},
+{
+"region": "Central",
+"school": "river valley primary",
+"app_pct": 72,
+"places": 32,
+"day1": 20,
+"day2": 23,
+"id": "river-valley"
+},
+{
+"region": "Central",
+"school": "st margaret\u2019s primary",
+"app_pct": 26,
+"places": 42,
+"day1": 11,
+"day2": 11,
+"id": "st-margaret"
+},
+{
+"region": "Choa Chu Kang",
+"school": "chua chu kang primary",
+"app_pct": 40,
+"places": 35,
+"day1": 13,
+"day2": 14,
+"id": "chua-chu-kang"
+},
+{
+"region": "Choa Chu Kang",
+"school": "concord primary",
+"app_pct": 0,
+"places": 37,
+"day1": 0,
+"day2": 0,
+"id": "concord"
+},
+{
+"region": "Choa Chu Kang",
+"school": "de la salle",
+"app_pct": 24,
+"places": 33,
+"day1": 5,
+"day2": 8,
+"id": "de-la-salle"
+},
+{
+"region": "Choa Chu Kang",
+"school": "south view primary",
+"app_pct": 90,
+"places": 20,
+"day1": 17,
+"day2": 18,
+"id": "south-view"
+},
+{
+"region": "Choa Chu Kang",
+"school": "teck whye primary",
+"app_pct": 0,
+"places": 41,
+"day1": 0,
+"day2": 0,
+"id": "teck-whye"
+},
+{
+"region": "Choa Chu Kang",
+"school": "unity primary",
+"app_pct": 0,
+"places": 33,
+"day1": 0,
+"day2": 0,
+"id": "unity"
+},
+{
+"region": "Choa Chu Kang",
+"school": "yew tee primary",
+"app_pct": 3,
+"places": 33,
+"day1": 1,
+"day2": 1,
+"id": "yew-tee"
+},
+{
+"region": "Clementi",
+"school": "clementi primary",
+"app_pct": 0,
+"places": 55,
+"day1": 0,
+"day2": 0,
+"id": "clementi"
+},
+{
+"region": "Clementi",
+"school": "nan hua primary",
+"app_pct": 210,
+"places": 20,
+"day1": 36,
+"day2": 42,
+"id": "nan-hua"
+},
+{
+"region": "Clementi",
+"school": "pei tong primary",
+"app_pct": 0,
+"places": 71,
+"day1": 0,
+"day2": 0,
+"id": "pei-tong"
+},
+{
+"region": "Clementi",
+"school": "qifa primary",
+"app_pct": 14,
+"places": 49,
+"day1": 7,
+"day2": 7,
+"id": "qifa"
+},
+{
+"region": "Geylang",
+"school": "canossa catholic primary",
+"app_pct": 105,
+"places": 19,
+"day1": 14,
+"day2": 21,
+"id": "canossa-catholic"
+},
+{
+"region": "Geylang",
+"school": "geylang methodist school",
+"app_pct": 13,
+"places": 52,
+"day1": 6,
+"day2": 7,
+"id": "geylang-methodist"
+},
+{
+"region": "Geylang",
+"school": "haig girls\u2019",
+"app_pct": 24,
+"places": 45,
+"day1": 10,
+"day2": 11,
+"id": "haig-girls"
+},
+{
+"region": "Geylang",
+"school": "kong hwa",
+"app_pct": 211,
+"places": 27,
+"day1": 48,
+"day2": 57,
+"id": "kong-hwa"
+},
+{
+"region": "Geylang",
+"school": "maha bodhi",
+"app_pct": 152,
+"places": 20,
+"day1": 27,
+"day2": 32,
+"id": "maha-bodhi"
+},
+{
+"region": "Hougang",
+"school": "chij our lady of the nativity",
+"app_pct": 57,
+"places": 54,
+"day1": 15,
+"day2": 31,
+"id": "chij-our-lady-of-the-nativity"
+},
+{
+"region": "Hougang",
+"school": "holy innocents\u2019 primary",
+"app_pct": 214,
+"places": 21,
+"day1": 44,
+"day2": 45,
+"id": "holy-innocents"
+},
+{
+"region": "Hougang",
+"school": "hougang primary",
+"app_pct": 8,
+"places": 25,
+"day1": 2,
+"day2": 2,
+"id": "hougang"
+},
+{
+"region": "Hougang",
+"school": "montfort junior",
+"app_pct": 7,
+"places": 43,
+"day1": 0,
+"day2": 3,
+"id": "montfort-junior"
+},
+{
+"region": "Hougang",
+"school": "paya lebar methodist girls\u2019",
+"app_pct": 82,
+"places": 45,
+"day1": 33,
+"day2": 37,
+"id": "paya-lebar-methodist-girls"
+},
+{
+"region": "Hougang",
+"school": "punggol primary",
+"app_pct": 0,
+"places": 20,
+"day1": 0,
+"day2": 0,
+"id": "punggol"
+},
+{
+"region": "Hougang",
+"school": "xinghua primary",
+"app_pct": 0,
+"places": 48,
+"day1": 0,
+"day2": 0,
+"id": "xinghua"
+},
+{
+"region": "Hougang",
+"school": "xinmin primary",
+"app_pct": 75,
+"places": 24,
+"day1": 16,
+"day2": 18,
+"id": "xinmin"
+},
+{
+"region": "Hougang",
+"school": "yio chu kang primary",
+"app_pct": 0,
+"places": 42,
+"day1": 0,
+"day2": 0,
+"id": "yio-chu-kang"
+},
+{
+"region": "Jurong East",
+"school": "fuhua primary",
+"app_pct": 2,
+"places": 47,
+"day1": 0,
+"day2": 1,
+"id": "fuhua"
+},
+{
+"region": "Jurong East",
+"school": "jurong primary",
+"app_pct": 0,
+"places": 32,
+"day1": 0,
+"day2": 0,
+"id": "jurong"
+},
+{
+"region": "Jurong East",
+"school": "yuhua primary",
+"app_pct": 0,
+"places": 54,
+"day1": 0,
+"day2": 0,
+"id": "yuhua"
+},
+{
+"region": "Jurong West",
+"school": "boon lay garden primary",
+"app_pct": 0,
+"places": 31,
+"day1": 0,
+"day2": 0,
+"id": "boon-lay-garden"
+},
+{
+"region": "Jurong West",
+"school": "corporation primary",
+"app_pct": 0,
+"places": 32,
+"day1": 0,
+"day2": 0,
+"id": "corporation"
+},
+{
+"region": "Jurong West",
+"school": "frontier primary",
+"app_pct": 100,
+"places": 20,
+"day1": 15,
+"day2": 20,
+"id": "frontier"
+},
+{
+"region": "Jurong West",
+"school": "jurong west primary",
+"app_pct": 5,
+"places": 20,
+"day1": 0,
+"day2": 1,
+"id": "jurong-west"
+},
+{
+"region": "Jurong West",
+"school": "lakeside primary",
+"app_pct": 0,
+"places": 40,
+"day1": 0,
+"day2": 0,
+"id": "lakeside"
+},
+{
+"region": "Jurong West",
+"school": "rulang primary",
+"app_pct": 115,
+"places": 20,
+"day1": 21,
+"day2": 23,
+"id": "rulang"
+},
+{
+"region": "Jurong West",
+"school": "shuqun primary",
+"app_pct": 65,
+"places": 20,
+"day1": 10,
+"day2": 13,
+"id": "shuqun"
+},
+{
+"region": "Jurong West",
+"school": "west grove primary",
+"app_pct": 0,
+"places": 33,
+"day1": 0,
+"day2": 0,
+"id": "west-grove"
+},
+{
+"region": "Jurong West",
+"school": "westwood primary",
+"app_pct": 70,
+"places": 23,
+"day1": 15,
+"day2": 16,
+"id": "westwood"
+},
+{
+"region": "Jurong West",
+"school": "xingnan primary",
+"app_pct": 0,
+"places": 29,
+"day1": 0,
+"day2": 0,
+"id": "xingnan"
+},
+{
+"region": "Kallang",
+"school": "bendemeer primary",
+"app_pct": 0,
+"places": 44,
+"day1": 0,
+"day2": 0,
+"id": "bendemeer"
+},
+{
+"region": "Kallang",
+"school": "farrer park primary",
+"app_pct": 0,
+"places": 45,
+"day1": 0,
+"day2": 0,
+"id": "farrer-park"
+},
+{
+"region": "Kallang",
+"school": "hong wen",
+"app_pct": 107,
+"places": 30,
+"day1": 23,
+"day2": 32,
+"id": "hong-wen"
+},
+{
+"region": "Marine Parade",
+"school": "ngee ann primary",
+"app_pct": 3,
+"places": 34,
+"day1": 1,
+"day2": 1,
+"id": "ngee-ann"
+},
+{
+"region": "Marine Parade",
+"school": "tanjong katong primary",
+"app_pct": 45,
+"places": 20,
+"day1": 8,
+"day2": 9,
+"id": "tanjong-katong"
+},
+{
+"region": "Marine Parade",
+"school": "tao nan",
+"app_pct": 200,
+"places": 20,
+"day1": 27,
+"day2": 40,
+"id": "tao-nan"
+},
+{
+"region": "Novena",
+"school": "anglo-chinese school (primary)",
+"app_pct": 125,
+"places": 36,
+"day1": 39,
+"day2": 45,
+"id": "anglo-chinese-primary"
+},
+{
+"region": "Novena",
+"school": "singapore chinese girls\u2019 primary",
+"app_pct": 145,
+"places": 20,
+"day1": 26,
+"day2": 29,
+"id": "singapore-chinese-girls"
+},
+{
+"region": "Novena",
+"school": "st joseph\u2019s institution junior",
+"app_pct": 198,
+"places": 40,
+"day1": 24,
+"day2": 79,
+"id": "st-joseph-institution-junior"
+},
+{
+"region": "Pasir Ris",
+"school": "casuarina primary",
+"app_pct": 0,
+"places": 22,
+"day1": 0,
+"day2": 0,
+"id": "casuarina"
+},
+{
+"region": "Pasir Ris",
+"school": "elias park primary",
+"app_pct": 10,
+"places": 20,
+"day1": 2,
+"day2": 2,
+"id": "elias-park"
+},
+{
+"region": "Pasir Ris",
+"school": "meridian primary",
+"app_pct": 0,
+"places": 51,
+"day1": 0,
+"day2": 0,
+"id": "meridian"
+},
+{
+"region": "Pasir Ris",
+"school": "park view primary",
+"app_pct": 0,
+"places": 40,
+"day1": 0,
+"day2": 0,
+"id": "park-view"
+},
+{
+"region": "Pasir Ris",
+"school": "pasir ris primary",
+"app_pct": 75,
+"places": 20,
+"day1": 14,
+"day2": 15,
+"id": "pasir-ris"
+},
+{
+"region": "Pasir Ris",
+"school": "white sands primary",
+"app_pct": 22,
+"places": 23,
+"day1": 5,
+"day2": 5,
+"id": "white-sands"
+},
+{
+"region": "Punggol",
+"school": "edgefield primary",
+"app_pct": 0,
+"places": 47,
+"day1": 0,
+"day2": 0,
+"id": "edgefield"
+},
+{
+"region": "Punggol",
+"school": "greendale primary",
+"app_pct": 0,
+"places": 42,
+"day1": 0,
+"day2": 0,
+"id": "greendale"
+},
+{
+"region": "Punggol",
+"school": "horizon primary",
+"app_pct": 80,
+"places": 20,
+"day1": 16,
+"day2": 16,
+"id": "horizon"
+},
+{
+"region": "Punggol",
+"school": "mee toh",
+"app_pct": 69,
+"places": 59,
+"day1": 35,
+"day2": 41,
+"id": "mee-toh"
+},
+{
+"region": "Punggol",
+"school": "northshore primary",
+"app_pct": 0,
+"places": 31,
+"day1": 0,
+"day2": 0,
+"id": "northshore"
+},
+{
+"region": "Punggol",
+"school": "oasis primary",
+"app_pct": 0,
+"places": 35,
+"day1": 0,
+"day2": 0,
+"id": "oasis"
+},
+{
+"region": "Punggol",
+"school": "punggol cove primary",
+"app_pct": 0,
+"places": 58,
+"day1": 0,
+"day2": 0,
+"id": "punggol-cove"
+},
+{
+"region": "Punggol",
+"school": "punggol green primary",
+"app_pct": 25,
+"places": 20,
+"day1": 3,
+"day2": 5,
+"id": "punggol-green"
+},
+{
+"region": "Punggol",
+"school": "punggol view primary",
+"app_pct": 0,
+"places": 32,
+"day1": 0,
+"day2": 0,
+"id": "punggol-view"
+},
+{
+"region": "Punggol",
+"school": "valour primary",
+"app_pct": 0,
+"places": 20,
+"day1": 0,
+"day2": 0,
+"id": "valour"
+},
+{
+"region": "Punggol",
+"school": "waterway primary",
+"app_pct": 0,
+"places": 21,
+"day1": 0,
+"day2": 0,
+"id": "waterway"
+},
+{
+"region": "Queenstown",
+"school": "fairfield methodist primary",
+"app_pct": 123,
+"places": 22,
+"day1": 21,
+"day2": 27,
+"id": "fairfield-methodist"
+},
+{
+"region": "Queenstown",
+"school": "new town primary",
+"app_pct": 0,
+"places": 52,
+"day1": 0,
+"day2": 0,
+"id": "new-town"
+},
+{
+"region": "Queenstown",
+"school": "queenstown primary",
+"app_pct": 2,
+"places": 49,
+"day1": 1,
+"day2": 1,
+"id": "queenstown"
+},
+{
+"region": "Sembawang",
+"school": "canberra primary",
+"app_pct": 41,
+"places": 34,
+"day1": 14,
+"day2": 14,
+"id": "canberra"
+},
+{
+"region": "Sembawang",
+"school": "endeavour primary",
+"app_pct": 2,
+"places": 47,
+"day1": 1,
+"day2": 1,
+"id": "endeavour"
+},
+{
+"region": "Sembawang",
+"school": "northoaks primary",
+"app_pct": 0,
+"places": 63,
+"day1": 0,
+"day2": 0,
+"id": "northoaks"
+},
+{
+"region": "Sembawang",
+"school": "sembawang primary",
+"app_pct": 15,
+"places": 20,
+"day1": 2,
+"day2": 3,
+"id": "sembawang"
+},
+{
+"region": "Sembawang",
+"school": "wellington primary",
+"app_pct": 75,
+"places": 20,
+"day1": 13,
+"day2": 15,
+"id": "wellington"
+},
+{
+"region": "Seng Kang",
+"school": "anchor green primary",
+"app_pct": 0,
+"places": 47,
+"day1": 0,
+"day2": 0,
+"id": "anchor-green"
+},
+{
+"region": "Seng Kang",
+"school": "compassvale primary",
+"app_pct": 70,
+"places": 30,
+"day1": 16,
+"day2": 21,
+"id": "compassvale"
+},
+{
+"region": "Seng Kang",
+"school": "fern green primary",
+"app_pct": 0,
+"places": 57,
+"day1": 0,
+"day2": 0,
+"id": "fern-green"
+},
+{
+"region": "Seng Kang",
+"school": "fernvale primary",
+"app_pct": 0,
+"places": 42,
+"day1": 0,
+"day2": 0,
+"id": "fernvale"
+},
+{
+"region": "Seng Kang",
+"school": "nan chiau primary",
+"app_pct": 184,
+"places": 43,
+"day1": 66,
+"day2": 79,
+"id": "nan-chiau"
+},
+{
+"region": "Seng Kang",
+"school": "north spring primary",
+"app_pct": 0,
+"places": 33,
+"day1": 0,
+"day2": 0,
+"id": "north-spring"
+},
+{
+"region": "Seng Kang",
+"school": "north vista primary",
+"app_pct": 0,
+"places": 42,
+"day1": 0,
+"day2": 0,
+"id": "north-vista"
+},
+{
+"region": "Seng Kang",
+"school": "palm view primary",
+"app_pct": 3,
+"places": 33,
+"day1": 1,
+"day2": 1,
+"id": "palm-view"
+},
+{
+"region": "Seng Kang",
+"school": "rivervale primary",
+"app_pct": 75,
+"places": 24,
+"day1": 15,
+"day2": 18,
+"id": "rivervale"
+},
+{
+"region": "Seng Kang",
+"school": "seng kang primary",
+"app_pct": 0,
+"places": 38,
+"day1": 0,
+"day2": 0,
+"id": "seng-kang"
+},
+{
+"region": "Seng Kang",
+"school": "sengkang green primary",
+"app_pct": 50,
+"places": 20,
+"day1": 10,
+"day2": 10,
+"id": "sengkang-green"
+},
+{
+"region": "Seng Kang",
+"school": "springdale primary",
+"app_pct": 0,
+"places": 26,
+"day1": 0,
+"day2": 0,
+"id": "springdale"
+},
+{
+"region": "Serangoon",
+"school": "chij our lady of good counsel",
+"app_pct": 44,
+"places": 34,
+"day1": 4,
+"day2": 15,
+"id": "chij-our-lady-of-good-counsel"
+},
+{
+"region": "Serangoon",
+"school": "rosyth",
+"app_pct": 86,
+"places": 20,
+"day1": 17,
+"day2": 18,
+"id": "rosyth"
+},
+{
+"region": "Serangoon",
+"school": "st gabriel\u2019s primary",
+"app_pct": 48,
+"places": 33,
+"day1": 10,
+"day2": 16,
+"id": "st-gabriel"
+},
+{
+"region": "Serangoon",
+"school": "yangzheng primary",
+"app_pct": 35,
+"places": 20,
+"day1": 5,
+"day2": 7,
+"id": "yangzheng"
+},
+{
+"region": "Serangoon",
+"school": "zhonghua primary",
+"app_pct": 2,
+"places": 42,
+"day1": 1,
+"day2": 1,
+"id": "zhonghua"
+},
+{
+"region": "Tampines",
+"school": "angsana primary",
+"app_pct": 5,
+"places": 20,
+"day1": 0,
+"day2": 1,
+"id": "angsana"
+},
+{
+"region": "Tampines",
+"school": "changkat primary",
+"app_pct": 0,
+"places": 76,
+"day1": 0,
+"day2": 0,
+"id": "changkat"
+},
+{
+"region": "Tampines",
+"school": "chongzheng primary",
+"app_pct": 11,
+"places": 45,
+"day1": 5,
+"day2": 5,
+"id": "chongzheng"
+},
+{
+"region": "Tampines",
+"school": "east spring primary",
+"app_pct": 0,
+"places": 53,
+"day1": 0,
+"day2": 0,
+"id": "east-spring"
+},
+{
+"region": "Tampines",
+"school": "gongshang primary",
+"app_pct": 65,
+"places": 20,
+"day1": 10,
+"day2": 13,
+"id": "gongshang"
+},
+{
+"region": "Tampines",
+"school": "junyuan primary",
+"app_pct": 4,
+"places": 27,
+"day1": 1,
+"day2": 1,
+"id": "junyuan"
+},
+{
+"region": "Tampines",
+"school": "poi ching",
+"app_pct": 90,
+"places": 48,
+"day1": 36,
+"day2": 43,
+"id": "poi-ching"
+},
+{
+"region": "Tampines",
+"school": "st hilda\u2019s primary",
+"app_pct": 76,
+"places": 20,
+"day1": 12,
+"day2": 16,
+"id": "st-hilda"
+},
+{
+"region": "Tampines",
+"school": "tampines north primary",
+"app_pct": 2,
+"places": 57,
+"day1": 1,
+"day2": 1,
+"id": "tampines-north"
+},
+{
+"region": "Tampines",
+"school": "tampines primary",
+"app_pct": 2,
+"places": 49,
+"day1": 1,
+"day2": 1,
+"id": "tampines"
+},
+{
+"region": "Tampines",
+"school": "yumin primary",
+"app_pct": 0,
+"places": 58,
+"day1": 0,
+"day2": 0,
+"id": "yumin"
+},
+{
+"region": "Tengah",
+"school": "pioneer primary",
+"app_pct": 7,
+"places": 105,
+"day1": 6,
+"day2": 7,
+"id": "pioneer"
+},
+{
+"region": "Toa Payoh",
+"school": "cedar primary",
+"app_pct": 2,
+"places": 47,
+"day1": 0,
+"day2": 1,
+"id": "cedar"
+},
+{
+"region": "Toa Payoh",
+"school": "chij primary (toa payoh)",
+"app_pct": 106,
+"places": 31,
+"day1": 30,
+"day2": 34,
+"id": "chij-toa-payoh"
+},
+{
+"region": "Toa Payoh",
+"school": "first toa payoh primary",
+"app_pct": 0,
+"places": 42,
+"day1": 0,
+"day2": 0,
+"id": "first-toa-payoh"
+},
+{
+"region": "Toa Payoh",
+"school": "kheng cheng",
+"app_pct": 0,
+"places": 42,
+"day1": 0,
+"day2": 0,
+"id": "kheng-cheng"
+},
+{
+"region": "Toa Payoh",
+"school": "maris stella high",
+"app_pct": 194,
+"places": 34,
+"day1": 43,
+"day2": 66,
+"id": "maris-stella-high"
+},
+{
+"region": "Toa Payoh",
+"school": "marymount convent",
+"app_pct": 7,
+"places": 72,
+"day1": 2,
+"day2": 5,
+"id": "marymount-convent"
+},
+{
+"region": "Toa Payoh",
+"school": "pei chun public",
+"app_pct": 129,
+"places": 20,
+"day1": 24,
+"day2": 27,
+"id": "pei-chun-public"
+},
+{
+"region": "Toa Payoh",
+"school": "st andrew\u2019s junior",
+"app_pct": 109,
+"places": 32,
+"day1": 33,
+"day2": 35,
+"id": "st-andrew-s-school-junior"
+},
+{
+"region": "Woodlands",
+"school": "admiralty primary",
+"app_pct": 110,
+"places": 20,
+"day1": 21,
+"day2": 22,
+"id": "admiralty"
+},
+{
+"region": "Woodlands",
+"school": "evergreen primary",
+"app_pct": 3,
+"places": 34,
+"day1": 1,
+"day2": 1,
+"id": "evergreen"
+},
+{
+"region": "Woodlands",
+"school": "fuchun primary",
+"app_pct": 0,
+"places": 32,
+"day1": 0,
+"day2": 0,
+"id": "fuchun"
+},
+{
+"region": "Woodlands",
+"school": "greenwood primary",
+"app_pct": 0,
+"places": 40,
+"day1": 0,
+"day2": 0,
+"id": "greenwood"
+},
+{
+"region": "Woodlands",
+"school": "innova primary",
+"app_pct": 5,
+"places": 41,
+"day1": 2,
+"day2": 2,
+"id": "innova"
+},
+{
+"region": "Woodlands",
+"school": "marsiling primary",
+"app_pct": 0,
+"places": 31,
+"day1": 0,
+"day2": 0,
+"id": "marsiling"
+},
+{
+"region": "Woodlands",
+"school": "qihua primary",
+"app_pct": 0,
+"places": 33,
+"day1": 0,
+"day2": 0,
+"id": "qihua"
+},
+{
+"region": "Woodlands",
+"school": "riverside primary",
+"app_pct": 18,
+"places": 22,
+"day1": 3,
+"day2": 4,
+"id": "riverside"
+},
+{
+"region": "Woodlands",
+"school": "si ling primary",
+"app_pct": 0,
+"places": 29,
+"day1": 0,
+"day2": 0,
+"id": "si-ling"
+},
+{
+"region": "Woodlands",
+"school": "woodgrove primary",
+"app_pct": 9,
+"places": 31,
+"day1": 3,
+"day2": 3,
+"id": "woodgrove"
+},
+{
+"region": "Woodlands",
+"school": "woodlands primary",
+"app_pct": 13,
+"places": 24,
+"day1": 3,
+"day2": 3,
+"id": "woodlands"
+},
+{
+"region": "Woodlands",
+"school": "woodlands ring primary",
+"app_pct": 0,
+"places": 34,
+"day1": 0,
+"day2": 0,
+"id": "woodlands-ring"
+},
+{
+"region": "Yishun",
+"school": "ahmad ibrahim primary",
+"app_pct": 0,
+"places": 61,
+"day1": 0,
+"day2": 0,
+"id": "ahmad-ibrahim"
+},
+{
+"region": "Yishun",
+"school": "chongfu primary",
+"app_pct": 188,
+"places": 23,
+"day1": 41,
+"day2": 45,
+"id": "chongfu"
+},
+{
+"region": "Yishun",
+"school": "huamin primary",
+"app_pct": 15,
+"places": 20,
+"day1": 2,
+"day2": 3,
+"id": "huamin"
+},
+{
+"region": "Yishun",
+"school": "jiemin primary",
+"app_pct": 2,
+"places": 50,
+"day1": 0,
+"day2": 1,
+"id": "jiemin"
+},
+{
+"region": "Yishun",
+"school": "naval base primary",
+"app_pct": 7,
+"places": 27,
+"day1": 2,
+"day2": 2,
+"id": "naval-base"
+},
+{
+"region": "Yishun",
+"school": "north view primary",
+"app_pct": 20,
+"places": 20,
+"day1": 4,
+"day2": 4,
+"id": "north-view"
+},
+{
+"region": "Yishun",
+"school": "northland primary",
+"app_pct": 145,
+"places": 20,
+"day1": 28,
+"day2": 29,
+"id": "northland"
+},
+{
+"region": "Yishun",
+"school": "peiying primary",
+"app_pct": 0,
+"places": 40,
+"day1": 0,
+"day2": 0,
+"id": "peiying"
+},
+{
+"region": "Yishun",
+"school": "xishan primary",
+"app_pct": 0,
+"places": 35,
+"day1": 0,
+"day2": 0,
+"id": "xishan"
+},
+{
+"region": "Yishun",
+"school": "yishun primary",
+"app_pct": 0,
+"places": 31,
+"day1": 0,
+"day2": 0,
+"id": "yishun"
+}
+]
