@@ -15,6 +15,15 @@ DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 # === LOAD DATA ===
 SCHOOLS = json.loads(open(os.path.join(DATA_DIR, "schools.json"), encoding="utf-8").read())
 
+CONDOS = []
+try:
+    with open(os.path.join(DATA_DIR, "condos.json"), encoding="utf-8") as f:
+        CONDOS = json.load(f)
+except FileNotFoundError:
+    print("Warning: condos.json not found; nearby condo lookup disabled")
+except Exception as e:
+    print(f"Warning: could not load condos.json: {e}")
+
 PRESTIGE = {}
 BALLOT_HISTORY = {}
 try:
@@ -108,6 +117,21 @@ def school_id_by_name(name):
     return None
 
 
+def nearby_condos(lat, lng, radius_km):
+    """Return condos within radius of a coordinate, sorted by distance."""
+    results = []
+    for condo in CONDOS:
+        if condo.get("lat") is None or condo.get("lng") is None:
+            continue
+        d = haversine(lat, lng, condo["lat"], condo["lng"])
+        if d <= radius_km:
+            out = dict(condo)
+            out["distance_km"] = round(d, 2)
+            results.append(out)
+    results.sort(key=lambda x: (x["distance_km"], x.get("name", "")))
+    return results
+
+
 def enrich_school(s, include_nearby=True, nearby_radius=1.0):
     """Attach prestige, ballot summary, and nearby schools to a school dict."""
     out = dict(s)
@@ -156,6 +180,12 @@ def enrich_school(s, include_nearby=True, nearby_radius=1.0):
                 nearby.append({"id": s2["id"], "name": s2["name"], "distance_km": round(d, 2)})
         nearby.sort(key=lambda x: x["distance_km"])
         out["nearby_schools"] = nearby[:10]
+
+        if CONDOS:
+            out["condo_counts"] = {
+                "1km": len(nearby_condos(out["lat"], out["lng"], 1.0)),
+                "2km": len(nearby_condos(out["lat"], out["lng"], 2.0)),
+            }
     
     return out
 
@@ -196,6 +226,8 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             self._serve_search(params)
         elif path == "/api/school":
             self._serve_school_detail(params)
+        elif path == "/api/school-condos":
+            self._serve_school_condos(params)
         elif path == "/api/nearyou":
             self._serve_nearby(params)
         elif path == "/api/postal":
@@ -319,6 +351,34 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
             return
         
         self.api_response(enrich_school(school, include_nearby=True, nearby_radius=1.0))
+
+    def _serve_school_condos(self, params):
+        sid = params.get("id", [None])[0]
+        if not sid:
+            self.api_response({"error": "No school id"}, 400)
+            return
+
+        school = next((s for s in SCHOOLS if s.get("id") == sid), None)
+        if not school:
+            self.api_response({"error": "Not found"}, 404)
+            return
+        if school.get("lat") is None or school.get("lng") is None:
+            self.api_response({"error": "School has no coordinates"}, 404)
+            return
+
+        radius = parse_radius(params, default=1.0)
+        condos = nearby_condos(school["lat"], school["lng"], radius)
+        self.api_response({
+            "school": {
+                "id": school["id"],
+                "name": school["name"],
+                "lat": school["lat"],
+                "lng": school["lng"],
+            },
+            "radius_km": radius,
+            "count": len(condos),
+            "condos": condos,
+        })
     
     def _serve_postal(self, params):
         postal = params.get("code", [None])[0]
@@ -433,7 +493,7 @@ class SchoolAPIHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print(f"Starting SG Primary School Map v2 with {len(SCHOOLS)} schools ({sum(1 for s in SCHOOLS if s.get('lat'))} geocoded)")
+    print(f"Starting SG Primary School Map v2 with {len(SCHOOLS)} schools ({sum(1 for s in SCHOOLS if s.get('lat'))} geocoded) and {len(CONDOS)} condos")
     PORT = int(os.environ.get("PORT", 3456))
 
     class SchoolMapServer(ThreadingHTTPServer):

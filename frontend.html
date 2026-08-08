@@ -313,6 +313,31 @@ body {
 .nearby-item .name { font-size: 13px; font-weight: 500; }
 .nearby-item .dist { font-size: 12px; color: var(--text-tertiary); }
 
+.condo-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; }
+.condo-header h3 { margin-bottom: 0; }
+.condo-radius-toggle { display: flex; gap: 6px; background: var(--surface-2); padding: 4px; border-radius: 10px; }
+.condo-radius-btn {
+  border: none; border-radius: 8px; padding: 6px 10px; background: transparent;
+  color: var(--text-secondary); font-size: 12px; font-weight: 600; cursor: pointer;
+}
+.condo-radius-btn.active { background: var(--primary); color: #fff; }
+.condo-list { display: flex; flex-direction: column; gap: 8px; }
+.condo-item {
+  display: block; padding: 11px 12px; background: var(--surface-2); border-radius: var(--radius-sm);
+  color: inherit; text-decoration: none; border: 1px solid transparent;
+}
+.condo-item:hover { background: var(--primary-light); border-color: var(--primary); }
+.condo-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.condo-name { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.35; }
+.condo-distance { font-size: 12px; color: var(--primary); font-weight: 700; white-space: nowrap; }
+.condo-meta { margin-top: 4px; font-size: 11px; color: var(--text-tertiary); line-height: 1.4; }
+.condo-stats { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.condo-stat {
+  padding: 3px 7px; border-radius: 10px; background: var(--surface);
+  color: var(--text-secondary); font-size: 10px; font-weight: 600;
+}
+.condo-empty { padding: 16px; text-align: center; color: var(--text-tertiary); font-size: 13px; background: var(--surface-2); border-radius: var(--radius-sm); }
+
 .action-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   padding: 10px 16px; background: var(--primary); color: #fff; border: none; border-radius: 10px;
@@ -583,7 +608,9 @@ body {
 
 <script>
 // ===== STATE =====
-const API = window.location.origin + '/schools';
+const API = window.location.pathname.startsWith('/schools')
+  ? window.location.origin + '/schools'
+  : window.location.origin;
 let allSchools = [];
 let markers = [];
 let userMarker = null;
@@ -592,6 +619,8 @@ let searchTerm = '';
 let userCoords = null;
 let distanceRadius = 2;
 let activeSchoolId = null;
+let activeCondoRadius = 1;
+let condoRequestToken = 0;
 let compareIds = [];
 let bookmarks = [];
 let map = null;
@@ -744,6 +773,7 @@ async function fetchSchools() {
     allSchools = data.schools || [];
     document.getElementById('brand-sub').textContent = `${allSchools.length} schools · P1 registration data`;
     applyFilters();
+    if (activeSchoolId) showDetail(activeSchoolId);
   } catch (e) {
     document.getElementById('results-container').innerHTML = '<div class="empty-state"><div class="icon">😔</div><p>Could not load schools.<br>Please check your connection.</p></div>';
   }
@@ -778,6 +808,9 @@ async function searchAddress(q) {
     userCoords = null;
     resetFiltersUI();
     applyFilters();
+    if (data.direct_matches.length === 1) {
+      showDetail(data.direct_matches[0].id);
+    }
     return;
   }
   // coords may be [lat,lng] array or {lat,lng} object depending on backend version
@@ -932,6 +965,7 @@ function renderSchoolCard(s, opts = {}) {
         <div class="school-name-row">
           <div class="school-name">${s.name}</div>
           <div class="school-actions">
+            <button class="school-action-btn" data-action="condos" data-id="${s.id}" title="Condos within 1–2 km">🏢</button>
             <button class="school-action-btn ${isBookmarked ? 'active' : ''}" data-action="bookmark" data-id="${s.id}" title="Bookmark">🔖</button>
             <button class="school-action-btn ${isCompared ? 'compare-active' : ''}" data-action="compare" data-id="${s.id}" title="Compare">⚖️</button>
           </div>
@@ -1038,6 +1072,24 @@ function renderDetail(s) {
       s.nearby_schools.map(n => `<div class="nearby-item" data-id="${n.id}"><span class="name">${n.name}</span><span class="dist">${n.distance_km} km</span></div>`).join('')
     }</div></div>`;
   }
+
+  // Condos near this school (loaded lazily from the school-condos API)
+  const condoCounts = s.condo_counts || {};
+  const condo1Label = condoCounts['1km'] !== undefined ? `1 km (${condoCounts['1km']})` : '1 km';
+  const condo2Label = condoCounts['2km'] !== undefined ? `2 km (${condoCounts['2km']})` : '2 km';
+  const condoSectionHtml = `
+    <div class="dt-sec" id="condo-section">
+      <div class="condo-header">
+        <h3>🏢 Condos Near School</h3>
+        <div class="condo-radius-toggle">
+          <button class="condo-radius-btn ${activeCondoRadius === 1 ? 'active' : ''}" data-radius="1">${condo1Label}</button>
+          <button class="condo-radius-btn ${activeCondoRadius === 2 ? 'active' : ''}" data-radius="2">${condo2Label}</button>
+        </div>
+      </div>
+      <div id="condo-list" class="condo-list">
+        <div class="loading"><div class="spinner"></div><br/>Loading condos...</div>
+      </div>
+    </div>`;
   
   // MRT / Bus
   let transportHtml = '';
@@ -1068,6 +1120,7 @@ function renderDetail(s) {
       ${s.phone ? `<div class="dt-row"><span class="lbl">Phone</span><span class="val">${s.phone}</span></div>` : ''}
       ${s.email ? `<div class="dt-row"><span class="lbl">Email</span><span class="val" style="font-size:12px">${s.email}</span></div>` : ''}
     </div>
+    ${condoSectionHtml}
     ${transportHtml}
     ${ballotTable}
     ${nearbyHtml}
@@ -1081,6 +1134,76 @@ function renderDetail(s) {
   document.querySelectorAll('.nearby-item').forEach(el => {
     el.addEventListener('click', () => showDetail(el.dataset.id));
   });
+  document.querySelectorAll('.condo-radius-btn').forEach(btn => {
+    btn.addEventListener('click', () => loadNearbyCondos(s.id, parseFloat(btn.dataset.radius)));
+  });
+  loadNearbyCondos(s.id, activeCondoRadius);
+}
+
+async function loadNearbyCondos(schoolId, radius = 1) {
+  activeCondoRadius = radius;
+  const token = ++condoRequestToken;
+  const list = document.getElementById('condo-list');
+  if (!list) return;
+
+  document.querySelectorAll('.condo-radius-btn').forEach(btn => {
+    btn.classList.toggle('active', parseFloat(btn.dataset.radius) === radius);
+  });
+  list.innerHTML = '<div class="loading"><div class="spinner"></div><br/>Loading condos...</div>';
+
+  let data;
+  try {
+    const resp = await fetch(`${API}/api/school-condos?id=${encodeURIComponent(schoolId)}&radius=${radius}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    data = await resp.json();
+  } catch (e) {
+    if (token === condoRequestToken && schoolId === activeSchoolId) {
+      list.innerHTML = '<div class="condo-empty">Could not load nearby condos.</div>';
+    }
+    return;
+  }
+
+  if (token !== condoRequestToken || schoolId !== activeSchoolId) return;
+  const condos = data.condos || [];
+  if (!condos.length) {
+    list.innerHTML = `<div class="condo-empty">No condos found within ${radius} km.</div>`;
+    return;
+  }
+
+  list.innerHTML = condos.map(c => renderCondoItem(c)).join('');
+}
+
+function renderCondoItem(c) {
+  const meta = [
+    c.district,
+    c.area,
+    c.year_completed ? `TOP ${c.year_completed}` : null,
+    c.total_units ? `${Number(c.total_units).toLocaleString()} units` : null,
+  ].filter(Boolean).join(' · ');
+
+  const stats = [];
+  const avgReturn = Number(c.avg_annualized);
+  if (Number.isFinite(avgReturn)) stats.push(`${avgReturn.toFixed(1)}% avg return`);
+  const psf = Number(c.current_avg_psf);
+  if (Number.isFinite(psf)) stats.push(`S$${Math.round(psf).toLocaleString()} psf`);
+  const txns = Number(c.total_txns);
+  if (Number.isFinite(txns) && txns > 0) stats.push(`${txns} ${txns === 1 ? 'txn' : 'txns'}`);
+  const rentalYield = Number(c.rental_yield);
+  if (Number.isFinite(rentalYield) && !stats.length) stats.push(`${rentalYield.toFixed(1)}% yield`);
+
+  const body = `
+    <div class="condo-top">
+      <div class="condo-name">${c.name}</div>
+      <div class="condo-distance">${c.distance_km} km</div>
+    </div>
+    ${meta ? `<div class="condo-meta">${meta}</div>` : ''}
+    ${stats.length ? `<div class="condo-stats">${stats.map(s => `<span class="condo-stat">${s}</span>`).join('')}</div>` : ''}
+  `;
+
+  if (c.research_id) {
+    return `<a class="condo-item" href="https://sgcondo.app/?search=${encodeURIComponent(c.name)}" target="_blank" rel="noopener">${body}</a>`;
+  }
+  return `<div class="condo-item">${body}</div>`;
 }
 
 function getPhase2ASummary(s) {
@@ -1292,6 +1415,7 @@ document.getElementById('results-container').addEventListener('click', (e) => {
   const id = btn.dataset.id;
   if (btn.dataset.action === 'bookmark') toggleBookmark(id);
   else if (btn.dataset.action === 'compare') toggleCompare(id);
+  else if (btn.dataset.action === 'condos') showDetail(id);
 });
 
 // Start
