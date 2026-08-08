@@ -1177,6 +1177,7 @@ function renderCondoItem(c) {
   const meta = [
     c.district,
     c.area,
+    c.postal ? `S${c.postal}` : null,
     c.year_completed ? `TOP ${c.year_completed}` : null,
     c.total_units ? `${Number(c.total_units).toLocaleString()} units` : null,
   ].filter(Boolean).join(' · ');
